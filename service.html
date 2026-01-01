@@ -1,0 +1,2991 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service | Quland</title>
+    <!-- library css -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- compiled from input.css -->
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <!-- overwrite custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="home-one relative">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="container-preloader" class="container-preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span preloader-text="Q" class="characters">Q</span>
+
+            <span preloader-text="U" class="characters">U</span>
+
+            <span preloader-text="L" class="characters">L</span>
+
+            <span preloader-text="A" class="characters">A</span>
+
+            <span preloader-text="N" class="characters">N</span>
+
+            <span preloader-text="D" class="characters">D</span>
+          </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    </div>
+    <!--Todo: web-Menu start  -->
+    <header>
+      <div
+        class="header-wrapper w-full fixed left-0 top-0 z-20 xl:block hidden h1-header-sticky h1-header-sticky-qs"
+      >
+        <div class="2xl:px-[110px] px-5 mx-auto relative">
+          <div
+            class="w-full h-[45px] justify-between items-center pl-[50px] bg-white border border-[#e7e8e9] hidden h1-top-bar"
+          >
+            <span class="2xl:block hidden"
+              >Welcome to
+              <span class="text-purple font-semibold">Quland</span> a modern
+              landing page website</span
+            >
+            <div
+              style="
+                background: linear-gradient(
+                  270deg,
+                  #794aff 50%,
+                  rgba(121, 74, 255, 0) 90.03%
+                );
+              "
+              class="2xl:w-[1021px] w-full h-full flex items-center justify-end"
+            >
+              <div class="flex space-x-2.5 items-center mr-7">
+                <span>
+                  <svg
+                    width="22"
+                    height="20"
+                    viewBox="0 0 22 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 10.5001C21 10.0087 20.9947 9.01723 20.9842 8.52439C20.9189 5.45886 20.8862 3.92609 19.7551 2.79066C18.6239 1.65523 17.0497 1.61568 13.9012 1.53657C11.9607 1.48781 10.0393 1.48781 8.09882 1.53656C4.95033 1.61566 3.37608 1.65521 2.24495 2.79065C1.11382 3.92608 1.08114 5.45885 1.01576 8.52438C0.994745 9.51007 0.994745 10.4899 1.01577 11.4756C1.08114 14.5412 1.11383 16.0739 2.24496 17.2094C3.37608 18.3448 4.95033 18.3843 8.09883 18.4634C8.90159 18.4836 9.70108 18.4954 10.5 18.4989"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M1 4L7.91302 7.92462C10.4387 9.35846 11.5613 9.35846 14.087 7.92462L21 4"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M21 15.5L13 15.5M21 15.5C21 14.7998 19.0057 13.4915 18.5 13M21 15.5C21 16.2002 19.0057 17.5085 18.5 18"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="text-white font-bold"
+                  >Email : <u><a href="../../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b2dbdcd4ddc3c7ded3dcd6f2d5dfd3dbde9cd1dddf">[email&#160;protected]</a></u></span
+                >
+              </div>
+              <div class="flex space-x-2.5 items-center mr-7">
+                <span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M22 5L12 5M22 5C22 4.43982 20.604 3.39322 20.25 3M22 5C22 5.56018 20.604 6.60678 20.25 7M12 5C12 4.43982 13.396 3.39322 13.75 3M12 5C12 5.56018 13.396 6.60678 13.75 7"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="text-white font-bold"
+                  >Call : 000 (123) 456 88</span
+                >
+              </div>
+              <!-- social -->
+              <ul class="flex space-x-[15px] items-center mr-[55px]">
+                <li>
+                  <a
+                    href="service.html#"
+                    aria-label="facebook"
+                    class="text-white opacity-50 hover:opacity-100"
+                  >
+                    <svg
+                      class="fill-current"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 2H11.3333C8.756 2 6.66667 4.08934 6.66667 6.66667H4V9.33333H6.66667V14H9.33333V9.33333H12V6.66667H9.33333V5.66667C9.33333 5.11438 9.78105 4.66667 10.3333 4.66667H12V2Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="service.html#"
+                    aria-label="twitter"
+                    class="text-white opacity-50 hover:opacity-100"
+                  >
+                    <svg
+                      class="fill-current"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.19087 0.666504C6.78831 0.666504 5.6513 1.86041 5.6513 3.33317C5.6513 3.55572 5.67726 3.7719 5.72618 3.97855C4.37757 3.97855 2.34626 3.70589 0.649788 2.00624C0.424199 1.78023 0.00821913 1.93134 0.0238667 2.25029C0.275284 7.37494 2.47001 8.86978 3.60023 8.9628C2.8704 9.68362 1.81023 10.2526 0.743422 10.508C0.461872 10.5754 0.39232 10.8836 0.667629 10.9731C1.43098 11.2214 2.52361 11.317 3.11173 11.3332C7.27228 11.3332 10.6539 7.83126 10.7292 3.48137C11.2754 3.12613 11.6253 2.35484 11.8219 1.80844C11.8698 1.67537 11.6517 1.52032 11.5211 1.57468C11.1131 1.74455 10.595 1.78483 10.1538 1.64104C9.688 1.04601 8.98164 0.666504 8.19087 0.666504Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="service.html#"
+                    aria-label="instagram"
+                    class="text-white opacity-50 hover:opacity-100"
+                  >
+                    <svg
+                      class="fill-current"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.33301 1.3335C3.57159 1.3335 1.33301 3.57207 1.33301 6.33349V9.66683C1.33301 12.4283 3.57158 14.6668 6.333 14.6668H9.66634C12.4278 14.6668 14.6663 12.4283 14.6663 9.66683V6.3335C14.6663 3.57207 12.4278 1.3335 9.66634 1.3335H6.33301ZM11.9997 4.66683C12.3679 4.66683 12.6663 4.36835 12.6663 4.00016C12.6663 3.63197 12.3679 3.3335 11.9997 3.3335C11.6315 3.3335 11.333 3.63197 11.333 4.00016C11.333 4.36835 11.6315 4.66683 11.9997 4.66683ZM11.333 8.00016C11.333 9.84111 9.84062 11.3335 7.99967 11.3335C6.15873 11.3335 4.66634 9.84111 4.66634 8.00016C4.66634 6.15921 6.15873 4.66683 7.99967 4.66683C9.84062 4.66683 11.333 6.15921 11.333 8.00016ZM7.99968 10.0002C9.10425 10.0002 9.99968 9.10473 9.99968 8.00016C9.99968 6.89559 9.10425 6.00016 7.99968 6.00016C6.89511 6.00016 5.99968 6.89559 5.99968 8.00016C5.99968 9.10473 6.89511 10.0002 7.99968 10.0002Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="service.html#"
+                    aria-label="dribble"
+                    class="text-white opacity-50 hover:opacity-100"
+                  >
+                    <svg
+                      class="fill-current"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.39835 8.93393C1.72537 11.2671 3.26008 13.213 5.35023 14.1194C5.44171 12.239 5.83 10.4322 6.47139 8.73968C5.78768 8.60911 5.07968 8.54051 4.35424 8.54051C3.32743 8.54051 2.33568 8.67795 1.39835 8.93393ZM6.33747 14.4578C6.86896 14.5943 7.42608 14.6668 8.00014 14.6668C9.91365 14.6668 11.6389 13.8607 12.8547 12.5694C11.5276 10.8837 9.64293 9.60383 7.45264 8.97387C6.78607 10.6931 6.3976 12.5372 6.33747 14.4578ZM13.4973 11.7729C14.235 10.7001 14.6668 9.40055 14.6668 8.00016C14.6668 7.88284 14.6638 7.76623 14.6578 7.65041C13.948 7.77894 13.2155 7.84617 12.4668 7.84617C11.0007 7.84617 9.59723 7.58844 8.305 7.11771C8.1422 7.42243 7.98857 7.73218 7.84446 8.04667C10.1079 8.72233 12.0726 10.0381 13.4973 11.7729ZM14.5314 6.6569C14.1849 4.96311 13.1961 3.50327 11.8305 2.54302C10.6581 3.63978 9.64049 4.88118 8.81019 6.23601C9.94876 6.63046 11.1803 6.84617 12.4668 6.84617C13.1737 6.84617 13.8641 6.78102 14.5314 6.6569ZM10.9363 2.01321C10.0504 1.57794 9.05381 1.3335 8.00014 1.3335C6.45644 1.3335 5.03529 1.85817 3.90528 2.73893C4.9255 4.06164 6.28638 5.14045 7.86883 5.85997C8.71336 4.45258 9.7469 3.1601 10.9363 2.01321ZM3.1626 3.41292C2.04672 4.5893 1.35538 6.17236 1.33398 7.91672C2.29735 7.67129 3.31 7.54051 4.35424 7.54051C5.21416 7.54051 6.05258 7.62919 6.85965 7.79752C7.02036 7.43714 7.19278 7.08257 7.37645 6.73426C5.706 5.95997 4.2611 4.81593 3.1626 3.41292Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="w-full h-[95px] flex justify-between items-center px-[50px] border border-[#e7e8e9] bg-white border-t-0 relative"
+          >
+            <div
+              class="flex 2xl:space-x-[100px] xl:space-x-10 justify-between items-center w-full xl:w-auto"
+            >
+              <div>
+                <a href="index-1.html" aria-label="logo">
+                  <img src="assets/images/logo-1.webp" alt="" />
+                </a>
+              </div>
+              <div>
+                <ul class="flex space-x-10 items-center">
+                  <li class="group z-50">
+                    <a
+                      href="service.html"
+                      class="text-paragraph font-semibold hover:underline hover:text-purple flex items-center gap-2"
+                    >
+                      Home
+                      <svg
+                        class="transition-all duration-300 group-hover:rotate-180"
+                        width="10"
+                        height="10"
+                        viewBox="0 0 19 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2 2L9.5 8L17 2"
+                          stroke="currentColor"
+                          stroke-width="3"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                    <div
+                      class="absolute px-[18px] left-0 h-0 group-hover:h-[660px] overflow-hidden top-[92px] transition-all duration-700 z-50 bg-white group-hover:border-b group-hover:border-r group-hover:border-l border-[#e7e8e9]"
+                    >
+                      <ul
+                        class="max-h-fit min-w-[200px] mt-8 transition-all duration-300 overflow-hidden px-5 top-20 pb-4 rounded-b-md w-full flex flex-wrap gap-8"
+                      >
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-1.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-1.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-1.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Digital Marketing</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-2.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-2.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-2.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> SEO Agency</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-3.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-3.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-3.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Creative Agency</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-4.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-4.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-4.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> AI Software</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-5.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-5.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-5.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Business Consulting </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-6.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-6.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-6.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> ELearning </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-7.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-7.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-7.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> IT Business </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-8.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-8.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-8.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Saas </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-9.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-9.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-9.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> App Landing</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-10.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-10.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-10.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full before:border-white leading-5 relative group-hover/item:text-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Personal Portfolio </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <a
+                            href="service.html"
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                            aria-disabled="true"
+                          >
+                            <img
+                              src="assets/images/demo-8.png"
+                              alt=""
+                              class="w-[240px] group-hover/item:scale-110 transition-all duration-300 blur-sm"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit">Coming Soon</span>
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li
+                    class="text-paragraph font-semibold hover:underline hover:text-purple"
+                  >
+                    <a href="about.html">Company</a>
+                  </li>
+                  <li
+                    class="text-paragraph font-semibold hover:underline hover:text-purple"
+                  >
+                    <a href="service.html">Services</a>
+                  </li>
+                  <li
+                    class="text-paragraph font-semibold hover:underline hover:text-purple"
+                  >
+                    <a href="blog.html">Blogs</a>
+                  </li>
+                  <li class="group relative">
+                    <a
+                      class="text-paragraph font-semibold hover:underline hover:text-purple flex items-center gap-2"
+                      href="service.html#"
+                    >
+                      Pages
+                      <svg
+                        class="transition-all duration-300 group-hover:rotate-180"
+                        width="10"
+                        height="10"
+                        viewBox="0 0 19 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2 2L9.5 8L17 2"
+                          stroke="currentColor"
+                          stroke-width="3"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                    <div
+                      class="absolute px-2 -left-7 h-0 group-hover:h-[480px] overflow-hidden top-5 transition-all duration-700"
+                    >
+                      <ul
+                        class="max-h-fit min-w-[200px] bg-white mt-8 transition-all duration-300 overflow-hidden px-5 top-20 pb-4 rounded-b-md"
+                      >
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="projects.html"
+                          >
+                            Projects
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="project-details.html"
+                          >
+                            Project Details
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="service-details.html"
+                          >
+                            Service Details
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="blog-details.html"
+                          >
+                            Blog Details
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="pricing.html"
+                          >
+                            Pricing
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="team-members.html"
+                          >
+                            Team Members
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="faq.html"
+                          >
+                            FAQ'S
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="course-details.html"
+                          >
+                            Course Details
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="cart.html"
+                          >
+                            Cart
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="checkout.html"
+                          >
+                            Checkout
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="404.html"
+                          >
+                            Not Found
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li
+                    class="text-paragraph font-semibold hover:underline hover:text-purple"
+                  >
+                    <a href="contact.html">Contact</a>
+                  </li>
+                  <li class="flex items-center" class="flex items-center">
+                    <input
+                      id="hh-search"
+                      type="text"
+                      class="rounded-md border-purple/10 focus:outline-none border-0 px-0 w-0 focus:border focus:w-48 focus:mr-2 focus:px-2 transition-all duration-300"
+                      placeholder="Search..."
+                    />
+                    <label class="cursor-pointer" for="hh-search" type="button">
+                      <svg
+                        class="cursor-pointer"
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.9729 7.46687C13.9729 10.922 11.172 13.7229 7.71687 13.7229C4.26176 13.7229 1.46084 10.922 1.46084 7.46687C1.46084 4.01176 4.26176 1.21084 7.71687 1.21084C11.172 1.21084 13.9729 4.01176 13.9729 7.46687ZM7.71687 14.9337C11.8407 14.9337 15.1837 11.5907 15.1837 7.46687C15.1837 3.34303 11.8407 0 7.71687 0C3.59303 0 0.25 3.34303 0.25 7.46687C0.25 11.5907 3.59303 14.9337 7.71687 14.9337ZM16.5333 16.2832C15.9108 16.9056 14.9016 16.9056 14.2791 16.2832L12.7673 14.7713C13.6473 14.1617 14.4118 13.3972 15.0214 12.5172L16.5333 14.029C17.1557 14.6515 17.1557 15.6607 16.5333 16.2832Z"
+                          fill="#6D6D6D"
+                        />
+                      </svg>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="xl:flex hidden space-x-[30px] items-center">
+              <a href="service.html#">
+                <div class="flex space-x-1.5 items-center">
+                  <span class="font-semibold">Sign Up</span>
+                  <span>
+                    <svg
+                      width="14"
+                      height="18"
+                      viewBox="0 0 14 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.84289 11.625H8.84961M5.09961 11.625H5.10633"
+                        stroke="#101828"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M1.17547 14.1336C1.34413 15.3862 2.38171 16.3676 3.64435 16.4257C4.70682 16.4745 5.78609 16.5 6.97461 16.5C8.16313 16.5 9.24241 16.4745 10.3049 16.4257C11.5675 16.3676 12.6051 15.3862 12.7738 14.1336C12.8838 13.316 12.9746 12.4782 12.9746 11.625C12.9746 10.7718 12.8838 9.93399 12.7738 9.11644C12.6051 7.86377 11.5675 6.88237 10.3049 6.82432C9.24241 6.77548 8.16313 6.75 6.97461 6.75C5.78609 6.75 4.70681 6.77548 3.64435 6.82432C2.38171 6.88237 1.34413 7.86377 1.17547 9.11644C1.06539 9.93399 0.974609 10.7718 0.974609 11.625C0.974609 12.4782 1.06539 13.316 1.17547 14.1336Z"
+                        stroke="#101828"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        d="M3.59961 6.75V4.875C3.59961 3.01104 5.11065 1.5 6.97461 1.5C8.83857 1.5 10.3496 3.01104 10.3496 4.875V6.75"
+                        stroke="#101828"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </a>
+              <a href="blog.html">
+                <div
+                  class="home-two-btn-bg py-3 group bg-blue-seo border-blue-seo"
+                >
+                  <span
+                    class="text-base text-white group-hover:text-blue-seo transition-all duration-300 font-semibold font-inter relative z-10"
+                  >
+                    Learn More
+                  </span>
+                  <svg
+                    class="relative z-10"
+                    width="7"
+                    height="12"
+                    viewBox="0 0 7 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      class="group-hover:stroke-blue-seo transition-all duration-300"
+                      d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Todo: mobile-Menu start  -->
+    <header class="flex xl:hidden flex-col relative">
+      <div
+        class="h-16 bg-white flex items-center justify-between fixed top-0 left-0 z-50 w-full px-2.5"
+      >
+        <a href="service.html#" aria-label="logo">
+          <img src="assets/images/home-two/logo.svg" alt="logo" />
+        </a>
+        <button
+          aria-label="mobile-Menu"
+          class="text-main-black text-48 w-6 h-6 toggle_nav_menu"
+          id="mobile_nav_toggle_menu"
+        >
+          <svg
+            class="pointer-events-none transition-all duration-300"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+          <svg
+            class="pointer-events-none hidden transition-all duration-300"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+          >
+            <path
+              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="transition-all duration-300">
+        <div
+          class="w-full h-screen fixed bg-black/80 z-40 -left-full transition-all duration-300 delay-150"
+          id="mobile-nav-div-overlay"
+        ></div>
+        <div
+          class="fixed h-screen overflow-y-scroll bg-white w-full top-16 -left-full z-50 transition-all duration-300 delay-0"
+          id="mobile-nav-div"
+        >
+          <div class="flex gap-28 flex-col pl-5 pt-5">
+            <ul
+              class="flex gap-5 flex-col text-paragraph text-base leading-5 font-medium font-inter"
+            >
+              <li class="group">
+                <a
+                  class="home-two-nav-item leading-5 relative before:content-['Home'] w-fit m-nav-dropdown flex gap-2 items-center"
+                >
+                  Home
+                  <svg
+                    class="pointer-events-none"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 19 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 2L9.5 8L17 2"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+
+                <ul
+                  class="mobile-sub-nav h-[150px] overflow-hidden transition-all duration-300 pl-5 pt-4"
+                >
+                  <li class="relative pb-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="index-1.html"
+                    >
+                      Digital Marketing
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="index-2.html"
+                    >
+                      SEO Agency
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="index-3.html"
+                    >
+                      Creative Agency
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-4.html"
+                    >
+                      AI Software
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-5.html"
+                    >
+                      Business Consulting
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-6.html"
+                    >
+                      ELearning
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-7.html"
+                    >
+                      IT Business
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-8.html"
+                    >
+                      Saas
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-9.html"
+                    >
+                      App Landing
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-10.html"
+                    >
+                      Personal Portfolio
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="home-two-nav-item relative before:content-['Company'] w-fit"
+              >
+                <a href="about.html">Company</a>
+              </li>
+              <li
+                class="home-two-nav-item relative before:content-['Services'] w-fit"
+              >
+                <a href="service.html">Services</a>
+              </li>
+              <li
+                class="home-two-nav-item relative before:content-['Blogs'] w-fit"
+              >
+                <a href="blog.html">Blogs</a>
+              </li>
+              <li class="">
+                <a
+                  href="service.html#"
+                  class="home-two-nav-item relative before:content-['Pages'] w-fit m-nav-dropdown flex items-center gap-2"
+                >
+                  Pages
+                  <svg
+                    class="pointer-events-none"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 19 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 2L9.5 8L17 2"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <ul
+                  class="mobile-sub-nav h-[150px] overflow-hidden transition-all duration-300 pl-5 pt-4"
+                >
+                  <li class="relative pb-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="projects.html"
+                    >
+                      Projects
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="project-details.html"
+                    >
+                      Projects Details
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="service-details.html"
+                    >
+                      Service Details
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="blog-details.html"
+                    >
+                      Blog Details
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="team-members.html"
+                    >
+                      Team Members
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="faq.html"
+                    >
+                      FAQ's
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="pricing.html"
+                    >
+                      Pricing
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="course-details.html"
+                    >
+                      Course Details
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="cart.html"
+                    >
+                      Cart
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="checkout.html"
+                    >
+                      Checkout
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="404.html"
+                    >
+                      Not Found
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="home-two-nav-item relative before:content-['Contact'] w-fit"
+              >
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex gap-5 flex-col pl-5 mt-5">
+            <a href="service.html#" class="flex gap-2.5 group"
+              ><svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z"
+                  stroke="#5D51F2"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 5L12 5M22 5C22 4.43982 20.604 3.39322 20.25 3M22 5C22 5.56018 20.604 6.60678 20.25 7M12 5C12 4.43982 13.396 3.39322 13.75 3M12 5C12 5.56018 13.396 6.60678 13.75 7"
+                  stroke="#5D51F2"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="font-bold text-base leading-5 tracking-tight text-main-black"
+                >Call : 000 (123) 456 88</span
+              >
+            </a>
+            <a href="contact.html">
+              <div
+                class="home-two-btn-bg py-2.5 group bg-blue-seo border-blue-seo w-fit"
+              >
+                <span
+                  class="text-base text-white group-hover:text-blue-seo transition-all duration-300 font-semibold font-inter relative z-10"
+                >
+                  Contact US
+                </span>
+                <svg
+                  class="relative z-10"
+                  width="7"
+                  height="12"
+                  viewBox="0 0 7 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="group-hover:stroke-blue-seo transition-all duration-300"
+                    d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <div>
+          <main>
+            <!-- breadcrumb -->
+            <section id="h1-breadcrumb">
+              <div
+                class="h1-breadcrumb w-full h-fit overflow-hidden relative bg-main-gray pb-16 md:pb-24"
+              >
+                <div
+                  class="win-grid win-grid-bg w-full h-full absolute left-0 top-0 z-0"
+                  id="win-grid"
+                ></div>
+                <div
+                  class="absolute left-1/4 w-full top-[300px] overflow-hidden z-0 pointer-events-none"
+                >
+                  <div class="flex justify-center">
+                    <img
+                      src="assets/images/home-one-hero-circle-shadow.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="theme-container mx-auto h-fit w-fit relative z-20">
+                  <div
+                    class="mt-[120px] md:mt-[272px] w-fit mx-auto relative z-10"
+                  >
+                    <h1
+                      class="text-main-black text-34 sm:text-48 font-semibold"
+                    >
+                      Services
+                    </h1>
+                    <div class="flex gap-5 items-center justify-center mt-4">
+                      <a
+                        href="service.html#"
+                        class="home-two-nav-item leading-5 relative text-18 font-inter text-paragraph transition-all duration-300 hover:text-purple"
+                      >
+                        Home
+                      </a>
+                      <svg
+                        width="6"
+                        height="12"
+                        viewBox="0 0 6 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 1L5 6L1 11"
+                          stroke="#794AFF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <a
+                        href="service.html#"
+                        class="home-two-nav-item leading-5 relative text-18 font-inter text-paragraph transition-all duration-300 hover:text-purple"
+                      >
+                        Services
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- about start  -->
+            <section
+              class="w-full py-16 md:pt-[94px] md:pb-[130px] items-center"
+            >
+              <div class="theme-container mx-auto w-full">
+                <div class="grid grid-cols-6 lg:grid-cols-12 box-border">
+                  <div class="col-span-5 flex justify-center flex-col">
+                    <h1
+                      class="text-24 md:text-48 font-semibold text-main-black mt-2.5 md:mt-5"
+                    >
+                      Digital Transforming Brands, Elevating Reach Crafting
+                      Success
+                    </h1>
+                    <p class="mt-5 md:mt-10 text-paragraph pb-10">
+                      Defined by digital dynamism, our digital marketing agency
+                      emerges as a beacon of innovation and strategic prowess.
+                    </p>
+                    <a href="projects.html">
+                      <div
+                        class="home-two-btn-bg group bg-[#4A7DFF] border-[#4A7DFF] py-[15px]"
+                      >
+                        <span
+                          class="text-base group-hover:text-[#4A7DFF] text-white transition-all duration-300 font-semibold font-inter relative z-10"
+                        >
+                          Explore Service
+                        </span>
+                        <svg
+                          class="relative z-10"
+                          width="7"
+                          height="12"
+                          viewBox="0 0 7 12"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            class="group-hover:stroke-[#4A7DFF] stroke-white transition-all duration-300"
+                            d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="col-span-7 relative flex flex-col sm:flex-row justify-end w-full overflow-hidden"
+                  >
+                    <img
+                      src="assets/images/service/hero-img.webp"
+                      alt="img"
+                      class="mt-9 w-full max-w-[630px]"
+                    />
+
+                    <div
+                      class="bg-purple p-6 rounded-2xl sm:absolute z-20 bottom-8 w-full sm:w-[155px] left-[152px] mt-5 sm:mt-0 max-w-full"
+                    >
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_460_41269)">
+                          <path
+                            d="M21.5881 15.7841L19.7693 14.2471L20.0046 11.8773C20.0305 11.6156 19.908 11.3667 19.6848 11.2276C19.4617 11.0885 19.1842 11.0881 18.9606 11.2267L16.9367 12.4814L14.7557 11.5256C14.5148 11.4199 14.2403 11.4595 14.0389 11.6288C13.8376 11.7981 13.7515 12.0621 13.8143 12.3174L14.3822 14.6299L12.7993 16.4086C12.6243 16.6051 12.5771 16.8785 12.6758 17.1224C12.7746 17.3661 12.9989 17.5296 13.2612 17.5488L15.6361 17.7233L16.8388 19.7788C16.9632 19.9913 17.1863 20.1181 17.4295 20.1181C17.446 20.1181 17.4627 20.1175 17.4793 20.1164C17.7416 20.0978 17.9663 19.935 18.0657 19.6914L18.9656 17.4867L21.2923 16.978C21.5491 16.9217 21.7479 16.7281 21.8111 16.4729C21.8743 16.2178 21.7889 15.9538 21.5881 15.7841ZM18.4696 16.401C18.249 16.4493 18.0664 16.603 17.9811 16.8119L17.3538 18.3489L16.5151 16.9156C16.4011 16.7212 16.1989 16.5952 15.9736 16.5785L14.318 16.4568L15.4218 15.2164C15.5718 15.0478 15.6291 14.8163 15.5754 14.5971L15.1794 12.9849L16.6995 13.6511C16.9062 13.742 17.1443 13.7251 17.3366 13.606L18.7476 12.7313L18.5837 14.3832C18.5614 14.6079 18.651 14.8291 18.8235 14.9749L20.0914 16.0464L18.4696 16.401Z"
+                            fill="white"
+                          />
+                          <path
+                            d="M38.4343 30.2221L36.4902 28.5048C35.9943 28.0669 35.2386 28.0578 34.7323 28.4835L34.6451 28.5568C34.5591 28.2471 34.4021 27.954 34.1717 27.7059C33.8902 27.4027 33.5328 27.1953 33.1391 27.102C33.3662 26.4045 33.2194 25.6072 32.686 25.0326C32.3066 24.6239 31.7909 24.3875 31.2337 24.367C31.2169 24.3664 31.2002 24.3666 31.1835 24.3664C31.2091 23.8254 31.0264 23.2751 30.6298 22.8478C30.2551 22.4442 29.7473 22.209 29.1979 22.1834C29.2474 21.6159 29.0666 21.0304 28.6495 20.5811C28.2702 20.1724 27.7544 19.936 27.1972 19.9155C26.6398 19.8945 26.1081 20.0925 25.6996 20.472L25.4227 20.7292C25.0205 20.4389 24.5394 20.274 24.0284 20.2572C23.964 20.255 23.9 20.256 23.8362 20.2585L24.0437 19.566C24.4159 18.3242 24.6474 16.0728 24.6405 16.1936C24.6606 16.2033 24.6803 16.2134 24.7009 16.2225C24.9863 16.3499 25.2939 16.4131 25.6002 16.4131C25.9514 16.4131 26.3009 16.3299 26.6133 16.1646C27.2635 15.8203 27.725 15.1008 27.7617 14.374C27.7966 13.6824 27.4709 13.0717 26.8447 12.6542C26.5766 12.4757 26.2144 12.5481 26.0359 12.8161C25.8573 13.0842 25.9298 13.4463 26.1978 13.6249C26.4763 13.8105 26.6105 14.0427 26.5967 14.3151C26.5805 14.6356 26.358 14.9798 26.0675 15.1335C25.8012 15.2746 25.4596 15.2836 25.176 15.1571C24.9949 15.0764 24.7602 14.9046 24.6703 14.5449C24.4027 13.4739 25.0163 12.4109 25.7267 11.1801C27.0135 8.95065 28.6149 6.17619 25.2627 2.21401L23.8744 0.573068C23.5948 0.242521 23.2033 0.0410369 22.7719 0.00556815C22.3405 -0.0299006 21.9212 0.104943 21.5914 0.385412C20.6969 1.14596 20.2319 2.2976 20.3474 3.46596L20.4167 4.1669C20.4523 4.52635 20.3138 4.87948 20.0474 5.12119L20.7991 6.01494C21.3599 5.5251 21.6509 4.79447 21.5775 4.05213L21.5082 3.35119C21.4303 2.56338 21.7438 1.7869 22.3469 1.27408C22.4389 1.19588 22.5555 1.15807 22.6762 1.16815C22.7966 1.17799 22.9058 1.23424 22.9838 1.32643L24.3721 2.96737C27.1944 6.30338 25.9907 8.38901 24.7163 10.5969C24.5169 10.9423 24.316 11.2909 24.1342 11.6443C23.6523 9.98807 22.8456 8.44823 21.7303 7.12221L19.0608 3.94822L19.0758 3.93565C19.29 3.75549 19.4212 3.50276 19.4453 3.22393C19.4694 2.94502 19.3834 2.67354 19.2033 2.4594L18.3503 1.44526C18.1702 1.23104 17.9174 1.09979 17.6386 1.07572C17.3598 1.05174 17.0883 1.13752 16.874 1.31768L3.39453 12.6546C2.95242 13.0264 2.89523 13.6886 3.26703 14.1309L4.12 15.145C4.30015 15.3592 4.55289 15.4905 4.83179 15.5146C4.86257 15.5172 4.8932 15.5185 4.92367 15.5185C5.16984 15.5185 5.40578 15.4328 5.59625 15.2725L5.61132 15.2598L6.6139 16.4519C6.33156 16.6694 5.96359 16.7442 5.61828 16.6496L4.93914 16.4632C3.80711 16.1524 2.59343 16.4167 1.69296 17.1702C1.36101 17.4481 1.15734 17.8385 1.11961 18.2698C1.08179 18.701 1.21445 19.1209 1.49312 19.4522L2.87664 21.0971C6.21718 25.0691 9.22195 23.9583 11.6363 23.0656C12.7259 22.6628 13.6941 22.305 14.5633 22.4305C14.7246 22.4759 14.8869 22.5188 15.0505 22.5583C15.0775 22.5689 15.1044 22.5797 15.1312 22.5914C15.4705 22.7405 15.6002 23.0009 15.6494 23.193C15.7262 23.4938 15.6598 23.8289 15.4759 24.0678C15.2754 24.3281 14.8986 24.4892 14.5799 24.4514C14.3091 24.4191 14.1028 24.2477 13.9668 23.9419C13.8359 23.6476 13.4913 23.5153 13.1968 23.646C12.9025 23.7769 12.77 24.1216 12.9009 24.416C13.2067 25.1036 13.7539 25.5276 14.4415 25.6097C14.5174 25.6188 14.5939 25.6232 14.6707 25.6232C15.3255 25.6231 15.9983 25.3011 16.3999 24.7795C16.8037 24.2553 16.9455 23.5542 16.7794 22.9042C16.7755 22.8893 16.7709 22.8749 16.7668 22.8602C17.2973 22.9199 17.8354 22.9514 18.3794 22.9514C18.962 22.9514 19.5514 22.9165 20.1437 22.8458L20.1954 22.8396C19.9298 23.1565 19.723 23.5207 19.5893 23.911L17.2966 29.5506L5.06671 38.9544C4.86875 39.1066 4.78961 39.3681 4.87007 39.6045C4.95046 39.841 5.1725 40 5.42226 40H19.2794C19.4368 40 19.5875 39.9364 19.6973 39.8238L20.4691 39.0314C20.6938 38.8006 20.689 38.4313 20.4582 38.2065C20.2274 37.9818 19.8581 37.9866 19.6334 38.2174L19.0334 38.8335H7.13773L18.1332 30.3791C18.1413 30.3728 18.1486 30.366 18.1562 30.3595C18.1615 30.355 18.1669 30.3507 18.1719 30.346C18.1905 30.329 18.2078 30.311 18.2237 30.2921C18.2269 30.2884 18.2298 30.2844 18.2328 30.2805C18.2473 30.2624 18.2606 30.2435 18.2727 30.224C18.275 30.2203 18.2775 30.2168 18.2797 30.2131C18.2934 30.1898 18.3053 30.1658 18.3156 30.1411C18.3163 30.1395 18.3173 30.138 18.318 30.1364L20.6767 24.3345C20.6812 24.3233 20.6855 24.312 20.6893 24.3006C20.8038 23.9596 21.0039 23.6482 21.2678 23.3998L22.943 21.8231C23.2307 21.5523 23.6016 21.4101 23.9898 21.4231C24.3563 21.4352 24.6932 21.5868 24.9384 21.8502L25.0007 21.9171L25.0008 21.9172L25.0009 21.9173L27.0499 24.1181L27.0501 24.1184L27.0503 24.1186L27.0504 24.1187C27.0505 24.1189 27.0506 24.119 27.0508 24.1192C27.0509 24.1193 27.0511 24.1195 27.0512 24.1196L27.3416 24.4314C27.4639 24.5628 27.5275 24.7364 27.5209 24.9202C27.5137 25.1175 27.4281 25.3021 27.2799 25.4399L26.9422 25.7537C26.7085 25.9707 26.3765 26.0117 26.1187 25.8803C26.1119 25.8767 26.1049 25.8736 26.098 25.8702C26.0381 25.837 25.9827 25.7942 25.9338 25.7417L25.0833 24.8267C24.7793 24.4998 24.364 24.3114 23.9139 24.2964C23.4527 24.2814 23.0109 24.4485 22.6713 24.7681C22.6397 24.7979 22.6117 24.8308 22.5878 24.8662C22.528 24.9546 22.4934 25.0582 22.4884 25.1656C22.4874 25.1871 22.4876 25.2088 22.4891 25.2305C22.4891 25.2313 22.4891 25.2321 22.4891 25.2328C22.4919 25.2771 22.4939 25.321 22.4951 25.3646C22.4957 25.3891 22.4956 25.4134 22.4958 25.4378C22.4959 25.4565 22.4962 25.4753 22.496 25.4939C22.4957 25.525 22.4946 25.5558 22.4934 25.5865C22.493 25.5977 22.4927 25.6089 22.4922 25.62C22.4905 25.6547 22.488 25.6892 22.4852 25.7233C22.4848 25.7278 22.4845 25.7323 22.4841 25.7367C22.4825 25.7514 22.4812 25.766 22.4806 25.7806C22.4262 26.3207 22.231 26.8039 21.89 27.2465C21.6934 27.5017 21.7409 27.8679 21.996 28.0645C22.2511 28.261 22.6174 28.2135 22.814 27.9584C23.016 27.6962 23.1817 27.42 23.3119 27.1311L28.2727 33.9162L28.1544 34.0157C28.0803 34.0411 28.0101 34.0816 27.9488 34.138C27.5366 34.5173 27.0319 34.7729 26.488 34.8785L22.8355 35.141C22.693 35.1513 22.5592 35.2135 22.4595 35.3158L21.5271 36.2731C21.3023 36.5039 21.3072 36.8732 21.538 37.098C21.6513 37.2084 21.7981 37.2634 21.9448 37.2634C22.0966 37.2634 22.2484 37.2045 22.3627 37.0871L23.1403 36.2886L26.6049 36.0397C26.6116 36.0392 26.618 36.0379 26.6246 36.0372C26.6397 36.2461 26.7022 36.4532 26.8172 36.6403L28.1758 38.8499C28.3812 39.1839 28.7209 39.4114 29.108 39.4739C29.1797 39.4855 29.2516 39.4912 29.323 39.4912C29.6377 39.4912 29.9448 39.3809 30.1893 39.1752L38.4094 32.2617C38.7095 32.0094 38.8843 31.6398 38.8891 31.2477C38.894 30.8554 38.7281 30.4817 38.4343 30.2221ZM11.2319 21.9716C8.84062 22.8556 6.58203 23.6906 3.76953 20.3464L2.38601 18.7015C2.30836 18.6091 2.27132 18.492 2.28187 18.3717C2.29242 18.2514 2.34921 18.1424 2.44187 18.0649C3.04898 17.5569 3.86734 17.3788 4.63062 17.5882L5.30976 17.7746C6.02507 17.9708 6.78968 17.8102 7.36593 17.346L8.28093 18.4339C9.3989 19.7632 10.7816 20.8239 12.3352 21.5829C11.9654 21.7006 11.597 21.8366 11.2319 21.9716ZM22.9262 19.2312L22.4858 20.7008C22.3658 20.7816 22.2511 20.8723 22.1434 20.9735L21.5854 21.4988L20.0055 21.6875C15.7587 22.1949 11.7091 20.6978 9.17359 17.6831L6.50414 14.5091L7.54625 13.6326C7.79281 13.4253 7.82453 13.0573 7.61718 12.8108C7.40992 12.5642 7.04187 12.5323 6.79539 12.7398L5.30711 13.9914L5.30687 13.9916L5.30664 13.9918L4.93632 14.3033L4.23617 13.4709L17.5341 2.28682L18.2343 3.11932L17.8645 3.43033C17.8643 3.43057 17.864 3.43072 17.8637 3.43088C17.8635 3.43104 17.8633 3.43135 17.863 3.43151L8.89906 10.9706C8.65257 11.178 8.62078 11.5459 8.82812 11.7924C9.03539 12.0389 9.40328 12.0705 9.64992 11.8634L18.1682 4.69901L20.8377 7.87299C23.3733 10.8879 24.154 15.134 22.9262 19.2312ZM32.6918 28.2131C32.9316 28.222 33.1536 28.3237 33.3168 28.4996C33.5951 28.7994 33.6332 29.2487 33.4169 29.5897L30.8756 31.7271C30.6019 31.7501 30.336 31.6492 30.1459 31.4444C29.8091 31.0816 29.8302 30.5124 30.1928 30.1754L30.561 29.8333C30.6283 29.7842 30.6934 29.7314 30.7553 29.6739L32.1777 28.3525C32.3298 28.2557 32.507 28.2071 32.6918 28.2131ZM30.5987 25.7203C30.7587 25.5979 30.9525 25.532 31.1555 25.532C31.1671 25.532 31.1787 25.5322 31.1904 25.5326C31.4362 25.5417 31.6637 25.646 31.831 25.8262C32.1762 26.198 32.1547 26.7815 31.783 27.1268L31.447 27.4389C31.3799 27.4878 31.3151 27.5404 31.2533 27.5978L29.8292 28.9208C29.6728 29.021 29.4902 29.0721 29.3008 29.0646C29.055 29.0555 28.8275 28.9513 28.6602 28.771C28.3376 28.4235 28.3355 27.8914 28.64 27.5414C28.6598 27.5242 28.6797 27.507 28.699 27.4891L30.5206 25.7967C30.5476 25.7717 30.5734 25.7463 30.5987 25.7203ZM27.5073 22.8977L26.2528 21.5503L26.4935 21.3266C26.6737 21.1592 26.9082 21.0737 27.154 21.0811C27.3998 21.0903 27.6273 21.1945 27.7946 21.3747C28.1398 21.7465 28.1182 22.33 27.7465 22.6754L27.5073 22.8977ZM27.7361 26.6084L28.0739 26.2945C28.4505 25.9446 28.6681 25.4715 28.6866 24.9625C28.7026 24.5205 28.5651 24.0982 28.2976 23.7569L28.4737 23.5932C28.6539 23.4259 28.888 23.3382 29.1342 23.3478C29.3799 23.3569 29.6074 23.4611 29.7748 23.6414C30.0975 23.989 30.0994 24.5214 29.7947 24.8715C29.7749 24.8885 29.7552 24.9056 29.736 24.9234L27.9144 26.6157C27.8874 26.6408 27.8613 26.6664 27.836 26.6925C27.699 26.7974 27.5369 26.86 27.3659 26.8757C27.4965 26.8026 27.6214 26.7149 27.7361 26.6084ZM23.6591 25.6296C23.6609 25.5856 23.6624 25.5417 23.6628 25.4974C23.6796 25.491 23.6968 25.4856 23.7141 25.4809C23.7662 25.4669 23.8204 25.4606 23.8751 25.4625C24.0124 25.4671 24.138 25.5235 24.229 25.6213L25.0795 26.5362C25.1666 26.6298 25.2613 26.7122 25.3619 26.7835C25.4555 27.0035 25.5851 27.2035 25.7491 27.38C26.1284 27.7887 26.6442 28.0251 27.2015 28.0457C27.2183 28.0463 27.2349 28.0464 27.2516 28.0467C27.2262 28.5874 27.4088 29.1377 27.8053 29.5648C28.0895 29.871 28.4503 30.0804 28.8477 30.1749C28.6155 30.8687 28.7592 31.6653 29.2909 32.2381C29.4394 32.3979 29.6106 32.5308 29.7969 32.6343L29.1675 33.1637L23.6591 25.6296ZM37.6586 31.3689L29.4384 38.2823C29.3836 38.3285 29.3242 38.3271 29.294 38.3222C29.2636 38.3173 29.207 38.2999 29.1694 38.2389L27.8109 36.0292C27.7638 35.9527 27.7795 35.8552 27.8483 35.7974L35.4826 29.3765C35.4829 29.3763 35.4826 29.3765 35.4829 29.3763C35.5161 29.3483 35.5574 29.3343 35.5987 29.3343C35.6414 29.3343 35.6841 29.3493 35.7177 29.3791L37.6619 31.0964C37.7156 31.1439 37.723 31.2026 37.7227 31.2335C37.7224 31.2642 37.7135 31.3228 37.6586 31.3689Z"
+                            fill="white"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_460_41269">
+                            <rect width="40" height="40" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      <img
+                        src="assets/images/home-five/hero/about-card-shape.webp"
+                        alt=""
+                        class="absolute right-2 top-bottom-moving"
+                      />
+                      <div class="flex items-center gap-2.5">
+                        <svg
+                          width="11"
+                          height="12"
+                          viewBox="0 0 11 12"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9.28753 7.01343L8.90454 1.36956M8.90454 1.36956L3.26066 1.75255M8.90454 1.36956L1.01321 10.4099"
+                            stroke="white"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                        <span class="text-sm text-white leading-8"
+                          >We have</span
+                        >
+                      </div>
+                      <h1
+                        class="text-18 text-white font-semibold tracking-tight max-w-[170px]"
+                        data-scroll-qs="scroll"
+                        data-count-qs="25"
+                        data-type-qs="+ Awards Winning"
+                        data-speed-qs="1000"
+                      >
+                        25+ Awards Winning
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- about end  -->
+            <section id="service" class="w-full">
+              <div
+                class="mx-auto max-w-[1600px] w-full xl:py-[130px] py-[60px] xl:px-[80px] md:px-10 px-0 bg-main-gray rounded-[10px] border border-[#e7e3fa]"
+              >
+                <div class="w-full service-section-wrapper relative">
+                  <div class="theme-container mx-auto relative z-10">
+                    <div class="flex flex-col items-center">
+                      <span
+                        class="text-purple font-medium px-5 py-3 border border-[#e7e3fa] leading-none rounded-full inline-block mb-5 bg-white"
+                      >
+                        Explore Services
+                      </span>
+                      <h2
+                        class="sm:text-48 text-24 font-semibold text-main-black mb-[50px] text-center lg:w-[685px] w-full"
+                      >
+                        High Impact Marketing Services to grow your business
+                      </h2>
+                    </div>
+                    <div
+                      class="w-full grid xl:grid-cols-12 md:grid-cols-6 grid-cols-3 xl:gap-[30px] gap-5"
+                    >
+                      <div
+                        data-aos="zoom-out"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="45"
+                                height="45"
+                                class="fill-current"
+                                viewBox="0 0 30 30"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M22.8125 13.125C22.8125 18.4753 18.4753 22.8125 13.125 22.8125C7.77474 22.8125 3.4375 18.4753 3.4375 13.125C3.4375 7.77474 7.77474 3.4375 13.125 3.4375C18.4753 3.4375 22.8125 7.77474 22.8125 13.125ZM13.125 24.6875C19.5108 24.6875 24.6875 19.5108 24.6875 13.125C24.6875 6.73921 19.5108 1.5625 13.125 1.5625C6.73921 1.5625 1.5625 6.73921 1.5625 13.125C1.5625 19.5108 6.73921 24.6875 13.125 24.6875ZM26.7771 26.7771C25.8132 27.741 24.2505 27.741 23.2866 26.7771L20.9454 24.436C22.3081 23.492 23.492 22.3081 24.436 20.9454L26.7771 23.2865C27.741 24.2504 27.741 25.8132 26.7771 26.7771Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Keyword Research
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="200"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                class="fill-current"
+                                width="45"
+                                height="45"
+                                viewBox="0 0 28 28"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 15.5H0.5V17.5H1.5V15.5ZM26.5 17.5H27.5V15.5H26.5V17.5ZM10.25 25.5C9.69771 25.5 9.25 25.9477 9.25 26.5C9.25 27.0523 9.69771 27.5 10.25 27.5V25.5ZM17.75 27.5C18.3023 27.5 18.75 27.0523 18.75 26.5C18.75 25.9477 18.3023 25.5 17.75 25.5V27.5ZM15 21.5C15 20.9477 14.5523 20.5 14 20.5C13.4477 20.5 13 20.9477 13 21.5H15ZM5.25 2.5H22.75V0.5H5.25V2.5ZM25.5 5.25V17.75H27.5V5.25H25.5ZM22.75 20.5H5.25V22.5H22.75V20.5ZM2.5 17.75V5.25H0.5V17.75H2.5ZM5.25 20.5C3.73122 20.5 2.5 19.2688 2.5 17.75H0.5C0.5 20.3734 2.62665 22.5 5.25 22.5V20.5ZM25.5 17.75C25.5 19.2688 24.2688 20.5 22.75 20.5V22.5C25.3734 22.5 27.5 20.3734 27.5 17.75H25.5ZM22.75 2.5C24.2688 2.5 25.5 3.73122 25.5 5.25H27.5C27.5 2.62665 25.3734 0.5 22.75 0.5V2.5ZM5.25 0.5C2.62665 0.5 0.5 2.62665 0.5 5.25H2.5C2.5 3.73122 3.73122 2.5 5.25 2.5V0.5ZM1.5 17.5H26.5V15.5H1.5V17.5ZM10.25 27.5H14V25.5H10.25V27.5ZM14 27.5H17.75V25.5H14V27.5ZM15 26.5V21.5H13V26.5H15Z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Website Optimization
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="400"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="45"
+                                height="45"
+                                viewBox="0 0 30 30"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M2.5 7.75V3.5C2.5 2.94772 2.94772 2.5 3.5 2.5H7.75C8.30228 2.5 8.75 2.94772 8.75 3.5V7.75C8.75 8.30228 8.30228 8.75 7.75 8.75H3.5C2.94772 8.75 2.5 8.30228 2.5 7.75Z"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M21.25 7.75V3.5C21.25 2.94772 21.6977 2.5 22.25 2.5H26.5C27.0523 2.5 27.5 2.94772 27.5 3.5V7.75C27.5 8.30228 27.0523 8.75 26.5 8.75H22.25C21.6977 8.75 21.25 8.30228 21.25 7.75Z"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M21.25 26.5V22.25C21.25 21.6977 21.6977 21.25 22.25 21.25H26.5C27.0523 21.25 27.5 21.6977 27.5 22.25V26.5C27.5 27.0523 27.0523 27.5 26.5 27.5H22.25C21.6977 27.5 21.25 27.0523 21.25 26.5Z"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M2.5 26.5V22.25C2.5 21.6977 2.94772 21.25 3.5 21.25H7.75C8.30228 21.25 8.75 21.6977 8.75 22.25V26.5C8.75 27.0523 8.30228 27.5 7.75 27.5H3.5C2.94772 27.5 2.5 27.0523 2.5 26.5Z"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M12.5 16.25H17.5"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                />
+                                <path
+                                  d="M11.25 18.75L15 10L18.75 18.75"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                                <path
+                                  d="M8.75 5.625H21.25M24.375 8.75V21.25M21.25 24.375H8.75M5.625 21.25V8.75"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Content Marketing
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="600"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="45"
+                                height="45"
+                                viewBox="0 0 30 30"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M25 2.5L26.6161 4.11612C27.1043 4.60427 27.1043 5.39573 26.6161 5.88388L25 7.5M20 5H26.25M7.5 16.25L10.25 18.3125C11.5833 19.3125 13.4167 19.3125 14.75 18.3125L17.5 16.25M6.25 27.5H18.75C20.8211 27.5 22.5 25.8211 22.5 23.75V13.75C22.5 11.6789 20.8211 10 18.75 10H6.25C4.17893 10 2.5 11.6789 2.5 13.75V23.75C2.5 25.8211 4.17893 27.5 6.25 27.5Z"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Email Marketing
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="800"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-8 py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="45"
+                                height="45"
+                                viewBox="0 0 28 28"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M4 12.75H24M4 12.75C2.61929 12.75 1.5 11.6307 1.5 10.25V9C1.5 7.61929 2.61929 6.5 4 6.5H24C25.3807 6.5 26.5 7.61929 26.5 9V10.25C26.5 11.6307 25.3807 12.75 24 12.75M4 12.75L4 24C4 25.3807 5.11929 26.5 6.5 26.5H21.5C22.8807 26.5 24 25.3807 24 24V12.75M14 6.5H19C20.3807 6.5 21.5 5.38071 21.5 4C21.5 2.61929 20.3807 1.5 19 1.5C16.2386 1.5 14 3.73858 14 6.5ZM14 6.5H9C7.61929 6.5 6.5 5.38071 6.5 4C6.5 2.61929 7.61929 1.5 9 1.5C11.7614 1.5 14 3.73858 14 6.5ZM14 6.5V26.5"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Social Media Marketing
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="1000"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="45"
+                                height="45"
+                                viewBox="0 0 30 30"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M8.75 8.75H21.25M8.75 15H15M20 21.25L23.75 27.5M10 21.25L6.25 27.5M15 21.25V25M23.75 2.5L6.25 2.5C4.17893 2.5 2.5 4.17893 2.5 6.25L2.5 17.5C2.5 19.5711 4.17893 21.25 6.25 21.25L23.75 21.25C25.8211 21.25 27.5 19.5711 27.5 17.5L27.5 6.25C27.5 4.17893 25.8211 2.5 23.75 2.5Z"
+                                  stroke="currentColor"
+                                  stroke-width="2"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Website Development
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="1200"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="54"
+                                height="49"
+                                viewBox="0 0 54 49"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M32.3158 2H39.379C40.8974 2 42.3433 2.6575 43.352 3.80668L50.6573 12.1287C52.3526 14.06 52.4535 16.9387 50.8976 18.9869L31.2134 44.8991C29.0855 47.7003 24.9145 47.7003 22.7866 44.8991L3.10238 18.9869C1.54651 16.9387 1.6474 14.06 3.34273 12.1287L10.648 3.80668C11.6567 2.6575 13.1026 2 14.621 2H22.2748M32.3158 2L37.6316 15.4571M32.3158 2H22.2748M37.6316 15.4571H50.9211M37.6316 15.4571L27 46.4085L16.3684 15.4571M37.6316 15.4571H16.3684M22.2748 2L16.3684 15.4571M3.07891 15.4571H16.3684"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Website Design
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="1400"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="45"
+                                height="49"
+                                viewBox="0 0 45 49"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M43.3787 38.2384L24.5566 46.6037C23.3678 47.1321 22.0109 47.1321 20.8221 46.6037L2 38.2384M43.3787 26.7443L24.5566 35.1097C23.3678 35.638 22.0109 35.638 20.8221 35.1097L2 26.7443M3.81343 15.0075L20.6332 23.4174C21.9276 24.0646 23.4511 24.0646 24.7455 23.4174L41.5653 15.0075C43.2596 14.1604 43.2596 11.7424 41.5653 10.8953L24.7455 2.48539C23.4511 1.83821 21.9276 1.8382 20.6332 2.48538L3.81344 10.8953C2.1191 11.7424 2.11909 14.1604 3.81343 15.0075Z"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Design & branding
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="1600"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="60"
+                                height="49"
+                                viewBox="0 0 60 49"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M58.25 47L54.0312 42.7812M16.0625 30.125H2M16.0625 16.0625H2M38.5625 2H2M58.25 30.125C58.25 39.4448 50.6948 47 41.375 47C32.0552 47 24.5 39.4448 24.5 30.125C24.5 20.8052 32.0552 13.25 41.375 13.25C50.6948 13.25 58.25 20.8052 58.25 30.125Z"
+                                  stroke="#794AFF"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              SEO Optimization
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="1800"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="49"
+                                height="49"
+                                viewBox="0 0 49 49"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M34.9352 20.2887C33.2682 16.1619 29.2242 13.25 24.5 13.25C18.2868 13.25 13.25 18.2868 13.25 24.5C13.25 29.2241 16.1619 33.2682 20.2887 34.9352M24.31 46.9992C11.9711 46.8972 2 36.863 2 24.5C2 12.0736 12.0736 2 24.5 2C36.863 2 46.8972 11.9711 46.9992 24.31M24.6289 27.703L30.5073 45.3383C31.2459 47.5539 34.3799 47.5539 35.1184 45.3383L37.2891 38.8262C37.531 38.1005 38.1005 37.531 38.8262 37.2891L45.3383 35.1184C47.5539 34.3799 47.5539 31.2459 45.3383 30.5073L27.703 24.6289C25.8031 23.9956 23.9956 25.8031 24.6289 27.703Z"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Digital Marketing
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="2000"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full text-purple common-transition"
+                          >
+                            <span>
+                              <svg
+                                width="49"
+                                height="49"
+                                viewBox="0 0 49 49"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M13.25 13.25H35.75M13.25 24.5H24.5M33.5 35.75L40.25 47M15.5 35.75L8.75 47M24.5 35.75V42.5M40.25 2L8.75 2C5.02208 2 2 5.02208 2 8.75L2 29C2 32.7279 5.02208 35.75 8.75 35.75L40.25 35.75C43.9779 35.75 47 32.7279 47 29L47 8.75C47 5.02208 43.9779 2 40.25 2Z"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Business Consulting
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        data-aos="zoom-out"
+                        data-aos-delay="2200"
+                        class="col-span-3 relative group border border-transparent common-transition before:inline-block before:w-full before:h-full before:border before:rounded-[10px] before:border-purple before:absolute before:bottom-0 before:right-0 before:shadow-common before:origin-bottom-right before:scale-0 hover:before:scale-100 before:transition-all before:duration-300 before:z-0 after:inline-block after:w-full after:h-full after:border after:rounded-[10px] after:border-purple after:absolute after:top-0 after:left-0 after:shadow-common after:origin-top-left after:scale-0 hover:after:scale-100 after:transition-all after:duration-300 after:z-0 before:ease-linear after:ease-linear"
+                      >
+                        <div
+                          class="flex flex-col relative px-4 md:px-8 py-5 md:py-10 justify-between items-center rounded-[10px] bg-white m-[1px] z-10"
+                        >
+                          <div
+                            class="w-[60px] h-[60px] flex justify-center items-center rounded-full common-transition text-purple"
+                          >
+                            <span>
+                              <svg
+                                width="35"
+                                height="49"
+                                viewBox="0 0 35 49"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M17.75 20C20.2353 20 22.25 22.0147 22.25 24.5C22.25 26.9853 20.2353 29 17.75 29C15.2647 29 13.25 26.9853 13.25 24.5C13.25 22.0147 15.2647 20 17.75 20ZM17.75 20V2M6.5 38H29C31.4853 38 33.5 40.0147 33.5 42.5C33.5 44.9853 31.4853 47 29 47H6.5C4.01472 47 2 44.9853 2 42.5C2 40.0147 4.01472 38 6.5 38ZM6.48194 38H29.0181L32.8746 26.0116C33.9926 23.1885 33.5966 20.0425 31.8071 17.5321L19.8917 3.06642C18.8781 1.64453 16.6219 1.64453 15.6083 3.06642L3.69286 17.5321C1.90342 20.0425 1.50737 23.1885 2.62538 26.0116L6.48194 38Z"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                          <div class="mt-5 mb-4">
+                            <p
+                              class="text-20 font-semibold text-center text-main-black mb-4"
+                            >
+                              Design & branding
+                            </p>
+                            <p class="text-center text-paragraph">
+                              This involve optimizes website headers content
+                              internal
+                            </p>
+                          </div>
+                          <a href="service-details.html">
+                            <div
+                              class="flex items-center gap-2 group text-paragraph hover:text-purple"
+                            >
+                              <span
+                                class="font-medium leading-5 font-inter border-b border-transparent before:inline-block before:border-purple before:border-b before:absolute before:bottom-0 before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-5 relative"
+                              >
+                                Read More
+                              </span>
+                              <svg
+                                width="7"
+                                height="11"
+                                viewBox="0 0 7 11"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289
+                        5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623
+                        5.29289 4.79289L1.5 1"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- service  -->
+            <!-- faq start  -->
+            <section class="relative md:mt-12">
+              <div class="w-full pb-16 md:pb-[30px] relative z-10">
+                <div class="theme-container mx-auto">
+                  <div
+                    class="flex justify-center items-center px-4 md:px-0 py-10 md:py-20 relative rounded-3xl overflow-hidden"
+                  >
+                    <div
+                      class="max-w-[850px] w-full flex justify-center items-center flex-col relative z-10"
+                    >
+                      <h1
+                        class="py-0.5 px-5 bg-purple/5 border-purple/10 border rounded-[30px] font-medium text-blue-seo"
+                      >
+                        FAQs
+                      </h1>
+                      <h2
+                        class="text-24 sm:text-48 font-semibold text-main-black mt-5"
+                      >
+                        Asked Questions & Answer
+                      </h2>
+                      <div
+                        class="flex flex-col gap-2.5 w-full mt-5 md:mt-10 p-0 sm:p-5"
+                      >
+                        <!-- faq single start  -->
+                        <div
+                          data-aos="fade-up"
+                          class="py-5 px-2 md:px-9 w-full rounded-[10px] service-faq-toggler overflow-hidden transition-all duration-300 max-h-fit h-fit border border-purple/10 bg-purple/5"
+                          name="faq-1"
+                        >
+                          <div
+                            class="w-full flex justify-between items-center pointer-events-none h-fit"
+                          >
+                            <h1
+                              class="font-semibold sm:text-18 text-main-black"
+                            >
+                              What factors determine the pricing of SEO
+                              services?
+                            </h1>
+                            <svg
+                              width="19"
+                              height="10"
+                              viewBox="0 0 19 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M2 2L9.5 8L17 2"
+                                stroke="#794AFF"
+                                stroke-width="3"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <p
+                            class="mt-3.5 text-paragraph pointer-events-none h-fit"
+                          >
+                            However, link building isn't merely about quantity;
+                            quality and relevance are paramount. High-quality
+                            links from reputable websites carry more weight in
+                            search engine algorithms, contributing significantly
+                            to a website's overall SEO performance.
+                          </p>
+                        </div>
+                        <!-- faq single end  -->
+                        <!-- faq single start  -->
+                        <div
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                          class="py-5 px-2 md:px-9 w-full rounded-[10px] service-faq-toggler overflow-hidden transition-all duration-300 max-h-fit border border-purple/10"
+                          name="faq-2"
+                        >
+                          <div
+                            class="w-full flex justify-between items-center pointer-events-none"
+                          >
+                            <h1
+                              class="font-semibold sm:text-18 text-main-black"
+                            >
+                              What factors determine the pricing of SEO
+                              services?
+                            </h1>
+                            <svg
+                              width="19"
+                              height="10"
+                              viewBox="0 0 19 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M2 2L9.5 8L17 2"
+                                stroke="#794AFF"
+                                stroke-width="3"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <p class="mt-3.5 text-paragraph pointer-events-none">
+                            However, link building isn't merely about quantity;
+                            quality and relevance are paramount. High-quality
+                            links from reputable websites carry more weight in
+                            search engine algorithms, contributing significantly
+                            to a website's overall SEO performance.
+                          </p>
+                        </div>
+                        <!-- faq single end  -->
+                        <!-- faq single start  -->
+                        <div
+                          data-aos="fade-up"
+                          data-aos-delay="200"
+                          class="py-5 px-2 md:px-9 w-full rounded-[10px] service-faq-toggler overflow-hidden transition-all duration-300 max-h-fit border border-purple/10"
+                          name="faq-3"
+                        >
+                          <div
+                            class="w-full flex justify-between items-center pointer-events-none"
+                          >
+                            <h1
+                              class="font-semibold sm:text-18 text-main-black"
+                            >
+                              What factors determine the pricing of SEO
+                              services?
+                            </h1>
+                            <svg
+                              width="19"
+                              height="10"
+                              viewBox="0 0 19 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M2 2L9.5 8L17 2"
+                                stroke="#794AFF"
+                                stroke-width="3"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <p class="mt-3.5 text-paragraph pointer-events-none">
+                            However, link building isn't merely about quantity;
+                            quality and relevance are paramount. High-quality
+                            links from reputable websites carry more weight in
+                            search engine algorithms, contributing significantly
+                            to a website's overall SEO performance.
+                          </p>
+                        </div>
+                        <!-- faq single end  -->
+                        <!-- faq single start  -->
+                        <div
+                          data-aos="fade-up"
+                          data-aos-delay="300"
+                          class="py-5 px-2 md:px-9 w-full rounded-[10px] service-faq-toggler overflow-hidden transition-all duration-300 max-h-fit border border-purple/10"
+                          name="faq-4"
+                        >
+                          <div
+                            class="w-full flex justify-between items-center pointer-events-none"
+                          >
+                            <h1
+                              class="font-semibold sm:text-18 text-main-black"
+                            >
+                              What factors determine the pricing of SEO
+                              services?
+                            </h1>
+                            <svg
+                              width="19"
+                              height="10"
+                              viewBox="0 0 19 10"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M2 2L9.5 8L17 2"
+                                stroke="#794AFF"
+                                stroke-width="3"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </div>
+                          <p class="mt-3.5 text-paragraph pointer-events-none">
+                            However, link building isn't merely about quantity;
+                            quality and relevance are paramount. High-quality
+                            links from reputable websites carry more weight in
+                            search engine algorithms, contributing significantly
+                            to a website's overall SEO performance.
+                          </p>
+                        </div>
+                        <!-- faq single end  -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- faq end  -->
+            <!--Todo: consultation -->
+            <section data-aos="fade-up" id="consultation">
+              <div class="consultation-section-wrapper w-full relative">
+                <div class="theme-container mx-auto relative z-10">
+                  <div
+                    class="w-full py-[80px] xl:pl-[110px] pl-10 border border-[#e7e3fa] rounded-[20px] bg-main-gray md:flex relative"
+                  >
+                    <div class="absolute bottom-0 left-0 pointer-events-none">
+                      <img src="assets/images/cta-dot-shape.webp" alt="" />
+                    </div>
+                    <div class="md:w-[432px] w-full">
+                      <span class="section-title-top-tag mb-5"
+                        >Get Consultations</span
+                      >
+                      <h2
+                        class="md:text-48 text-34 font-semibold text-main-black mb-[32px]"
+                      >
+                        Get your free digital marketing audit
+                      </h2>
+                      <p class="text-paragraph mb-[45px]">
+                        We’ve 25+ years of experience in digital marketing
+                      </p>
+
+                      <a href="contact.html">
+                        <div
+                          class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex"
+                        >
+                          <span
+                            class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10"
+                          >
+                            Get Consultation
+                          </span>
+                          <svg
+                            class="relative z-10"
+                            width="7"
+                            height="12"
+                            viewBox="0 0 7 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="group-hover:stroke-blue-seo transition-all duration-300"
+                              d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="flex-1">
+                      <div
+                        id="consaltaion-mouse-move-anim"
+                        class="flex justify-end w-full relative mt-10"
+                      >
+                        <div class="mr-10 moving-h2-hero-main-img">
+                          <img src="assets/images/cta-shape.webp" alt="" />
+                        </div>
+                        <div data-depth="0.40" class="layer">
+                          <img src="assets/images/cta-p-1.webp" alt="" />
+                        </div>
+                        <div
+                          data-depth="0.20"
+                          class="layer absolute md:right-40 right-10"
+                        >
+                          <img src="assets/images/cta-p-2.webp" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex justify-between absolute top-20">
+                  <div id="line-lottie-style-2"></div>
+                  <div
+                    class="transform rotate-180"
+                    id="line-lottie2-style-2"
+                  ></div>
+                </div>
+              </div>
+            </section>
+          </main>
+          <footer>
+            <div class="footer-one-wrapper w-full pt-[130px]">
+              <div class="theme-container mx-auto">
+                <div class="w-full">
+                  <div
+                    class="top-bar w-full flex md:flex-row md:justify-between items-center flex-col space-y-10 md:space-y-0 md:mb-[80px] mb-10"
+                  >
+                    <div>
+                      <img src="assets/images/logo-1.webp" alt="" />
+                    </div>
+                    <ul class="flex md:gap-14 gap-5 flex-wrap md:items-center">
+                      <li
+                        class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"
+                      >
+                        <a href="service.html#">Facebook</a>
+                      </li>
+                      <li
+                        class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"
+                      >
+                        <a href="service.html#">Twitter</a>
+                      </li>
+                      <li
+                        class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"
+                      >
+                        <a href="service.html#">Instagram</a>
+                      </li>
+                      <li
+                        class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"
+                      >
+                        <a href="service.html#">LinkedIn</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="w-full py-[80px] border-t border-[e7e3fa] grid xl:grid-cols-12 md:grid-cols-3 md:gap-10 grid-cols-2 gap-8"
+                  >
+                    <div class="xl:col-span-3">
+                      <div class="w-full mb-10">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Address
+                        </p>
+                        <p class="font-medium text-paragraph">
+                          55 Street, 2nd block, 3rd Floor <br />
+                          Melbourne, Australia
+                        </p>
+                      </div>
+                      <div class="w-full">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Contact
+                        </p>
+                        <p class="font-medium text-paragraph">
+                          <a href="../../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c8a1a6aea7b9bda4a9a6ac88afa5a9a1a4e6aba7a5">[email&#160;protected]</a> <br />
+                          +880 456 852 99
+                        </p>
+                      </div>
+                    </div>
+                    <div class="xl:col-span-2">
+                      <div class="w-full">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Services
+                        </p>
+                        <ul class="flex flex-col space-y-2.5">
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Keyword Research</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Email marketing</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Content marketing</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Web Development</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Social Marketing</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="xl:col-span-2">
+                      <div class="w-full">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Quick Link
+                        </p>
+                        <ul class="flex flex-col space-y-2.5">
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="contact.html">Help center</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="blog.html">Tutorials</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="contact.html">Create a ticket </a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="team-members.html">Meet Our Team</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="faq.html">FAQs</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="xl:col-span-2">
+                      <div class="w-full">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Company
+                        </p>
+                        <ul class="flex flex-col space-y-2.5">
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="about.html">About us</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="projects.html">Careers</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="blog.html">News & Blog </a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="blog-details.html">Our Reviews</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="contact.html">Contact Us</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="xl:col-span-3 col-span-2 md:col-span-1">
+                      <div class="w-full mb-10">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Newsletter
+                        </p>
+                        <p class="font-medium text-paragraph mb-[30px]">
+                          Subscribe newsletter to get updates
+                        </p>
+                        <div class="mb-2.5">
+                          <input
+                            placeholder="Email Address"
+                            id="eOne"
+                            type="text"
+                            class="placeholder:text-paragraph w-full h-[56px] bg-main-gray border border-[#e7e3fa] focus:border-purple focus:outline-none focus:right-0 rounded-full px-[25px]"
+                          />
+                        </div>
+
+                        <a href="service.html#">
+                          <div
+                            class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex"
+                          >
+                            <span
+                              class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10"
+                            >
+                              Subscribe
+                            </span>
+                            <svg
+                              class="relative z-10"
+                              width="7"
+                              height="12"
+                              viewBox="0 0 7 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="group-hover:stroke-blue-seo transition-all duration-300"
+                                d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                                stroke="white"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              ></path>
+                            </svg>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: linear-gradient(
+                    90deg,
+                    #794aff 0%,
+                    #f3f4f9 63.23%
+                  );
+                "
+                class="w-full md:h-[65px] h-10"
+              >
+                <div class="theme-container mx-auto h-full">
+                  <div
+                    class="w-full h-full flex justify-between items-center md:text-base text-xs"
+                  >
+                    <span class="text-white"
+                      >2024 © All rights reserved by <b>Quland</b></span
+                    >
+                    <div class="relative md:block hidden">
+                      <a
+                        href="service.html#"
+                        aria-label="go top"
+                        class="w-[45px] h-[45px] rounded-full border-[3px] border-white flex justify-center items-center bg-blue-sass absolute -top-[55px]"
+                      >
+                        <span
+                          ><svg
+                            width="45"
+                            height="45"
+                            viewBox="0 0 45 45"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <circle
+                              cx="22.5"
+                              cy="22.5"
+                              r="21"
+                              fill="#4A7DFF"
+                              stroke="white"
+                              stroke-width="3"
+                            />
+                            <path
+                              d="M19 21L23 17M23 17L27 21M23 17V29"
+                              stroke="white"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                    <ul class="md:space-x-6 items-center md:flex hidden">
+                      <li
+                        class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                      >
+                        <a href="service.html#">Privacy Policy</a>
+                      </li>
+                      <li class="text-paragraph font-medium">|</li>
+                      <li
+                        class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                      >
+                        <a href="service.html#">Terms & Conditions</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/lottie.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

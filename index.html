@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Marketing Agency | Shadow15</title>
+    <!-- Library CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!-- Compiled Tailwind CSS -->
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="home-one relative">
+    <!-- Desktop Header -->
+    <header>
+      <div class="header-wrapper w-full fixed left-0 top-0 z-20 xl:block hidden h1-header-sticky h1-header-sticky-qs">
+        <div class="2xl:px-[110px] px-5 mx-auto relative">
+          <div class="w-full h-[95px] flex justify-between items-center px-[50px] border border-[#e7e8e9] bg-white relative">
+            <div class="flex 2xl:space-x-[100px] xl:space-x-10 justify-between items-center w-full xl:w-auto">
+              <div>
+                <a href="index.html" aria-label="logo">
+                  <img src="" alt="Shadow15 Logo" />
+                </a>
+              </div>
+              <div>
+                <ul class="flex space-x-10 items-center">
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="services.html">Services</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="xl:flex hidden space-x-[30px] items-center">
+              <a href="contact.html">
+                <div class="home-two-btn-bg py-3 group bg-purple border-purple">
+                  <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">
+                    Get Started
+                  </span>
+                  <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Header -->
+    <header class="flex xl:hidden flex-col relative">
+      <div class="h-16 bg-white flex items-center justify-between fixed top-0 left-0 z-50 w-full px-2.5 border-b border-[#e7e8e9]">
+        <a href="index.html" aria-label="logo">
+          <img src="" alt="Shadow15 Logo" class="h-10" />
+        </a>
+        <button aria-label="mobile-Menu" class="text-main-black text-48 w-6 h-6 toggle_nav_menu" id="mobile_nav_toggle_menu">
+          <svg class="pointer-events-none transition-all duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+          </svg>
+          <svg class="pointer-events-none hidden transition-all duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="transition-all duration-300">
+        <div class="w-full h-screen fixed bg-black/80 z-40 -left-full transition-all duration-300 delay-150" id="mobile-nav-div-overlay"></div>
+        <div class="fixed h-screen overflow-y-scroll bg-white w-full top-16 -left-full z-50 transition-all duration-300 delay-0" id="mobile-nav-div">
+          <div class="flex gap-10 flex-col pl-5 pt-5">
+            <ul class="flex gap-5 flex-col text-paragraph text-base leading-5 font-medium font-inter">
+              <li class="home-two-nav-item relative w-fit">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="home-two-nav-item relative w-fit">
+                <a href="about.html">About</a>
+              </li>
+              <li class="home-two-nav-item relative w-fit">
+                <a href="services.html">Services</a>
+              </li>
+              <li class="home-two-nav-item relative w-fit">
+                <a href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="home-two-nav-item relative w-fit">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <div class="flex gap-5 flex-col pl-0 mt-5">
+              <a href="contact.html">
+                <div class="home-two-btn-bg py-2.5 group bg-purple border-purple w-fit">
+                  <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">
+                    Get Started
+                  </span>
+                  <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="hero-one-section-wrapper w-full xl:h-[905px] overflow-hidden relative">
+          <div class="win-grid w-full h-full absolute left-0 top-0" id="win-grid"></div>
+          <div class="theme-container mx-auto h-full relative z-10 pointer-events-none">
+            <div class="w-full grid xl:grid-cols-2 grid-cols-1 2xl:gap-[130px] gap-10 items-center lg:pt-[223px] pt-[130px] h-full">
+              <div class="article-area">
+                <div class="inline-flex md:px-6 px-3 py-2.5 md:py-[14px] bg-white space-x-2.5 items-center rounded-full shadow-style-one mb-5">
+                  <span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_460_7967)">
+                        <path d="M10.0005 10.9371L0.0507812 7.62184C0.132029 7.4156 0.3164 7.26529 0.535144 7.23435L6.68811 6.32812L10.0005 10.9371Z" fill="#FEC461"/>
+                        <path d="M10.0002 10.937V16.6775L4.49725 19.6149C4.28475 19.7274 4.03195 19.709 3.83789 19.5649L10.0002 10.937Z" fill="#F7B84E"/>
+                        <path d="M10.0005 10.937L3.83784 19.5646C3.64753 19.4243 3.55035 19.1837 3.59128 18.9431L4.64094 12.7248L10.0005 10.937Z" fill="#FEC461"/>
+                        <path d="M10 10.9368L4.64079 12.7246L0.190595 8.31813C0.0190365 8.14938 -0.0437743 7.89595 0.0312237 7.66814C0.0377861 7.65252 0.0405985 7.63658 0.0502858 7.62158L10 10.9368Z" fill="#F7B84E"/>
+                        <path d="M9.99992 0.312012V10.9367L6.6875 6.32748L9.44055 0.665128C9.54368 0.449196 9.76242 0.312012 9.99992 0.312012Z" fill="#FEC461"/>
+                        <path d="M13.3124 6.32748L10 10.9367V0.312012C10.2375 0.312012 10.4562 0.449196 10.5594 0.665128L13.3124 6.32748Z" fill="#F7B84E"/>
+                        <path d="M19.9497 7.62167L10 10.9369L13.3124 6.32764L19.4654 7.23386C19.6841 7.26511 19.8685 7.41511 19.9497 7.62167Z" fill="#FEC461"/>
+                        <path d="M19.8123 8.31813L15.3592 12.7246L10 10.9368L19.9497 7.62158C19.9591 7.63689 19.9622 7.65283 19.9688 7.66814C20.0435 7.89626 19.981 8.14938 19.8123 8.31813Z" fill="#F7B84E"/>
+                        <path d="M16.1623 19.5646L10 10.937L15.3592 12.7248L16.4092 18.9431C16.4498 19.184 16.353 19.4243 16.1623 19.5646Z" fill="#FEC461"/>
+                        <path d="M16.1623 19.5646C15.9686 19.7087 15.7155 19.7274 15.5033 19.6146L10 16.6775V10.937L16.1623 19.5646Z" fill="#F7B84E"/>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_460_7967">
+                          <rect width="20" height="20" fill="white"/>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span class="md:text-20 text-sm text-purple font-semibold pointer-events-auto">
+                    Digital Marketing Agency
+                  </span>
+                </div>
+                <h1 class="text-4xl md:text-65 text-main-black font-semibold mb-[35px] pointer-events-auto">
+                  <span>We're Modern &</span> <br />
+                  effective
+                  <span class="font-bold uppercase relative text-white inline-block px-3">
+                    <span class="relative z-10">digital</span>
+                    <span class="block w-full h-full bg-gradient-to-r from-purple absolute top-0 left-0"></span>
+                  </span>
+                  <br />
+                  <span class="italic"> marketing agency </span>
+                </h1>
+                <div class="px-6 py-[14px] bg-white border-l-2 border-blue-sass mb-[35px] pointer-events-auto xl:w-full md:w-[500px]">
+                  <p class="text-ptwo text-paragraph">
+                    We craft compelling narratives & leverage cutting-edge technologies to propel brands towards success through SEO, Social Media, Google Ads & Web Development.
+                  </p>
+                </div>
+                <div class="flex space-x-[30px] items-center pointer-events-auto">
+                  <a href="contact.html">
+                    <div class="home-two-btn-bg py-3 group bg-purple border-purple">
+                      <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">
+                        Get Started
+                      </span>
+                      <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="services.html"></a>
+                    <div class="flex items-center gap-2 group"></div>
+                      <p class="mb-[1px] font-medium text-main-black leading-5 font-inter border-b border-main-black before:block before:pb-[1px] before:border-purple before:font-medium before:text-purple before:leading-5 before:font-inter before:border-b before:content-['Our_Services'] before:absolute before:-bottom-[1px] before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-[21px] relative">
+                        Our Services
+                      </p>
+                      <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="group-hover:stroke-purple transition-all duration-300 delay-300" d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="image-area relative h-full">
+                <div class="xl:absolute relative 2xl:w-[752px] lg:w-[600px] w-full left-0 top-0 h-full">
+                  <div class="xl:absolute relative left-0 bottom-0 w-full z-10">
+                    <div class="w-full flex justify-center">
+                      <img src="assets/images/home-one-hero-main.webp" alt="Digital Marketing Hero" />
+                    </div>
+                  </div>
+                  <div class="absolute left-0 bottom-0 w-full h-full md:block hidden">
+                    <div id="hero-mouse-move-anim" class="w-full relative h-full z-10 pointer-events-auto">
+                      <div data-depth="0.20" class="layer">
+                        <span class="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-[#BA4AFF] 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full">SEO & Marketing</span>
+                      </div>
+                      <div data-depth="0.30" class="layer"></div>
+                        <span class="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-purple 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none">Website Optimizations</span>
+                      </div>
+                      <div data-depth="0.40" class="layer h-fit">
+                        <span class="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-blue-sass 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-br-none rounded-full h-fit">Marketing & Growth</span>
+                      </div>
+                      <div data-depth="0.50" class="layer h-fit">
+                        <span class="inline-block xl:px-[30px] px-6 xl:py-2.5 py-1.5 bg-[#FF8C05] 2xl:text-pone xl:text-sm lg:text-pone text-white rounded-full rounded-bl-none h-fit">Keywords Research</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="absolute left-0 bottom-[100px] w-full md:block hidden">
+                    <div class="flex justify-center">
+                      <div class="w-[533px] h-[585px] bg-white rounded-[266px]"></div>
+                    </div>
+                  </div>
+                  <div class="absolute left-0 bottom-0 w-full overflow-hidden">
+                    <div class="flex justify-center">
+                      <img src="assets/images/home-one-hero-circle-shadow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clients Section -->
+      <section id="clients">
+        <div class="2xl:px-[152px] md:px-10 xl:py-[130px] md:py-[80px] px-5 py-10 overflow-x-hidden">
+          <p class="text-base text-paragraph font-medium mb-[50px] text-center">
+            Trusted by 1250+ global clients
+          </p>
+          <div class="w-full h1-partner_slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide client-item flex justify-center">
+                <img src="assets/images/home-one-client-1.webp" alt="Client 1" />
+              </div>
+              <div class="swiper-slide client-item flex justify-center"></div>
+                   g src="assets/images/home-one-client-2.webp" alt="Client 2" />
+              </div>
+              <div class="swiper-slide client-item flex justify-center">
+                <img src="assets/images/home-one-client-3.webp" alt="Client 3" />
+              </div>
+              <div class="swiper-slide client-item flex justify-center">
+                <img src="assets/images/home-one-client-4.webp" alt="Client 4" />
+              </div>
+              <div class="swiper-slide client-item flex justify-center">
+                <img src="assets/images/home-one-client-5.webp" alt="Client 5" />
+              </div>
+              <div class="swiper-slide client-item flex justify-center">
+                <img src="assets/images/home-one-client-6.webp" alt="Client 6" />
+              </div>
+              <div class="swiper-slide client-item flex justify-center">
+                <img src="assets/images/home-one-client-7.webp" alt="Client 7" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="home-one-about-wrapper w-full xl:pb-[153px] pb-[60px]">
+          <div class="theme-container mx-auto">
+            <div class="w-full grid xl:grid-cols-2 grid-cols-1 md:gap-[130px] gap-10 md:items-center relative">
+              <div class="about-thumbnil-area w-full">
+                <div data-aos="fade-right" class="xl:absolute relative lg:-left-16 left-0 top-0 lg:w-[682px] w-full">
+                  <div id="about-shape-mouse-anim">
+                    <div data-depth="0.20" class="layer">
+                      <div data-aos="fade-right" class="thumbnil-wrapper md:block hidden">
+                        <img src="assets/images/home-one-about-thumb-shape.webp" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div data-aos="fade-right" class="thumbnil-main md:absolute left-0 -bottom-16 w-full">
+                    <div class="flex justify-center w-full">
+                      <img src="assets/images/home-one-about-thumb-main.webp" alt="About Us" class="rounded-[20px] overflow-hidden" />
+                    </div>
+                  </div>
+                  <div class="w-full md:block hidden absolute left-0 top-0 h-[550px]">
+                    <div id="home-one-about-mouse-anim" class="h-full">
+                      <div class="layer absolute left-2/3 top-36" data-depth="0.30">
+                        <div data-aos="fade-left" data-aos-delay="100" class="inline-block h-fit px-[30px] py-2.5 bg-purple text-pone shadow-small shadow-purple text-white rounded-full rounded-bl-none">
+                          Marketing & Growth
+                        </div>
+                      </div>
+                      <div data-depth="0.50" class="layer absolute left-1/2 bottom-0">
+                        <div data-aos="fade-left" data-aos-delay="200" class="w-[296px] h-fit flex justify-between p-[7px] pl-5 bg-white shadow-style-one rounded-full items-center">
+                          <span class="text-sm font-semibold text-main-black text-nowrap">Trusted Clients</span>
+                          <img src="assets/images/home-one-about-group.webp" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-article-area">
+                <span class="section-title-top-tag mb-5">About Company</span>
+                <h2 class="md:text-48 text-34 font-semibold text-main-black mb-[50px] md:w-[80%] w-full xl:w-full">
+                  Digital Transforming Brands, Elevating Reach & Crafting Success
+                </h2>
+                <p class="text-paragraph mb-[50px]">
+                  In an era defined by digital dynamism, our digital marketing agency emerges as a beacon of innovation and strategic prowess. We specialize in SEO, Social Media Marketing, Google Ads, Meta Ads, and Web Development to help businesses thrive online.
+                </p>
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-[30px] mb-[50px]">
+                  <div class="flex space-x-5 items-center">
+                    <div class="w-[60px] h-[60px] rounded-full bg-[#e7e3fa] flex justify-center items-center">
+                      <span class="text-purple">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15 27.5C21.9036 27.5 27.5 21.9036 27.5 15C27.5 8.09644 21.9036 2.5 15 2.5C8.09644 2.5 2.5 8.09644 2.5 15C2.5 21.9036 8.09644 27.5 15 27.5Z" stroke="currentColor" stroke-width="2"/>
+                          <path d="M10 15L13.3333 18.3333L20 11.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                    </div>
+                    <div>
+                      <p class="text-20 font-semibold text-main-black">Expert Team</p>
+                      <p class="text-paragraph">Certified digital marketers</p>
+                    </div>
+                  </div>
+                  <div class="flex space-x-5 items-center">
+                    <div class="w-[60px] h-[60px] rounded-full bg-[#e7e3fa] flex justify-center items-center">
+                      <span class="text-purple">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15 27.5C21.9036 27.5 27.5 21.9036 27.5 15C27.5 8.09644 21.9036 2.5 15 2.5C8.09644 2.5 2.5 8.09644 2.5 15C2.5 21.9036 8.09644 27.5 15 27.5Z" stroke="currentColor" stroke-width="2"/>
+                          <path d="M10 15L13.3333 18.3333L20 11.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                    </div>
+                    <div>
+                      <p class="text-20 font-semibold text-main-black">Proven Results</p>
+                      <p class="text-paragraph">Data-driven strategies</p>
+                    </div>
+                  </div>
+                </div>
+                <a href="about.html">
+                  <div class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex">
+                    <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">
+                      Learn More About Us
+                    </span>
+                    <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services">
+        <div class="services-section-wrapper w-full xl:py-[130px] py-[60px] bg-main-gray relative overflow-hidden">
+          <div class="theme-container mx-auto relative z-10">
+            <div class="w-full flex justify-center flex-col items-center">
+              <span class="section-title-top-tag mb-5">Our Services</span>
+              <h2 class="md:text-48 text-34 font-semibold text-main-black mb-[60px] text-center">
+                Digital Marketing Services We Offer
+              </h2>
+              <div class="w-full grid xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
+                <!-- SEO Service -->
+                <div data-aos="zoom-in-left" class="flex flex-col space-y-[30px] justify-between items-center rounded-[10px] bg-white px-8 py-10 hover:shadow-common group border border-transparent hover:border-purple common-transition">
+                  <div class="w-[60px] h-[60px] flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple common-transition text-purple group-hover:text-white">
+                    <span>
+                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.75 23.75C19.2728 23.75 23.75 19.2728 23.75 13.75C23.75 8.22715 19.2728 3.75 13.75 3.75C8.22715 3.75 3.75 8.22715 3.75 13.75C3.75 19.2728 8.22715 23.75 13.75 23.75Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M26.25 26.25L21.25 21.25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </span>
+                  </div>
+                  <div>
+                    <p class="text-20 font-semibold text-center text-main-black mb-4">SEO Optimization</p>
+                    <p class="text-center text-paragraph">Boost your search rankings and drive organic traffic with our proven SEO strategies.</p>
+                  </div>
+                </div>
+                <!-- Social Media Marketing -->
+                <div data-aos="zoom-in-left" data-aos-delay="100" class="flex flex-col space-y-[30px] justify-between items-center rounded-[10px] bg-white px-8 py-10 hover:shadow-common group border border-transparent hover:border-purple common-transition">
+                  <div class="w-[60px] h-[60px] flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple common-transition text-purple group-hover:text-white">
+                    <span>
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 12.75H24M4 12.75C2.61929 12.75 1.5 11.6307 1.5 10.25V9C1.5 7.61929 2.61929 6.5 4 6.5H24C25.3807 6.5 26.5 7.61929 26.5 9V10.25C26.5 11.6307 25.3807 12.75 24 12.75M4 12.75L4 24C4 25.3807 5.11929 26.5 6.5 26.5H21.5C22.8807 26.5 24 25.3807 24 24V12.75M14 6.5H19C20.3807 6.5 21.5 5.38071 21.5 4C21.5 2.61929 20.3807 1.5 19 1.5C16.2386 1.5 14 3.73858 14 6.5ZM14 6.5H9C7.61929 6.5 6.5 5.38071 6.5 4C6.5 2.61929 7.61929 1.5 9 1.5C11.7614 1.5 14 3.73858 14 6.5ZM14 6.5V26.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                    </span>
+                  </div>
+                  <div>
+                    <p class="text-20 font-semibold text-center text-main-black mb-4">Social Media Marketing</p>
+                    <p class="text-center text-paragraph">Engage your audience and build brand awareness across all social platforms.</p>
+                  </div>
+                </div>
+                <!-- Google Ads -->
+                <div data-aos="zoom-in-left" data-aos-delay="200" class="flex flex-col space-y-[30px] justify-between items-center rounded-[10px] bg-white px-8 py-10 hover:shadow-common group border border-transparent hover:border-purple common-transition">
+                  <div class="w-[60px] h-[60px] flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple common-transition text-purple group-hover:text-white">
+                    <span>
+                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.25 26.5V22.25C21.25 21.6977 21.6977 21.25 22.25 21.25H26.5C27.0523 21.25 27.5 21.6977 27.5 22.25V26.5C27.5 27.0523 27.0523 27.5 26.5 27.5H22.25C21.6977 27.5 21.25 27.0523 21.25 26.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.5 26.5V22.25C2.5 21.6977 2.94772 21.25 3.5 21.25H7.75C8.30228 21.25 8.75 21.6977 8.75 22.25V26.5C8.75 27.0523 8.30228 27.5 7.75 27.5H3.5C2.94772 27.5 2.5 27.0523 2.5 26.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.5 16.25H17.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M11.25 18.75L15 10L18.75 18.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.75 5.625H21.25M24.375 8.75V21.25M21.25 24.375H8.75M5.625 21.25V8.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </span>
+                  </div>
+                  <div>
+                    <p class="text-20 font-semibold text-center text-main-black mb-4">Google Ads</p>
+                    <p class="text-center text-paragraph">Maximize ROI with targeted PPC campaigns that convert visitors into customers.</p>
+                  </div>
+                </div>
+                <!-- Meta Ads -->
+                <div data-aos="zoom-in-left" data-aos-delay="300" class="flex flex-col space-y-[30px] justify-between items-center rounded-[10px] bg-white px-8 py-10 hover:shadow-common group border border-transparent hover:border-purple common-transition">
+                  <div class="w-[60px] h-[60px] flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple common-transition text-purple group-hover:text-white">
+                    <span>
+                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 2.5L26.6161 4.11612C27.1043 4.60427 27.1043 5.39573 26.6161 5.88388L25 7.5M20 5H26.25M7.5 16.25L10.25 18.3125C11.5833 19.3125 13.4167 19.3125 14.75 18.3125L17.5 16.25M6.25 27.5H18.75C20.8211 27.5 22.5 25.8211 22.5 23.75V13.75C22.5 11.6789 20.8211 10 18.75 10H6.25C4.17893 10 2.5 11.6789 2.5 13.75V23.75C2.5 25.8211 4.17893 27.5 6.25 27.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </span>
+                  </div>
+                  <div>
+                    <p class="text-20 font-semibold text-center text-main-black mb-4">Meta Ads</p>
+                    <p class="text-center text-paragraph">Reach your ideal audience on Facebook & Instagram with precision targeting.</p>
+                  </div>
+                </div>
+                <!-- Web Development -->
+                <div data-aos="zoom-in-left" data-aos-delay="400" class="flex flex-col space-y-[30px] justify-between items-center rounded-[10px] bg-white px-8 py-10 hover:shadow-common group border border-transparent hover:border-purple common-transition">
+                  <div class="w-[60px] h-[60px] flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple common-transition text-purple group-hover:text-white">
+                    <span>
+                      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.75 8.75H21.25M8.75 15H15M20 21.25L23.75 27.5M10 21.25L6.25 27.5M15 21.25V25M23.75 2.5L6.25 2.5C4.17893 2.5 2.5 4.17893 2.5 6.25L2.5 17.5C2.5 19.5711 4.17893 21.25 6.25 21.25L23.75 21.25C25.8211 21.25 27.5 19.5711 27.5 17.5L27.5 6.25C27.5 4.17893 25.8211 2.5 23.75 2.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </span>
+                  </div>
+                  <div>
+                    <p class="text-20 font-semibold text-center text-main-black mb-4">Web Development</p>
+                    <p class="text-center text-paragraph">Build fast, responsive websites that convert visitors and enhance user experience.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-[60px]">
+                <a href="services.html">
+                  <div class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex">
+                    <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">
+                      View All Services
+                    </span>
+                    <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+""
+
+      <!-- Why Choose Us / Working Process Section -->
+      <section id="why-choose-us">
+        <div class="working-process-section-wrapper w-full xl:py-[130px] py-[60px]">
+          <div class="theme-container mx-auto">
+            <div class="w-full xl:grid grid-cols-12 gap-[60px]">
+              <div class="col-span-5">
+                <div class="title-area">
+                  <span class="section-title-top-tag mb-5">Why Choose Us</span>
+                  <h2 class="md:text-48 text-34 font-semibold text-main-black mb-[50px]">
+                    Our Proven Process for Digital Success
+                  </h2>
+                  <div id="progress-wrapper" class="grid xl:grid-cols-1 gap-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+                    <div data-aos="fade-up" class="w-full rounded-[20px] border border-[#e7e3fa] bg-main-gray px-10 py-[30px] overflow-hidden group relative">
+                      <div class="relative z-10 flex flex-col space-y-5">
+                        <div class="w-10 h-10 bg-white border-2 border-purple rounded-full flex justify-center items-center">
+                          <span class="text-purple font-semibold">01</span>
+                        </div>
+                        <div>
+                          <p class="text-20 font-semibold text-main-black mb-4">Discovery & Analysis</p>
+                          <p class="text-paragraph">We analyze your business, competitors, and target audience to create a tailored strategy.</p>
+                        </div>
+                      </div>
+                      <div class="absolute w-full h-full left-0 top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
+                        <img src="assets/images/home-one-ff-item-shape-2.webp" alt="" class="w-full h-full" />
+                      </div>
+                    </div>
+                    <div data-aos-delay="100" data-aos="fade-up" class="w-full rounded-[20px] border border-[#e7e3fa] bg-main-gray px-10 py-[30px] overflow-hidden group relative">
+                      <div class="relative z-10 flex flex-col space-y-5">
+                        <div class="w-10 h-10 bg-white border-2 border-purple rounded-full flex justify-center items-center">
+                          <span class="text-purple font-semibold">02</span>
+                        </div>
+                        <div>
+                          <p class="text-20 font-semibold text-main-black mb-4">Strategy Development</p>
+                          <p class="text-paragraph">We develop comprehensive marketing strategies aligned with your business goals.</p>
+                        </div>
+                      </div>
+                      <div class="absolute w-full h-full left-0 top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
+                        <img src="assets/images/home-one-ff-item-shape-2.webp" alt="" class="w-full h-full" />
+                      </div>
+                    </div>
+                    <div data-aos-delay="200" data-aos="fade-up" class="w-full rounded-[20px] border border-[#e7e3fa] bg-main-gray px-10 py-[30px] overflow-hidden group relative">
+                      <div class="relative z-10 flex flex-col space-y-5">
+                        <div class="w-10 h-10 bg-white border-2 border-purple rounded-full flex justify-center items-center">
+                          <span class="text-purple font-semibold">03</span>
+                        </div>
+                        <div>
+                          <p class="text-20 font-semibold text-main-black mb-4">Launch & Optimize</p>
+                          <p class="text-paragraph">We execute campaigns and continuously optimize for maximum performance and ROI.</p>
+                        </div>
+                      </div>
+                      <div class="absolute w-full h-full left-0 top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
+                        <img src="assets/images/home-one-ff-item-shape-2.webp" alt="" class="w-full h-full" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-7">
+                <div class="w-full h-full flex xl:justify-end justify-center relative mt-10 xl:mt-0">
+                  <div class="h-full xl:absolute right-0">
+                    <div class="sticky top-[155px]">
+                      <div id="home-working-cursor-anim" class="relative">
+                        <div data-depth="0.30" class="layer h-fit z-10">
+                          <span class="px-[30px] py-2.5 bg-purple shadow-small shadow-purple text-pone text-white rounded-br-none rounded-full md:inline-block hidden">Sales and marketing</span>
+                        </div>
+                        <div data-depth="0.40" class="layer h-fit z-10">
+                          <div class="md:inline-block hidden">
+                            <img src="assets/images/teer.webp" alt="" class="drop-shadow-xl" />
+                          </div>
+                        </div>
+                        <div data-depth="0.20" class="layer h-fit">
+                          <span class="md:inline-block hidden px-[30px] py-2.5 bg-blue-sass text-pone text-white rounded-br-none rounded-full shadow-small shadow-blue-sass">Marketing & Growth</span>
+                        </div>
+                      </div>
+                      <div id="progressThumbHeight">
+                        <img src="assets/images/working-process-thumb.webp" alt="Working Process" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials">
+        <div style="background-image: url(assets/images/testimonial-bg.webp);" class="testimoial-section-wrapper w-full bg-cover bg-no-repeat xl:py-[130px] pt-[60px] pb-[120px]">
+          <div class="theme-container mx-auto relative z-10">
+            <div class="flex flex-col items-center">
+              <span class="text-white font-medium px-5 py-3 leading-none rounded-full inline-block mb-5 bg-purple">Our Testimonials</span>
+              <h2 class="md:text-48 text-34 font-semibold text-white mb-[70px] text-center">
+                What Our Clients Say About Us
+              </h2>
+            </div>
+            <div class="w-full lg:grid grid-cols-12 items-stretch gap-[30px]">
+              <div class="col-span-4">
+                <div class="w-full h-[401px] relative">
+                  <img src="assets/images/testimonial-thumb.webp" alt="Testimonial" class="w-full h-full overflow-hidden rounded-[20px] object-top object-cover" />
+                  <div class="absolute left-0 -bottom-5 sm:px-[56px] pl-1 w-full">
+                    <div class="w-full flex justify-between p-[7px] pl-5 bg-white shadow-style-one rounded-full items-center">
+                      <span class="text-sm font-semibold text-main-black text-nowrap">Trusted Clients</span>
+                      <img src="assets/images/home-one-about-group.webp" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-8 h-full relative mt-20 lg:mt-0">
+                <div class="w-full relative h-full">
+                  <div class="w-full h-full testimonial-swiper">
+                    <div class="swiper-wrapper w-full h-full">
+                      <div class="swiper-slide w-full h-full">
+                        <div class="w-full bg-purple h-full rounded-[20px] py-10 relative">
+                          <div class="shape absolute left-0 top-10">
+                            <img src="assets/images/testimonial-shape.webp" alt="" />
+                          </div>
+                          <div class="relative z-10">
+                            <div class="flex justify-between md:pl-[70px] pl-5 mb-10">
+                              <div>
+                                <img src="assets/images/quotation.webp" alt="" />
+                              </div>
+                              <div class="w-[422px] h-[60px] relative md:flex hidden justify-center">
+                                <div class="w-full h-full absolute left-0 top-0 flex">
+                                  <div class="w-1/2 h-full bg-gradient-to-l from-white opacity-30"></div>
+                                  <div class="w-1/2 h-full bg-gradient-to-r from-white opacity-30"></div>
+                                </div>
+                                <div class="flex space-x-5 items-center">
+                                  <span class="text-20 font-semibold text-white">Quality Service</span>
+                                  <div class="flex space-x-[11px] items-center">
+                                    <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.22953 1.14427C7.95375 -0.381422 10.0462 -0.381425 10.7705 1.14427L12.0221 3.78106C12.3097 4.38691 12.8656 4.80684 13.5087 4.904L16.3074 5.32682C17.9268 5.57148 18.5734 7.64059 17.4016 8.82817L15.3764 10.8806C14.9111 11.3522 14.6988 12.0317 14.8086 12.6976L15.2867 15.5957C15.5633 17.2726 13.8704 18.5514 12.422 17.7596L9.91874 16.3913C9.34357 16.0769 8.65643 16.0769 8.08125 16.3913L5.57799 17.7596C4.12955 18.5514 2.43668 17.2726 2.71331 15.5957L3.19139 12.6976C3.30124 12.0317 3.0889 11.3522 2.62357 10.8806L0.598388 8.82818C-0.57342 7.64059 0.0731955 5.57148 1.69259 5.32682L4.49134 4.904C5.1344 4.80684 5.69031 4.38691 5.9779 3.78106L7.22953 1.14427Z" fill="white"/></svg></span>
+                                    <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.22953 1.14427C7.95375 -0.381422 10.0462 -0.381425 10.7705 1.14427L12.0221 3.78106C12.3097 4.38691 12.8656 4.80684 13.5087 4.904L16.3074 5.32682C17.9268 5.57148 18.5734 7.64059 17.4016 8.82817L15.3764 10.8806C14.9111 11.3522 14.6988 12.0317 14.8086 12.6976L15.2867 15.5957C15.5633 17.2726 13.8704 18.5514 12.422 17.7596L9.91874 16.3913C9.34357 16.0769 8.65643 16.0769 8.08125 16.3913L5.57799 17.7596C4.12955 18.5514 2.43668 17.2726 2.71331 15.5957L3.19139 12.6976C3.30124 12.0317 3.0889 11.3522 2.62357 10.8806L0.598388 8.82818C-0.57342 7.64059 0.0731955 5.57148 1.69259 5.32682L4.49134 4.904C5.1344 4.80684 5.69031 4.38691 5.9779 3.78106L7.22953 1.14427Z" fill="white"/></svg></span>
+                                    <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.22953 1.14427C7.95375 -0.381422 10.0462 -0.381425 10.7705 1.14427L12.0221 3.78106C12.3097 4.38691 12.8656 4.80684 13.5087 4.904L16.3074 5.32682C17.9268 5.57148 18.5734 7.64059 17.4016 8.82817L15.3764 10.8806C14.9111 11.3522 14.6988 12.0317 14.8086 12.6976L15.2867 15.5957C15.5633 17.2726 13.8704 18.5514 12.422 17.7596L9.91874 16.3913C9.34357 16.0769 8.65643 16.0769 8.08125 16.3913L5.57799 17.7596C4.12955 18.5514 2.43668 17.2726 2.71331 15.5957L3.19139 12.6976C3.30124 12.0317 3.0889 11.3522 2.62357 10.8806L0.598388 8.82818C-0.57342 7.64059 0.0731955 5.57148 1.69259 5.32682L4.49134 4.904C5.1344 4.80684 5.69031 4.38691 5.9779 3.78106L7.22953 1.14427Z" fill="white"/></svg></span>
+                                    <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.22953 1.14427C7.95375 -0.381422 10.0462 -0.381425 10.7705 1.14427L12.0221 3.78106C12.3097 4.38691 12.8656 4.80684 13.5087 4.904L16.3074 5.32682C17.9268 5.57148 18.5734 7.64059 17.4016 8.82817L15.3764 10.8806C14.9111 11.3522 14.6988 12.0317 14.8086 12.6976L15.2867 15.5957C15.5633 17.2726 13.8704 18.5514 12.422 17.7596L9.91874 16.3913C9.34357 16.0769 8.65643 16.0769 8.08125 16.3913L5.57799 17.7596C4.12955 18.5514 2.43668 17.2726 2.71331 15.5957L3.19139 12.6976C3.30124 12.0317 3.0889 11.3522 2.62357 10.8806L0.598388 8.82818C-0.57342 7.64059 0.0731955 5.57148 1.69259 5.32682L4.49134 4.904C5.1344 4.80684 5.69031 4.38691 5.9779 3.78106L7.22953 1.14427Z" fill="white"/></svg></span>
+                                    <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.22953 1.14427C7.95375 -0.381422 10.0462 -0.381425 10.7705 1.14427L12.0221 3.78106C12.3097 4.38691 12.8656 4.80684 13.5087 4.904L16.3074 5.32682C17.9268 5.57148 18.5734 7.64059 17.4016 8.82817L15.3764 10.8806C14.9111 11.3522 14.6988 12.0317 14.8086 12.6976L15.2867 15.5957C15.5633 17.2726 13.8704 18.5514 12.422 17.7596L9.91874 16.3913C9.34357 16.0769 8.65643 16.0769 8.08125 16.3913L5.57799 17.7596C4.12955 18.5514 2.43668 17.2726 2.71331 15.5957L3.19139 12.6976C3.30124 12.0317 3.0889 11.3522 2.62357 10.8806L0.598388 8.82818C-0.57342 7.64059 0.0731955 5.57148 1.69259 5.32682L4.49134 4.904C5.1344 4.80684 5.69031 4.38691 5.9779 3.78106L7.22953 1.14427Z" fill="white"/></svg></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <p class="text-white md:text-22 text-base md:pl-[70px] pl-5 pr-5 md:pr-[50px] mb-10">
+                              "Working with this digital marketing agency has been transformative for our business. Their SEO and social media strategies increased our online visibility by 300% in just 6 months. Highly recommended!"
+                            </p>
+                            <div class="flex justify-between items-center md:pl-[70px] pl-5 pr-5 md:pr-[50px]">
+                              <div class="flex space-x-5 items-center">
+                                <div class="w-[60px] h-[60px] rounded-full overflow-hidden">
+                                  <img src="assets/images/testimonial-p1.webp" alt="Client" class="w-full h-full object-cover" />
+                                </div>
+                                <div>
+                                  <p class="text-white font-semibold text-18">Sarah Johnson</p>
+                                  <p class="text-white/70">CEO, TechStart Inc.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide w-full h-full">
+                        <div class="w-full bg-purple h-full rounded-[20px] py-10 relative">
+                          <div class="shape absolute left-0 top-10">
+                            <img src="assets/images/testimonial-shape.webp" alt="" />
+                          </div>
+                          <div class="relative z-10">
+                            <div class="flex justify-between md:pl-[70px] pl-5 mb-10">
+                              <div>
+                                <img src="assets/images/quotation.webp" alt="" />
+                              </div>
+                            </div>
+                            <p class="text-white md:text-22 text-base md:pl-[70px] pl-5 pr-5 md:pr-[50px] mb-10">
+                              "The Google Ads campaigns they created for us delivered exceptional ROI. Our lead generation increased by 250% while reducing cost per acquisition. Their team is professional and results-driven."
+                            </p>
+                            <div class="flex justify-between items-center md:pl-[70px] pl-5 pr-5 md:pr-[50px]">
+                              <div class="flex space-x-5 items-center">
+                                <div class="w-[60px] h-[60px] rounded-full overflow-hidden">
+                                  <img src="assets/images/testimonial-p2.webp" alt="Client" class="w-full h-full object-cover" />
+                                </div>
+                                <div>
+                                  <p class="text-white font-semibold text-18">Michael Chen</p>
+                                  <p class="text-white/70">Marketing Director, GrowthCo</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="absolute -bottom-16 right-0 flex space-x-5">
+                    <button aria-label="prev" class="testimonial-prev w-[60px] h-[60px] rounded-full border border-white flex justify-center items-center text-white hover:bg-white hover:text-purple transition-all duration-300">
+                      <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.89746 1.5L2.10457 5.29289C1.77123 5.62623 1.60457 5.79289 1.60457 6C1.60457 6.20711 1.77123 6.37377 2.10457 6.70711L5.89746 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                    <button aria-label="next" class="testimonial-next w-[60px] h-[60px] rounded-full border border-white flex justify-center items-center text-white hover:bg-white hover:text-purple transition-all duration-300">
+                      <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+div></div></h2>""
+
+      <!-- CTA Section -->
+      <section id="cta">
+        <div class="consultation-section-wrapper w-full relative xl:py-[130px] py-[60px]">
+          <div class="theme-container mx-auto relative z-10">
+            <div data-aos="fade-up" class="w-full py-[80px] xl:pl-[110px] pl-10 pr-10 border border-[#e7e3fa] rounded-[20px] bg-main-gray md:flex relative">
+              <div class="absolute bottom-0 left-0 pointer-events-none">
+                <img src="assets/images/cta-dot-shape.webp" alt="" />
+              </div>
+              <div class="md:w-[432px] w-full">
+                <span class="section-title-top-tag mb-5">Get Consultations</span>
+                <h2 class="md:text-48 text-34 font-semibold text-main-black mb-[32px]">
+                  Get your free digital marketing audit
+                </h2>
+                <p class="text-paragraph mb-[45px]">
+                  We've 10+ years of experience in digital marketing. Let us analyze your online presence and provide actionable insights.
+                </p>
+                <a href="contact.html">
+                  <div class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex">
+                    <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10">
+                      Get Free Consultation
+                    </span>
+                    <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <div class="flex-1">
+                <div id="consaltaion-mouse-move-anim" class="flex justify-end w-full relative mt-10">
+                  <div class="mr-10 moving-h2-hero-main-img">
+                    <img src="assets/images/cta-shape.webp" alt="" />
+                  </div>
+                  <div data-depth="0.40" class="layer">
+                    <img src="assets/images/cta-p-1.webp" alt="" />
+                  </div>
+                  <div data-depth="0.20" class="layer absolute md:right-40 right-10">
+                    <img src="assets/images/cta-p-2.webp" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-one-wrapper w-full pt-[80px]">
+        <div class="theme-container mx-auto">
+          <div class="w-full">
+            <div class="top-bar w-full flex md:flex-row md:justify-between items-center flex-col space-y-10 md:space-y-0 md:mb-[80px] mb-10">
+              <div>
+                <img src="assets/images/logo-1.webp" alt="Quland Logo" />
+              </div>
+              <ul class="flex md:gap-14 gap-5 flex-wrap md:items-center">
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">Facebook</a>
+                </li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">Twitter</a>
+                </li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">Instagram</a>
+                </li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full py-[80px] border-t border-[e7e3fa] grid xl:grid-cols-12 md:grid-cols-3 md:gap-10 grid-cols-2 gap-8">
+              <div class="xl:col-span-3">
+                <div class="w-full mb-10">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Address</p>
+                  <p class="font-medium text-paragraph">
+                    55 Street, 2nd block, 3rd Floor <br />
+                    Melbourne, Australia
+                  </p>
+                </div>
+                <div class="w-full">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Contact</p>
+                  <p class="font-medium text-paragraph">
+                    info@yourdomain.com <br />
+                    +880 456 852 99
+                  </p>
+                </div>
+              </div>
+              <div class="xl:col-span-2">
+                <div class="w-full">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Services</p>
+                  <ul class="flex flex-col space-y-2.5">
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">SEO Optimization</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Social Media Marketing</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Google Ads</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Meta Ads</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Web Development</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="xl:col-span-2">
+                <div class="w-full">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Quick Links</p>
+                  <ul class="flex flex-col space-y-2.5">
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="about.html">About Us</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Services</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="xl:col-span-2">
+                <div class="w-full">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Company</p>
+                  <ul class="flex flex-col space-y-2.5">
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="about.html">About us</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="portfolio.html">Our Work</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="xl:col-span-3 col-span-2 md:col-span-1">
+                <div class="w-full mb-10">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Newsletter</p>
+                  <p class="font-medium text-paragraph mb-[30px]">
+                    Subscribe to get marketing tips & updates
+                  </p>
+                  <div class="mb-2.5">
+                    <input placeholder="Email Address" id="newsletter-email" type="email" class="placeholder:text-paragraph w-full h-[56px] bg-main-gray border border-[#e7e3fa] focus:border-purple focus:outline-none focus:right-0 rounded-full px-[25px]" />
+                  </div>
+                  <button type="button" class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex">
+                    <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10">
+                      Subscribe
+                    </span>
+                    <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="background: linear-gradient(90deg, #794aff 0%, #f3f4f9 63.23%);" class="w-full md:h-[65px] h-10">
+          <div class="theme-container mx-auto h-full">
+            <div class="w-full h-full flex justify-between items-center md:text-base text-xs">
+              <span class="text-white">2024 © All rights reserved by <b>Quland</b></span>
+              <div class="relative md:block hidden">
+                <a href="#" aria-label="go top" class="w-[45px] h-[45px] rounded-full border-[3px] border-white flex justify-center items-center bg-blue-sass absolute -top-[55px]">
+                  <span>
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="22.5" cy="22.5" r="21" fill="#4A7DFF" stroke="white" stroke-width="3"/>
+                      <path d="M19 21L23 17M23 17L27 21M23 17V29" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <ul class="md:space-x-6 items-center md:flex hidden">
+                <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li class="text-paragraph font-medium">|</li>
+                <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                  <a href="#">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

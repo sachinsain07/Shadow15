@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Digital Marketing Agency</title>
+    <!-- Library CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!-- Compiled Tailwind CSS -->
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="home-one relative">
+    <!-- Desktop Header -->
+    <header>
+      <div class="header-wrapper w-full fixed left-0 top-0 z-20 xl:block hidden h1-header-sticky h1-header-sticky-qs">
+        <div class="2xl:px-[110px] px-5 mx-auto relative">
+          <div class="w-full h-[95px] flex justify-between items-center px-[50px] border border-[#e7e8e9] bg-white relative">
+            <div class="flex 2xl:space-x-[100px] xl:space-x-10 justify-between items-center w-full xl:w-auto">
+              <div>
+                <a href="index.html" aria-label="logo">
+                  <img src="assets/images/logo-1.webp" alt="Quland Logo" />
+                </a>
+              </div>
+              <div>
+                <ul class="flex space-x-10 items-center">
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="text-purple font-semibold underline">
+                    <a href="services.html">Services</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="xl:flex hidden space-x-[30px] items-center">
+              <a href="contact.html">
+                <div class="home-two-btn-bg py-3 group bg-purple border-purple">
+                  <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">Get Started</span>
+                  <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Header -->
+    <header class="flex xl:hidden flex-col relative">
+      <div class="h-16 bg-white flex items-center justify-between fixed top-0 left-0 z-50 w-full px-2.5 border-b border-[#e7e8e9]">
+        <a href="index.html" aria-label="logo">
+          <img src="assets/images/logo-1.webp" alt="Quland Logo" class="h-10" />
+        </a>
+        <button aria-label="mobile-Menu" class="text-main-black text-48 w-6 h-6 toggle_nav_menu" id="mobile_nav_toggle_menu">
+          <svg class="pointer-events-none transition-all duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+          </svg>
+          <svg class="pointer-events-none hidden transition-all duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="transition-all duration-300">
+        <div class="w-full h-screen fixed bg-black/80 z-40 -left-full transition-all duration-300 delay-150" id="mobile-nav-div-overlay"></div>
+        <div class="fixed h-screen overflow-y-scroll bg-white w-full top-16 -left-full z-50 transition-all duration-300 delay-0" id="mobile-nav-div">
+          <div class="flex gap-10 flex-col pl-5 pt-5">
+            <ul class="flex gap-5 flex-col text-paragraph text-base leading-5 font-medium font-inter">
+              <li class="home-two-nav-item relative w-fit"><a href="index.html">Home</a></li>
+              <li class="home-two-nav-item relative w-fit"><a href="about.html">About</a></li>
+              <li class="home-two-nav-item relative w-fit text-purple"><a href="services.html">Services</a></li>
+              <li class="home-two-nav-item relative w-fit"><a href="portfolio.html">Portfolio</a></li>
+              <li class="home-two-nav-item relative w-fit"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Page Header -->
+      <section class="pt-[180px] pb-[80px] bg-main-gray">
+        <div class="theme-container mx-auto">
+          <div class="text-center">
+            <span class="section-title-top-tag mb-5">What We Offer</span>
+            <h1 class="md:text-65 text-4xl font-semibold text-main-black mb-6">Our Services</h1>
+            <p class="text-paragraph max-w-[600px] mx-auto">
+              Comprehensive digital marketing solutions to help your business grow online and achieve measurable results.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Grid -->
+      <section class="xl:py-[130px] py-[60px]">
+        <div class="theme-container mx-auto">
+          <div class="grid lg:grid-cols-2 gap-[30px]">
+            <!-- SEO Service -->
+            <div data-aos="fade-up" class="bg-white border border-[#e7e3fa] rounded-[20px] p-10 hover:shadow-common hover:border-purple transition-all duration-300 group">
+              <div class="flex items-start gap-6">
+                <div class="w-[80px] h-[80px] flex-shrink-0 flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple transition-all duration-300 text-purple group-hover:text-white">
+                  <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.75 23.75C19.2728 23.75 23.75 19.2728 23.75 13.75C23.75 8.22715 19.2728 3.75 13.75 3.75C8.22715 3.75 3.75 8.22715 3.75 13.75C3.75 19.2728 8.22715 23.75 13.75 23.75Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M26.25 26.25L21.25 21.25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-24 font-semibold text-main-black mb-4">SEO Optimization</h3>
+                  <p class="text-paragraph mb-6">Boost your search engine rankings with our comprehensive SEO strategies. We optimize your website for better visibility, increased organic traffic, and higher conversion rates.</p>
+                  <ul class="space-y-2 text-paragraph">
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Keyword Research & Strategy</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> On-Page & Technical SEO</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Link Building & Content Strategy</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Local SEO Optimization</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Marketing -->
+            <div data-aos="fade-up" data-aos-delay="100" class="bg-white border border-[#e7e3fa] rounded-[20px] p-10 hover:shadow-common hover:border-purple transition-all duration-300 group">
+              <div class="flex items-start gap-6">
+                <div class="w-[80px] h-[80px] flex-shrink-0 flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple transition-all duration-300 text-purple group-hover:text-white">
+                  <svg width="40" height="40" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 12.75H24M4 12.75C2.61929 12.75 1.5 11.6307 1.5 10.25V9C1.5 7.61929 2.61929 6.5 4 6.5H24C25.3807 6.5 26.5 7.61929 26.5 9V10.25C26.5 11.6307 25.3807 12.75 24 12.75M4 12.75L4 24C4 25.3807 5.11929 26.5 6.5 26.5H21.5C22.8807 26.5 24 25.3807 24 24V12.75" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-24 font-semibold text-main-black mb-4">Social Media Marketing</h3>
+                  <p class="text-paragraph mb-6">Build your brand presence and engage with your audience across all major social platforms. We create compelling content that drives engagement and conversions.</p>
+                  <ul class="space-y-2 text-paragraph">
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Content Strategy & Creation</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Community Management</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Influencer Marketing</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Analytics & Reporting</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Google Ads -->
+            <div data-aos="fade-up" data-aos-delay="200" class="bg-white border border-[#e7e3fa] rounded-[20px] p-10 hover:shadow-common hover:border-purple transition-all duration-300 group">
+              <div class="flex items-start gap-6">
+                <div class="w-[80px] h-[80px] flex-shrink-0 flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple transition-all duration-300 text-purple group-hover:text-white">
+                  <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.25 26.5V22.25C21.25 21.6977 21.6977 21.25 22.25 21.25H26.5C27.0523 21.25 27.5 21.6977 27.5 22.25V26.5C27.5 27.0523 27.0523 27.5 26.5 27.5H22.25C21.6977 27.5 21.25 27.0523 21.25 26.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.5 26.5V22.25C2.5 21.6977 2.94772 21.25 3.5 21.25H7.75C8.30228 21.25 8.75 21.6977 8.75 22.25V26.5C8.75 27.0523 8.30228 27.5 7.75 27.5H3.5C2.94772 27.5 2.5 27.0523 2.5 26.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.25 18.75L15 10L18.75 18.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-24 font-semibold text-main-black mb-4">Google Ads (PPC)</h3>
+                  <p class="text-paragraph mb-6">Maximize your ROI with targeted pay-per-click campaigns. We create and manage Google Ads campaigns that drive qualified traffic and generate leads.</p>
+                  <ul class="space-y-2 text-paragraph">
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Search & Display Campaigns</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Shopping & Video Ads</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Remarketing Campaigns</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Conversion Tracking & Optimization</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Meta Ads -->
+            <div data-aos="fade-up" data-aos-delay="300" class="bg-white border border-[#e7e3fa] rounded-[20px] p-10 hover:shadow-common hover:border-purple transition-all duration-300 group">
+              <div class="flex items-start gap-6">
+                <div class="w-[80px] h-[80px] flex-shrink-0 flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple transition-all duration-300 text-purple group-hover:text-white">
+                  <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25 2.5L26.6161 4.11612C27.1043 4.60427 27.1043 5.39573 26.6161 5.88388L25 7.5M20 5H26.25M7.5 16.25L10.25 18.3125C11.5833 19.3125 13.4167 19.3125 14.75 18.3125L17.5 16.25M6.25 27.5H18.75C20.8211 27.5 22.5 25.8211 22.5 23.75V13.75C22.5 11.6789 20.8211 10 18.75 10H6.25C4.17893 10 2.5 11.6789 2.5 13.75V23.75C2.5 25.8211 4.17893 27.5 6.25 27.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-24 font-semibold text-main-black mb-4">Meta Ads (Facebook & Instagram)</h3>
+                  <p class="text-paragraph mb-6">Reach your ideal audience on Facebook and Instagram with precision targeting. We create engaging ad campaigns that build brand awareness and drive conversions.</p>
+                  <ul class="space-y-2 text-paragraph">
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Audience Research & Targeting</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Creative Ad Design</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> A/B Testing & Optimization</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Lead Generation Campaigns</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Web Development -->
+            <div data-aos="fade-up" data-aos-delay="400" class="bg-white border border-[#e7e3fa] rounded-[20px] p-10 hover:shadow-common hover:border-purple transition-all duration-300 group lg:col-span-2">
+              <div class="flex items-start gap-6">
+                <div class="w-[80px] h-[80px] flex-shrink-0 flex justify-center items-center rounded-full bg-[#e7e3fa] group-hover:bg-purple transition-all duration-300 text-purple group-hover:text-white">
+                  <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.75 8.75H21.25M8.75 15H15M20 21.25L23.75 27.5M10 21.25L6.25 27.5M15 21.25V25M23.75 2.5L6.25 2.5C4.17893 2.5 2.5 4.17893 2.5 6.25L2.5 17.5C2.5 19.5711 4.17893 21.25 6.25 21.25L23.75 21.25C25.8211 21.25 27.5 19.5711 27.5 17.5L27.5 6.25C27.5 4.17893 25.8211 2.5 23.75 2.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-24 font-semibold text-main-black mb-4">Web Development</h3>
+                  <p class="text-paragraph mb-6">Build fast, responsive, and conversion-optimized websites that represent your brand and drive business results. From landing pages to full e-commerce solutions.</p>
+                  <ul class="space-y-2 text-paragraph grid md:grid-cols-2 gap-2">
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Custom Website Design</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> E-commerce Development</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Landing Page Optimization</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Mobile-First Development</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> CMS Integration</li>
+                    <li class="flex items-center gap-2"><span class="text-purple">✓</span> Website Maintenance</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="xl:py-[130px] py-[60px] bg-main-gray">
+        <div class="theme-container mx-auto text-center">
+          <h2 class="md:text-48 text-34 font-semibold text-main-black mb-6">Ready to Grow Your Business?</h2>
+          <p class="text-paragraph max-w-[600px] mx-auto mb-10">
+            Let's discuss how our digital marketing services can help you achieve your business goals.
+          </p>
+          <a href="contact.html">
+            <div class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex">
+              <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">Get Free Consultation</span>
+              <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-one-wrapper w-full pt-[80px]">
+        <div class="theme-container mx-auto">
+          <div class="w-full">
+            <div class="top-bar w-full flex md:flex-row md:justify-between items-center flex-col space-y-10 md:space-y-0 md:mb-[80px] mb-10">
+              <div><img src="assets/images/logo-1.webp" alt="Quland Logo" /></div>
+              <ul class="flex md:gap-14 gap-5 flex-wrap md:items-center">
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"><a href="#">Facebook</a></li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"><a href="#">Twitter</a></li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"><a href="#">Instagram</a></li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+            <div class="w-full py-[60px] border-t border-[e7e3fa] flex flex-wrap justify-between gap-10">
+              <div>
+                <p class="text-main-black text-18 font-semibold mb-[20px]">Quick Links</p>
+                <ul class="flex flex-col space-y-2">
+                  <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium"><a href="index.html">Home</a></li>
+                  <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium"><a href="about.html">About</a></li>
+                  <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium"><a href="services.html">Services</a></li>
+                  <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium"><a href="portfolio.html">Portfolio</a></li>
+                  <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium"><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div>
+                <p class="text-main-black text-18 font-semibold mb-[20px]">Contact</p>
+                <p class="font-medium text-paragraph">info@yourdomain.com<br />+880 456 852 99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="background: linear-gradient(90deg, #794aff 0%, #f3f4f9 63.23%);" class="w-full md:h-[65px] h-10">
+          <div class="theme-container mx-auto h-full">
+            <div class="w-full h-full flex justify-between items-center md:text-base text-xs">
+              <span class="text-white">2024 © All rights reserved by <b>Quland</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
