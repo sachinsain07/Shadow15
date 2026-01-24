@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Marketing Agency | Shadow15</title>
+    <!-- Library CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <!-- Compiled Tailwind CSS -->
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="home-one relative">
+
+  <!-- Preloader -->
+    <div id="preloader">
+      <div id="container-preloader" class="container-preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span preloader-text="S" class="characters">S</span>
+
+            <span preloader-text="H" class="characters">H</span>
+
+            <span preloader-text="A" class="characters">A</span>
+
+            <span preloader-text="D" class="characters">D</span>
+
+            <span preloader-text="O" class="characters">O</span>
+
+            <span preloader-text="W" class="characters">W</span>
+
+              <span preloader-text="1" class="characters">1</span>
+
+                <span preloader-text="5" class="characters">5</span>
+
+          </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    </div>
+
+    <!-- Desktop Header -->
+    <header>
+      <div class="header-wrapper w-full fixed left-0 top-0 z-20 xl:block hidden h1-header-sticky h1-header-sticky-qs">
+        <div class="2xl:px-[110px] px-5 mx-auto relative">
+          <div class="w-full h-[95px] flex justify-between items-center px-[50px] border border-[#e7e8e9] bg-white relative">
+            <div class="flex 2xl:space-x-[100px] xl:space-x-10 justify-between items-center w-full xl:w-auto">
+              <div>
+                <a href="index.html" aria-label="logo">
+                  <img src="assets/images/Logo/Logo.png" alt="Shadow15 Logo" />
+                </a>
+              </div>
+              <div>
+                <ul class="flex space-x-10 items-center">
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="services.html">Services</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="pricing.html">Pricing</a>
+                  </li>
+                  <li class="text-paragraph font-semibold hover:underline hover:text-purple">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="xl:flex hidden space-x-[30px] items-center">
+              <a href="contact.html">
+                <div class="home-two-btn-bg py-3 group bg-purple border-purple">
+                  <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">
+                    Get Started
+                  </span>
+                  <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Header -->
+    <header class="flex xl:hidden flex-col relative">
+      <div class="h-16 bg-white flex items-center justify-between fixed top-0 left-0 z-50 w-full px-2.5 border-b border-[#e7e8e9]">
+        <a href="index.html" aria-label="logo">
+          <img src="assets/images/Logo/Logo.png" alt="Shadow15 Logo" class="h-10" />
+        </a>
+        <button aria-label="mobile-Menu" class="text-main-black text-48 w-6 h-6 toggle_nav_menu" id="mobile_nav_toggle_menu">
+          <svg class="pointer-events-none transition-all duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+          </svg>
+          <svg class="pointer-events-none hidden transition-all duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="transition-all duration-300">
+        <div class="w-full h-screen fixed bg-black/80 z-40 -left-full transition-all duration-300 delay-150" id="mobile-nav-div-overlay"></div>
+        <div class="fixed h-screen overflow-y-scroll bg-white w-full top-16 -left-full z-50 transition-all duration-300 delay-0" id="mobile-nav-div">
+          <div class="flex gap-10 flex-col pl-5 pt-5">
+            <ul class="flex gap-5 flex-col text-paragraph text-base leading-5 font-medium font-inter">
+              <li class="home-two-nav-item relative w-fit">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="home-two-nav-item relative w-fit">
+                <a href="about.html">About</a>
+              </li>
+              <li class="home-two-nav-item relative w-fit">
+                <a href="services.html">Services</a>
+              </li>
+              <li class="home-two-nav-item relative w-fit">
+                <a href="pricing.html">Pricing</a>
+              </li>
+              <li class="home-two-nav-item relative w-fit">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <div class="flex gap-5 flex-col pl-0 mt-5">
+              <a href="contact.html">
+                <div class="home-two-btn-bg py-2.5 group bg-purple border-purple w-fit">
+                  <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-semibold font-inter relative z-10">
+                    Get Started
+                  </span>
+                  <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <div>
+          <main>
+            <!-- breadcrumb -->
+            <section id="h1-breadcrumb">
+              <div
+                class="h1-breadcrumb w-full h-fit overflow-hidden relative bg-main-gray pb-16 md:pb-24"
+              >
+                <div
+                  class="win-grid win-grid-bg w-full h-full absolute left-0 top-0 z-0"
+                  id="win-grid"
+                ></div>
+                <div
+                  class="absolute left-1/4 w-full top-[300px] overflow-hidden z-0 pointer-events-none"
+                >
+                  <div class="flex justify-center">
+                    <img
+                      src="assets/images/home-one-hero-circle-shadow.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="theme-container mx-auto h-fit w-fit relative z-20">
+                  <div
+                    class="mt-[120px] md:mt-[272px] w-fit mx-auto relative z-10"
+                  >
+                    <h1
+                      class="text-main-black text-34 sm:text-48 font-semibold w-full text-center"
+                    >
+                      Contact
+                    </h1>
+                    <div class="flex gap-5 items-center justify-center mt-4">
+                      <a
+                        href="contact.html#"
+                        class="home-two-nav-item leading-5 relative text-18 font-inter text-paragraph transition-all duration-300 hover:text-purple"
+                      >
+                        Home
+                      </a>
+                      <svg
+                        width="6"
+                        height="12"
+                        viewBox="0 0 6 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 1L5 6L1 11"
+                          stroke="#794AFF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <a
+                        href="contact.html#"
+                        class="home-two-nav-item leading-5 relative text-18 font-inter text-paragraph transition-all duration-300 hover:text-purple"
+                      >
+                        contact
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- main container  start  -->
+            <section class="py-16 md:py-[130px]">
+              <div
+                class="theme-container w-full mx-auto grid grid-cols-7 lg:grid-cols-12 gap-y-16 lg:gap-y-0 lg:gap-x-[70px]"
+              >
+                <!-- address start  -->
+<div class="col-span-7 lg:col-span-5">
+  <h1 class="font-semibold text-main-black text-[35px]">
+    Contact Us
+  </h1>
+
+  <p class="text-paragraph mt-[30px]">
+    We’re here to understand your business needs and help you move forward with the right digital solutions. Let’s connect and discuss how we can support your growth.
+  </p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-[70px] mt-10">
+    <!-- SINGLE ADDRESS (ONLINE OFFICE) -->
+    <div class="col-span-1">
+      <h1 class="flex gap-2.5">
+        <svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.5 0C7.71 0 3 4.71053 3 10.5C3 16.2895 7.71 21 13.5 21C19.29 21 24 16.2895 24 10.5C24 4.71053 19.29 0 13.5 0Z" fill="#794AFF"/>
+        </svg>
+        <span class="font-inter font-medium text-22 text-main-black">
+         Jaipur (Online Office)
+        </span>
+      </h1>
+
+      <p class="max-w-[209px] text-paragraph mt-5">
+        Kukas, Jaipur, Rajasthan – 302028, India
+      </p>
+
+      <p class="text-paragraph mt-1">
+        <a href="mailto:info@shadow15.in" class="hover:text-purple transition-all duration-300">
+          info@shadow15.in
+        </a>
+      </p>
+
+      <p class="text-paragraph mt-1">
+        <a href="tel:+917852875943" class="hover:text-purple transition-all duration-300">
+          +91 78528 75943
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <hr class="border-purple/10 mt-11 mb-[50px]" />
+
+  <div class="flex items-center gap-[15px]">
+  <h1 class="font-semibold text-18 text-main-black pr-2.5">
+    Follow Us
+  </h1>
+
+  <!-- Facebook -->
+  <a
+    href="https://www.facebook.com/"
+    target="_blank"
+    aria-label="Facebook"
+    class="w-10 h-10 text-[#CAB7FF] hover:text-white rounded-full flex justify-center items-center border border-purple/10 overflow-hidden relative before:absolute before:inset-0 before:bg-purple before:scale-x-0 hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:duration-300"
+  >
+    <span class="relative z-10">
+      <svg width="11" height="16" viewBox="0 0 11 16" fill="none">
+        <path
+          d="M10.6667 0H8.55556C5.79413 0 3.55556 2.23857 3.55556 5V6.22222H0V9.77778H3.55556V16H7.11111V9.77778H10.6667V6.22222H7.11111V4.55556C7.11111 4.00327 7.55883 3.55556 8.11111 3.55556H10.6667V0Z"
+          fill="currentColor"
+        />
+      </svg>
+    </span>
+  </a>
+
+  <!-- Twitter / X -->
+  <a
+    href="https://x.com/"
+    target="_blank"
+    aria-label="Twitter"
+    class="w-10 h-10 text-[#CAB7FF] hover:text-white rounded-full flex justify-center items-center border border-purple/10 overflow-hidden relative before:absolute before:inset-0 before:bg-purple before:scale-x-0 hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:duration-300"
+  >
+    <span class="relative z-10">
+      <svg width="16" height="14" viewBox="0 0 16 14" fill="none">
+        <path
+          d="M15.36 1.64c-.56.25-1.16.42-1.8.5A3.15 3.15 0 0014.94.6a6.3 6.3 0 01-2 .77A3.14 3.14 0 007.5 4.4 8.9 8.9 0 011.03 1.15a3.14 3.14 0 00.97 4.2 3.1 3.1 0 01-1.42-.39v.04A3.14 3.14 0 003.14 8.1a3.1 3.1 0 01-.82.11c-.2 0-.4-.02-.6-.06a3.14 3.14 0 002.93 2.18A6.3 6.3 0 010 12.28a8.9 8.9 0 004.83 1.41c5.8 0 9-4.8 9-8.95v-.41a6.4 6.4 0 001.57-1.64z"
+          fill="currentColor"
+        />
+      </svg>
+    </span>
+  </a>
+
+  <!-- Instagram -->
+  <a
+    href="https://www.instagram.com/"
+    target="_blank"
+    aria-label="Instagram"
+    class="w-10 h-10 text-[#CAB7FF] hover:text-white rounded-full flex justify-center items-center border border-purple/10 overflow-hidden relative before:absolute before:inset-0 before:bg-purple before:scale-x-0 hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:duration-300"
+  >
+    <span class="relative z-10">
+      <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
+        <path
+          d="M5 0C2.24 0 0 2.24 0 5v7.33C0 15.09 2.24 17.33 5 17.33h7.33c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5H5zm8.06 3.27a.82.82 0 110 1.64.82.82 0 010-1.64zm-4.9 1.8a4.08 4.08 0 110 8.16 4.08 4.08 0 010-8.16zm0 1.47a2.61 2.61 0 100 5.22 2.61 2.61 0 000-5.22z"
+          fill="currentColor"
+        />
+      </svg>
+    </span>
+  </a>
+
+  <!-- LinkedIn -->
+  <a
+    href="https://www.linkedin.com/"
+    target="_blank"
+    aria-label="LinkedIn"
+    class="w-10 h-10 text-[#CAB7FF] hover:text-white rounded-full flex justify-center items-center border border-purple/10 overflow-hidden relative before:absolute before:inset-0 before:bg-purple before:scale-x-0 hover:before:scale-x-100 before:origin-right hover:before:origin-left before:transition-transform before:duration-300"
+  >
+    <span class="relative z-10">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path
+          d="M3.6 16H.27V5.33H3.6V16zM1.93 3.9A1.96 1.96 0 110 1.95a1.96 1.96 0 011.93 1.96zM16 16h-3.33V10.8c0-1.24-.03-2.83-1.72-2.83-1.73 0-2 1.35-2 2.74V16H5.6V5.33h3.2v1.46h.04c.44-.83 1.52-1.7 3.13-1.7 3.35 0 3.97 2.2 3.97 5.05V16z"
+          fill="currentColor"
+        />
+      </svg>
+    </span>
+  </a>
+</div>
+
+</div>
+<!-- address end  -->
+
+               <!-- contact form start -->
+<div class="col-span-7">
+  <div
+    class="border border-purple/10 bg-main-gray rounded-[10px] p-4 md:p-[50px]"
+  >
+    <h1
+      class="text-[30px] tracking-tight font-semibold text-main-black pb-6"
+    >
+      Let’s Discuss Your Project
+    </h1>
+
+    <p class="text-paragraph mb-[30px]">
+      Tell us a little about your business and what you’re looking for. Our team will connect with you shortly.
+    </p>
+
+    <form
+      action="contact.html"
+      class="grid grid-cols-6 md:grid-cols-12 gap-[30px]"
+    >
+      <!-- Name -->
+      <input
+        type="text"
+        placeholder="Your Full Name"
+        class="col-span-6 h-[30px] focus:outline-none border-b border-purple/10 focus:border-purple bg-transparent"
+      />
+
+      <!-- Email -->
+      <input
+        type="email"
+        placeholder="Email Address"
+        class="col-span-6 h-[30px] focus:outline-none border-b border-purple/10 focus:border-purple bg-transparent"
+      />
+
+      <!-- Phone -->
+      <input
+        type="text"
+        placeholder="Phone / WhatsApp Number"
+        class="col-span-6 h-[30px] focus:outline-none border-b border-purple/10 focus:border-purple bg-transparent"
+      />
+
+      <!-- Service -->
+      <input
+        type="text"
+        placeholder="Service Required (Website, Ads, SEO, Graphics, etc.)"
+        class="col-span-6 h-[30px] focus:outline-none border-b border-purple/10 focus:border-purple bg-transparent"
+      />
+
+      <!-- Message -->
+      <textarea
+        placeholder="Briefly describe your project or requirement"
+        class="col-span-6 md:col-span-12 focus:outline-none border-b border-purple/10 focus:border-purple bg-transparent h-[83px]"
+      ></textarea>
+
+      <!-- Note -->
+      <div class="col-span-6 md:col-span-12">
+        <p class="text-paragraph text-sm mb-5">
+          We respect your privacy. Your details will only be used to contact you.
+        </p>
+      </div>
+
+      <!-- Button -->
+      <div class="col-span-6 md:col-span-12">
+        <button
+          class="home-two-btn-bg py-3 group bg-[#4A7DFF] border-[#4A7DFF] inline-flex"
+        >
+          <span
+            class="text-base text-white group-hover:text-[#4A7DFF] transition-all duration-300 font-inter relative z-10"
+          >
+            Request a Callback
+          </span>
+          <svg
+            class="relative z-10"
+            width="7"
+            height="12"
+            viewBox="0 0 7 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="group-hover:stroke-[#4A7DFF] transition-all duration-300"
+              d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- contact-form end -->
+
+             </div>
+<section class="overflow-hidden mt-10 md:mt-[130px] w-full">
+  <div
+    class="max-w-[1780px] relative w-full h-[240px] sm:h-[450px] md:h-[540px] lg:h-[700px] xl:h-[700px] mx-auto xl:rounded-lg overflow-hidden bg-red-300"
+  >
+    <iframe
+      class="map-iframe"
+      width="1780"
+      height="850"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src="https://www.google.com/maps?q=Kukas,%20Jaipur,%20Rajasthan,%20India&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</section>
+</section>
+<!-- main container  end  -->
+
+<!--Todo: consultation -->
+<section data-aos="fade-up" id="consultation">
+  <div class="consultation-section-wrapper w-full relative">
+    <div class="theme-container mx-auto relative z-10">
+      <div
+        class="w-full py-[80px] xl:pl-[110px] pl-10 border border-[#e7e3fa] rounded-[20px] bg-main-gray md:flex relative"
+      >
+        <div class="absolute bottom-0 left-0 pointer-events-none">
+          <img src="assets/images/cta-dot-shape.webp" alt="" />
+        </div>
+
+        <div class="md:w-[432px] w-full">
+          <span class="section-title-top-tag mb-5">
+            Free Consultation
+          </span>
+
+          <h2
+            class="md:text-48 text-34 font-semibold text-main-black mb-[32px]"
+          >
+            Let’s plan your digital growth
+          </h2>
+
+          <p class="text-paragraph mb-[45px]">
+            Shadow15 officially launched in 2026, backed by a team with over
+            2 years of hands-on freelancing experience.  
+            We offer practical, honest, and result-focused digital solutions
+            for growing businesses.
+          </p>
+
+          <a href="contact.html">
+            <div
+              class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex"
+            >
+              <span
+                class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10"
+              >
+                Book Free Consultation
+              </span>
+              <svg
+                class="relative z-10"
+                width="7"
+                height="12"
+                viewBox="0 0 7 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="group-hover:stroke-blue-seo transition-all duration-300"
+                  d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+
+        <div class="flex-1">
+          <div
+            id="consaltaion-mouse-move-anim"
+            class="flex justify-end w-full relative mt-10"
+          >
+            <div class="mr-10 moving-h2-hero-main-img">
+              <img src="assets/images/cta-shape.webp" alt="" />
+            </div>
+            <div data-depth="0.40" class="layer">
+              <img src="assets/images/cta-p-1.webp" alt="" />
+            </div>
+            <div
+              data-depth="0.20"
+              class="layer absolute md:right-40 right-10"
+            >
+              <img src="assets/images/cta-p-2.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-between absolute top-20">
+      <div id="line-lottie-style-2"></div>
+      <div class="transform rotate-180" id="line-lottie2-style-2"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-one-wrapper w-full pt-[80px]">
+        <div class="theme-container mx-auto">
+          <div class="w-full">
+            <div class="top-bar w-full flex md:flex-row md:justify-between items-center flex-col space-y-10 md:space-y-0 md:mb-[80px] mb-10">
+              <div>
+                <img src="assets/images/Logo/Logo.png" alt="Shadow15 Logo" />
+              </div>
+              <ul class="flex md:gap-14 gap-5 flex-wrap md:items-center">
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">Facebook</a>
+                </li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">Instagram</a>
+                </li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">LinkedIn</a>
+                </li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">X</a>
+                </li>
+                <li class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold">
+                  <a href="#">Youtube</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full py-[80px] border-t border-[e7e3fa] grid xl:grid-cols-12 md:grid-cols-3 md:gap-10 grid-cols-2 gap-8">
+              <div class="xl:col-span-3">
+                <div class="w-full mb-10">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Address</p>
+                  <p class="font-medium text-paragraph">
+                    Kukas ,302028 <br />
+                    Jaipur, Rajasthan
+                  </p>
+                </div>
+                <div class="w-full">
+  <p class="text-main-black text-18 font-semibold mb-[30px]">Contact</p>
+  <p class="font-medium text-paragraph">
+    <a href="mailto:info@shadow15.in"
+       class="hover:text-purple transition-all duration-300">
+      info@shadow15.in
+    </a>
+    <br />
+    <a href="tel:+917852875943"
+       class="hover:text-purple transition-all duration-300">
+      +91 78528 75943
+    </a>
+  </p>
+</div>
+
+              </div>
+              <div class="xl:col-span-2">
+                <div class="w-full">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Services</p>
+                  <ul class="flex flex-col space-y-2.5">
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Web Development</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">App Development</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Ads Promotion</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Seo Optimization</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">WhatsApp Marketing</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="xl:col-span-2">
+                <div class="w-full">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Quick Links</p>
+                  <ul class="flex flex-col space-y-2.5">
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="about.html">About Us</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="services.html">Services</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="xl:col-span-2">
+                <div class="w-full">
+                  <p class="text-main-black text-18 font-semibold mb-[30px]">Company</p>
+                  <ul class="flex flex-col space-y-2.5">
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="about.html">About us</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="#">Our Work</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                      <a href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+             <div class="xl:col-span-3 col-span-2 md:col-span-1">
+  <div class="w-full mb-10">
+    <p class="text-main-black text-18 font-semibold mb-[30px]">
+      Stay Connected
+    </p>
+    <p class="font-medium text-paragraph mb-[30px]">
+      Get useful digital marketing tips, updates, and insights to help your business grow online.
+    </p>
+    <div class="mb-2.5">
+      <input
+        placeholder="Enter your email"
+        id="newsletter-email"
+        type="email"
+        class="placeholder:text-paragraph w-full h-[56px] bg-main-gray border border-[#e7e3fa] focus:border-purple focus:outline-none focus:right-0 rounded-full px-[25px]" />
+    </div>
+
+                  <button type="button" class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex">
+                    <span class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10">
+                      Subscribe
+                    </span>
+                    <svg class="relative z-10" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="group-hover:stroke-purple transition-all duration-300" d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="background: linear-gradient(90deg, #794aff 0%, #f3f4f9 63.23%);" class="w-full md:h-[65px] h-10">
+          <div class="theme-container mx-auto h-full">
+            <div class="w-full h-full flex justify-between items-center md:text-base text-xs">
+              <span class="text-white">2026 © All rights reserved by <b>Shadow15</b></span>
+              <div class="relative md:block hidden">
+                <a href="#" aria-label="go top" class="w-[45px] h-[45px] rounded-full border-[3px] border-white flex justify-center items-center bg-blue-sass absolute -top-[55px]">
+                  <span>
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="22.5" cy="22.5" r="21" fill="#4A7DFF" stroke="white" stroke-width="3"/>
+                      <path d="M19 21L23 17M23 17L27 21M23 17V29" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <ul class="md:space-x-6 items-center md:flex hidden">
+                <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li class="text-paragraph font-medium">|</li>
+                <li class="hover:text-purple hover:underline common-transition text-paragraph font-medium">
+                  <a href="#">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+        </div>
+      </div>
+    </div>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/lottie.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Details | Quland</title>
+    <!-- library css -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- compiled from input.css -->
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <!-- overwrite custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="home-one relative">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="container-preloader" class="container-preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span preloader-text="Q" class="characters">Q</span>
+
+            <span preloader-text="U" class="characters">U</span>
+
+            <span preloader-text="L" class="characters">L</span>
+
+            <span preloader-text="A" class="characters">A</span>
+
+            <span preloader-text="N" class="characters">N</span>
+
+            <span preloader-text="D" class="characters">D</span>
+          </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    </div>
+    <!--Todo: web-Menu start  -->
+    <header>
+      <div
+        class="header-wrapper w-full fixed left-0 top-0 z-20 xl:block hidden h1-header-sticky h1-header-sticky-qs"
+      >
+        <div class="2xl:px-[110px] px-5 mx-auto relative">
+          <div
+            class="w-full h-[45px] justify-between items-center pl-[50px] bg-white border border-[#e7e8e9] hidden h1-top-bar"
+          >
+            <span class="2xl:block hidden"
+              >Welcome to
+              <span class="text-purple font-semibold">Quland</span> a modern
+              landing page website</span
+            >
+            <div
+              style="
+                background: linear-gradient(
+                  270deg,
+                  #794aff 50%,
+                  rgba(121, 74, 255, 0) 90.03%
+                );
+              "
+              class="2xl:w-[1021px] w-full h-full flex items-center justify-end"
+            >
+              <div class="flex space-x-2.5 items-center mr-7">
+                <span>
+                  <svg
+                    width="22"
+                    height="20"
+                    viewBox="0 0 22 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 10.5001C21 10.0087 20.9947 9.01723 20.9842 8.52439C20.9189 5.45886 20.8862 3.92609 19.7551 2.79066C18.6239 1.65523 17.0497 1.61568 13.9012 1.53657C11.9607 1.48781 10.0393 1.48781 8.09882 1.53656C4.95033 1.61566 3.37608 1.65521 2.24495 2.79065C1.11382 3.92608 1.08114 5.45885 1.01576 8.52438C0.994745 9.51007 0.994745 10.4899 1.01577 11.4756C1.08114 14.5412 1.11383 16.0739 2.24496 17.2094C3.37608 18.3448 4.95033 18.3843 8.09883 18.4634C8.90159 18.4836 9.70108 18.4954 10.5 18.4989"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M1 4L7.91302 7.92462C10.4387 9.35846 11.5613 9.35846 14.087 7.92462L21 4"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M21 15.5L13 15.5M21 15.5C21 14.7998 19.0057 13.4915 18.5 13M21 15.5C21 16.2002 19.0057 17.5085 18.5 18"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="text-white font-bold"
+                  >Email : <u><a href="../../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e78e89818896928b868983a7808a868e8bc984888a">[email&#160;protected]</a></u></span
+                >
+              </div>
+              <div class="flex space-x-2.5 items-center mr-7">
+                <span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M22 5L12 5M22 5C22 4.43982 20.604 3.39322 20.25 3M22 5C22 5.56018 20.604 6.60678 20.25 7M12 5C12 4.43982 13.396 3.39322 13.75 3M12 5C12 5.56018 13.396 6.60678 13.75 7"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="text-white font-bold"
+                  >Call : 000 (123) 456 88</span
+                >
+              </div>
+              <!-- social -->
+              <ul class="flex space-x-[15px] items-center mr-[55px]">
+                <li>
+                  <a
+                    href="service-details.html#"
+                    aria-label="facebook"
+                    class="text-white opacity-50 hover:opacity-100"
+                  >
+                    <svg
+                      class="fill-current"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 2H11.3333C8.756 2 6.66667 4.08934 6.66667 6.66667H4V9.33333H6.66667V14H9.33333V9.33333H12V6.66667H9.33333V5.66667C9.33333 5.11438 9.78105 4.66667 10.3333 4.66667H12V2Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="service-details.html#"
+                    aria-label="twitter"
+                    class="text-white opacity-50 hover:opacity-100"
+                  >
+                    <svg
+                      class="fill-current"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.19087 0.666504C6.78831 0.666504 5.6513 1.86041 5.6513 3.33317C5.6513 3.55572 5.67726 3.7719 5.72618 3.97855C4.37757 3.97855 2.34626 3.70589 0.649788 2.00624C0.424199 1.78023 0.00821913 1.93134 0.0238667 2.25029C0.275284 7.37494 2.47001 8.86978 3.60023 8.9628C2.8704 9.68362 1.81023 10.2526 0.743422 10.508C0.461872 10.5754 0.39232 10.8836 0.667629 10.9731C1.43098 11.2214 2.52361 11.317 3.11173 11.3332C7.27228 11.3332 10.6539 7.83126 10.7292 3.48137C11.2754 3.12613 11.6253 2.35484 11.8219 1.80844C11.8698 1.67537 11.6517 1.52032 11.5211 1.57468C11.1131 1.74455 10.595 1.78483 10.1538 1.64104C9.688 1.04601 8.98164 0.666504 8.19087 0.666504Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="service-details.html#"
+                    aria-label="instagram"
+                    class="text-white opacity-50 hover:opacity-100"
+                  >
+                    <svg
+                      class="fill-current"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.33301 1.3335C3.57159 1.3335 1.33301 3.57207 1.33301 6.33349V9.66683C1.33301 12.4283 3.57158 14.6668 6.333 14.6668H9.66634C12.4278 14.6668 14.6663 12.4283 14.6663 9.66683V6.3335C14.6663 3.57207 12.4278 1.3335 9.66634 1.3335H6.33301ZM11.9997 4.66683C12.3679 4.66683 12.6663 4.36835 12.6663 4.00016C12.6663 3.63197 12.3679 3.3335 11.9997 3.3335C11.6315 3.3335 11.333 3.63197 11.333 4.00016C11.333 4.36835 11.6315 4.66683 11.9997 4.66683ZM11.333 8.00016C11.333 9.84111 9.84062 11.3335 7.99967 11.3335C6.15873 11.3335 4.66634 9.84111 4.66634 8.00016C4.66634 6.15921 6.15873 4.66683 7.99967 4.66683C9.84062 4.66683 11.333 6.15921 11.333 8.00016ZM7.99968 10.0002C9.10425 10.0002 9.99968 9.10473 9.99968 8.00016C9.99968 6.89559 9.10425 6.00016 7.99968 6.00016C6.89511 6.00016 5.99968 6.89559 5.99968 8.00016C5.99968 9.10473 6.89511 10.0002 7.99968 10.0002Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="service-details.html#"
+                    aria-label="dribble"
+                    class="text-white opacity-50 hover:opacity-100"
+                  >
+                    <svg
+                      class="fill-current"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.39835 8.93393C1.72537 11.2671 3.26008 13.213 5.35023 14.1194C5.44171 12.239 5.83 10.4322 6.47139 8.73968C5.78768 8.60911 5.07968 8.54051 4.35424 8.54051C3.32743 8.54051 2.33568 8.67795 1.39835 8.93393ZM6.33747 14.4578C6.86896 14.5943 7.42608 14.6668 8.00014 14.6668C9.91365 14.6668 11.6389 13.8607 12.8547 12.5694C11.5276 10.8837 9.64293 9.60383 7.45264 8.97387C6.78607 10.6931 6.3976 12.5372 6.33747 14.4578ZM13.4973 11.7729C14.235 10.7001 14.6668 9.40055 14.6668 8.00016C14.6668 7.88284 14.6638 7.76623 14.6578 7.65041C13.948 7.77894 13.2155 7.84617 12.4668 7.84617C11.0007 7.84617 9.59723 7.58844 8.305 7.11771C8.1422 7.42243 7.98857 7.73218 7.84446 8.04667C10.1079 8.72233 12.0726 10.0381 13.4973 11.7729ZM14.5314 6.6569C14.1849 4.96311 13.1961 3.50327 11.8305 2.54302C10.6581 3.63978 9.64049 4.88118 8.81019 6.23601C9.94876 6.63046 11.1803 6.84617 12.4668 6.84617C13.1737 6.84617 13.8641 6.78102 14.5314 6.6569ZM10.9363 2.01321C10.0504 1.57794 9.05381 1.3335 8.00014 1.3335C6.45644 1.3335 5.03529 1.85817 3.90528 2.73893C4.9255 4.06164 6.28638 5.14045 7.86883 5.85997C8.71336 4.45258 9.7469 3.1601 10.9363 2.01321ZM3.1626 3.41292C2.04672 4.5893 1.35538 6.17236 1.33398 7.91672C2.29735 7.67129 3.31 7.54051 4.35424 7.54051C5.21416 7.54051 6.05258 7.62919 6.85965 7.79752C7.02036 7.43714 7.19278 7.08257 7.37645 6.73426C5.706 5.95997 4.2611 4.81593 3.1626 3.41292Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="w-full h-[95px] flex justify-between items-center px-[50px] border border-[#e7e8e9] bg-white border-t-0 relative"
+          >
+            <div
+              class="flex 2xl:space-x-[100px] xl:space-x-10 justify-between items-center w-full xl:w-auto"
+            >
+              <div>
+                <a href="index-1.html" aria-label="logo">
+                  <img src="assets/images/logo-1.webp" alt="" />
+                </a>
+              </div>
+              <div>
+                <ul class="flex space-x-10 items-center">
+                  <li class="group z-50">
+                    <a
+                      href="service-details.html"
+                      class="text-paragraph font-semibold hover:underline hover:text-purple flex items-center gap-2"
+                    >
+                      Home
+                      <svg
+                        class="transition-all duration-300 group-hover:rotate-180"
+                        width="10"
+                        height="10"
+                        viewBox="0 0 19 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2 2L9.5 8L17 2"
+                          stroke="currentColor"
+                          stroke-width="3"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                    <div
+                      class="absolute px-[18px] left-0 h-0 group-hover:h-[660px] overflow-hidden top-[92px] transition-all duration-700 z-50 bg-white group-hover:border-b group-hover:border-r group-hover:border-l border-[#e7e8e9]"
+                    >
+                      <ul
+                        class="max-h-fit min-w-[200px] mt-8 transition-all duration-300 overflow-hidden px-5 top-20 pb-4 rounded-b-md w-full flex flex-wrap gap-8"
+                      >
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-1.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-1.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-1.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Digital Marketing</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-2.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-2.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-2.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> SEO Agency</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-3.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-3.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-3.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Creative Agency</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-4.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-4.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-4.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> AI Software</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-5.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-5.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-5.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Business Consulting </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-6.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-6.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-6.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> ELearning </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-7.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-7.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-7.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> IT Business </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-8.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-8.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-8.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Saas </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-9.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-9.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-9.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> App Landing</span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <div
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                          >
+                            <div
+                              class="w-full h-full flex items-center pt-14 flex-col gap-5 bg-black/80 absolute opacity-0 transition-all duration-300 group-hover/item:opacity-100"
+                            >
+                              <a href="landing-10.html">
+                                <div
+                                  class="home-two-btn-white group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-purple hover:border-white"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter py-1 relative z-10"
+                                  >
+                                    Single Page
+                                  </span>
+                                </div>
+                              </a>
+                              <a href="index-10.html">
+                                <div
+                                  class="home-two-btn-white-rev group/btn px-10 py-1.5 before:bg-purple after:bg-purple border-white hover:border-purple"
+                                >
+                                  <span
+                                    class="text-sm text-white transition-all duration-300 font-semibold font-inter relative z-10 py-0.5"
+                                  >
+                                    Multi page
+                                  </span>
+                                </div>
+                              </a>
+                            </div>
+                            <img
+                              src="assets/images/demo-10.png"
+                              alt=""
+                              class="w-[240px] transition-all duration-300"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full before:border-white leading-5 relative group-hover/item:text-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit"> Personal Portfolio </span>
+                            </span>
+                          </div>
+                        </li>
+                        <!-- single item  -->
+                        <li
+                          class="relative py-1 flex flex-col items-center nav-shadow"
+                        >
+                          <a
+                            href="service-details.html"
+                            class="group/item flex flex-col gap-5 items-center leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter pb-3 overflow-hidden"
+                            aria-disabled="true"
+                          >
+                            <img
+                              src="assets/images/demo-8.png"
+                              alt=""
+                              class="w-[240px] group-hover/item:scale-110 transition-all duration-300 blur-sm"
+                            />
+                            <span
+                              class="home-two-nav-item group-hover/item:before:w-full leading-5 relative group-hover/item:text-white before:border-white w-fit text-paragraph font-medium font-inter"
+                            >
+                              <span class="w-fit">Coming Soon</span>
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li
+                    class="text-paragraph font-semibold hover:underline hover:text-purple"
+                  >
+                    <a href="about.html">Company</a>
+                  </li>
+                  <li
+                    class="text-paragraph font-semibold hover:underline hover:text-purple"
+                  >
+                    <a href="service.html">Services</a>
+                  </li>
+                  <li
+                    class="text-paragraph font-semibold hover:underline hover:text-purple"
+                  >
+                    <a href="blog.html">Blogs</a>
+                  </li>
+                  <li class="group relative">
+                    <a
+                      class="text-paragraph font-semibold hover:underline hover:text-purple flex items-center gap-2"
+                      href="service-details.html#"
+                    >
+                      Pages
+                      <svg
+                        class="transition-all duration-300 group-hover:rotate-180"
+                        width="10"
+                        height="10"
+                        viewBox="0 0 19 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2 2L9.5 8L17 2"
+                          stroke="currentColor"
+                          stroke-width="3"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                    <div
+                      class="absolute px-2 -left-7 h-0 group-hover:h-[480px] overflow-hidden top-5 transition-all duration-700"
+                    >
+                      <ul
+                        class="max-h-fit min-w-[200px] bg-white mt-8 transition-all duration-300 overflow-hidden px-5 top-20 pb-4 rounded-b-md"
+                      >
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="projects.html"
+                          >
+                            Projects
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="project-details.html"
+                          >
+                            Project Details
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="service-details.html"
+                          >
+                            Service Details
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="blog-details.html"
+                          >
+                            Blog Details
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="pricing.html"
+                          >
+                            Pricing
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="team-members.html"
+                          >
+                            Team Members
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="faq.html"
+                          >
+                            FAQ'S
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="course-details.html"
+                          >
+                            Course Details
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="cart.html"
+                          >
+                            Cart
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="checkout.html"
+                          >
+                            Checkout
+                          </a>
+                        </li>
+                        <li class="relative py-1">
+                          <a
+                            class="home-two-nav-item leading-5 relative hover:text-purple w-fit text-paragraph font-medium font-inter"
+                            href="404.html"
+                          >
+                            Not Found
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li
+                    class="text-paragraph font-semibold hover:underline hover:text-purple"
+                  >
+                    <a href="contact.html">Contact</a>
+                  </li>
+                  <li class="flex items-center" class="flex items-center">
+                    <input
+                      id="hh-search"
+                      type="text"
+                      class="rounded-md border-purple/10 focus:outline-none border-0 px-0 w-0 focus:border focus:w-48 focus:mr-2 focus:px-2 transition-all duration-300"
+                      placeholder="Search..."
+                    />
+                    <label class="cursor-pointer" for="hh-search" type="button">
+                      <svg
+                        class="cursor-pointer"
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.9729 7.46687C13.9729 10.922 11.172 13.7229 7.71687 13.7229C4.26176 13.7229 1.46084 10.922 1.46084 7.46687C1.46084 4.01176 4.26176 1.21084 7.71687 1.21084C11.172 1.21084 13.9729 4.01176 13.9729 7.46687ZM7.71687 14.9337C11.8407 14.9337 15.1837 11.5907 15.1837 7.46687C15.1837 3.34303 11.8407 0 7.71687 0C3.59303 0 0.25 3.34303 0.25 7.46687C0.25 11.5907 3.59303 14.9337 7.71687 14.9337ZM16.5333 16.2832C15.9108 16.9056 14.9016 16.9056 14.2791 16.2832L12.7673 14.7713C13.6473 14.1617 14.4118 13.3972 15.0214 12.5172L16.5333 14.029C17.1557 14.6515 17.1557 15.6607 16.5333 16.2832Z"
+                          fill="#6D6D6D"
+                        />
+                      </svg>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="xl:flex hidden space-x-[30px] items-center">
+              <a href="service-details.html#">
+                <div class="flex space-x-1.5 items-center">
+                  <span class="font-semibold">Sign Up</span>
+                  <span>
+                    <svg
+                      width="14"
+                      height="18"
+                      viewBox="0 0 14 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.84289 11.625H8.84961M5.09961 11.625H5.10633"
+                        stroke="#101828"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M1.17547 14.1336C1.34413 15.3862 2.38171 16.3676 3.64435 16.4257C4.70682 16.4745 5.78609 16.5 6.97461 16.5C8.16313 16.5 9.24241 16.4745 10.3049 16.4257C11.5675 16.3676 12.6051 15.3862 12.7738 14.1336C12.8838 13.316 12.9746 12.4782 12.9746 11.625C12.9746 10.7718 12.8838 9.93399 12.7738 9.11644C12.6051 7.86377 11.5675 6.88237 10.3049 6.82432C9.24241 6.77548 8.16313 6.75 6.97461 6.75C5.78609 6.75 4.70681 6.77548 3.64435 6.82432C2.38171 6.88237 1.34413 7.86377 1.17547 9.11644C1.06539 9.93399 0.974609 10.7718 0.974609 11.625C0.974609 12.4782 1.06539 13.316 1.17547 14.1336Z"
+                        stroke="#101828"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        d="M3.59961 6.75V4.875C3.59961 3.01104 5.11065 1.5 6.97461 1.5C8.83857 1.5 10.3496 3.01104 10.3496 4.875V6.75"
+                        stroke="#101828"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </a>
+              <a href="blog.html">
+                <div
+                  class="home-two-btn-bg py-3 group bg-blue-seo border-blue-seo"
+                >
+                  <span
+                    class="text-base text-white group-hover:text-blue-seo transition-all duration-300 font-semibold font-inter relative z-10"
+                  >
+                    Learn More
+                  </span>
+                  <svg
+                    class="relative z-10"
+                    width="7"
+                    height="12"
+                    viewBox="0 0 7 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      class="group-hover:stroke-blue-seo transition-all duration-300"
+                      d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Todo: mobile-Menu start  -->
+    <header class="flex xl:hidden flex-col relative">
+      <div
+        class="h-16 bg-white flex items-center justify-between fixed top-0 left-0 z-50 w-full px-2.5"
+      >
+        <a href="service-details.html#" aria-label="logo">
+          <img src="assets/images/home-two/logo.svg" alt="logo" />
+        </a>
+        <button
+          aria-label="mobile-Menu"
+          class="text-main-black text-48 w-6 h-6 toggle_nav_menu"
+          id="mobile_nav_toggle_menu"
+        >
+          <svg
+            class="pointer-events-none transition-all duration-300"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+          <svg
+            class="pointer-events-none hidden transition-all duration-300"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+          >
+            <path
+              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="transition-all duration-300">
+        <div
+          class="w-full h-screen fixed bg-black/80 z-40 -left-full transition-all duration-300 delay-150"
+          id="mobile-nav-div-overlay"
+        ></div>
+        <div
+          class="fixed h-screen overflow-y-scroll bg-white w-full top-16 -left-full z-50 transition-all duration-300 delay-0"
+          id="mobile-nav-div"
+        >
+          <div class="flex gap-28 flex-col pl-5 pt-5">
+            <ul
+              class="flex gap-5 flex-col text-paragraph text-base leading-5 font-medium font-inter"
+            >
+              <li class="group">
+                <a
+                  class="home-two-nav-item leading-5 relative before:content-['Home'] w-fit m-nav-dropdown flex gap-2 items-center"
+                >
+                  Home
+                  <svg
+                    class="pointer-events-none"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 19 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 2L9.5 8L17 2"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+
+                <ul
+                  class="mobile-sub-nav h-[150px] overflow-hidden transition-all duration-300 pl-5 pt-4"
+                >
+                  <li class="relative pb-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="index-1.html"
+                    >
+                      Digital Marketing
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="index-2.html"
+                    >
+                      SEO Agency
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="index-3.html"
+                    >
+                      Creative Agency
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-4.html"
+                    >
+                      AI Software
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-5.html"
+                    >
+                      Business Consulting
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-6.html"
+                    >
+                      ELearning
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-7.html"
+                    >
+                      IT Business
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-8.html"
+                    >
+                      Saas
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-9.html"
+                    >
+                      App Landing
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="index-10.html"
+                    >
+                      Personal Portfolio
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="home-two-nav-item relative before:content-['Company'] w-fit"
+              >
+                <a href="about.html">Company</a>
+              </li>
+              <li
+                class="home-two-nav-item relative before:content-['Services'] w-fit"
+              >
+                <a href="service.html">Services</a>
+              </li>
+              <li
+                class="home-two-nav-item relative before:content-['Blogs'] w-fit"
+              >
+                <a href="blog.html">Blogs</a>
+              </li>
+              <li class="">
+                <a
+                  href="service-details.html#"
+                  class="home-two-nav-item relative before:content-['Pages'] w-fit m-nav-dropdown flex items-center gap-2"
+                >
+                  Pages
+                  <svg
+                    class="pointer-events-none"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 19 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 2L9.5 8L17 2"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <ul
+                  class="mobile-sub-nav h-[150px] overflow-hidden transition-all duration-300 pl-5 pt-4"
+                >
+                  <li class="relative pb-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="projects.html"
+                    >
+                      Projects
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="project-details.html"
+                    >
+                      Projects Details
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit py-1"
+                      href="service-details.html"
+                    >
+                      Service Details
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="blog-details.html"
+                    >
+                      Blog Details
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="team-members.html"
+                    >
+                      Team Members
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="faq.html"
+                    >
+                      FAQ's
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="pricing.html"
+                    >
+                      Pricing
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="course-details.html"
+                    >
+                      Course Details
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="cart.html"
+                    >
+                      Cart
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="checkout.html"
+                    >
+                      Checkout
+                    </a>
+                  </li>
+                  <li class="relative py-1">
+                    <a
+                      class="home-two-nav-item leading-5 relative hover:text-purple w-fit"
+                      href="404.html"
+                    >
+                      Not Found
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="home-two-nav-item relative before:content-['Contact'] w-fit"
+              >
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex gap-5 flex-col pl-5 mt-5">
+            <a href="service-details.html#" class="flex gap-2.5 group"
+              ><svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.77762 11.9424C2.8296 10.2893 2.37185 8.93948 2.09584 7.57121C1.68762 5.54758 2.62181 3.57081 4.16938 2.30947C4.82345 1.77638 5.57323 1.95852 5.96 2.6524L6.83318 4.21891C7.52529 5.46057 7.87134 6.08139 7.8027 6.73959C7.73407 7.39779 7.26737 7.93386 6.33397 9.00601L3.77762 11.9424ZM3.77762 11.9424C5.69651 15.2883 8.70784 18.3013 12.0576 20.2224M12.0576 20.2224C13.7107 21.1704 15.0605 21.6282 16.4288 21.9042C18.4524 22.3124 20.4292 21.3782 21.6905 19.8306C22.2236 19.1766 22.0415 18.4268 21.3476 18.04L19.7811 17.1668C18.5394 16.4747 17.9186 16.1287 17.2604 16.1973C16.6022 16.2659 16.0661 16.7326 14.994 17.666L12.0576 20.2224Z"
+                  stroke="#5D51F2"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M22 5L12 5M22 5C22 4.43982 20.604 3.39322 20.25 3M22 5C22 5.56018 20.604 6.60678 20.25 7M12 5C12 4.43982 13.396 3.39322 13.75 3M12 5C12 5.56018 13.396 6.60678 13.75 7"
+                  stroke="#5D51F2"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="font-bold text-base leading-5 tracking-tight text-main-black"
+                >Call : 000 (123) 456 88</span
+              >
+            </a>
+            <a href="contact.html">
+              <div
+                class="home-two-btn-bg py-2.5 group bg-blue-seo border-blue-seo w-fit"
+              >
+                <span
+                  class="text-base text-white group-hover:text-blue-seo transition-all duration-300 font-semibold font-inter relative z-10"
+                >
+                  Contact US
+                </span>
+                <svg
+                  class="relative z-10"
+                  width="7"
+                  height="12"
+                  viewBox="0 0 7 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="group-hover:stroke-blue-seo transition-all duration-300"
+                    d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <div>
+          <main>
+            <!-- breadcrumb -->
+            <section id="h1-breadcrumb">
+              <div
+                class="h1-breadcrumb w-full h-fit overflow-hidden relative bg-main-gray pb-16 md:pb-24"
+              >
+                <div
+                  class="win-grid win-grid-bg w-full h-full absolute left-0 top-0 z-0"
+                  id="win-grid"
+                ></div>
+                <div
+                  class="absolute left-1/4 w-full top-[300px] overflow-hidden z-0 pointer-events-none"
+                >
+                  <div class="flex justify-center">
+                    <img
+                      src="assets/images/home-one-hero-circle-shadow.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="theme-container mx-auto h-fit w-fit relative z-20">
+                  <div
+                    class="mt-[120px] md:mt-[272px] w-fit mx-auto relative z-10"
+                  >
+                    <h1
+                      class="text-main-black text-34 sm:text-48 font-semibold"
+                    >
+                      Services Details
+                    </h1>
+                    <div class="flex gap-5 items-center justify-center mt-4">
+                      <a
+                        href="service-details.html#"
+                        class="home-two-nav-item leading-5 relative text-18 font-inter text-paragraph transition-all duration-300 hover:text-purple"
+                      >
+                        Home
+                      </a>
+                      <svg
+                        width="6"
+                        height="12"
+                        viewBox="0 0 6 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 1L5 6L1 11"
+                          stroke="#794AFF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <a
+                        href="service-details.html#"
+                        class="home-two-nav-item leading-5 relative text-18 font-inter text-paragraph transition-all duration-300 hover:text-purple"
+                      >
+                        Service Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- service details start   -->
+            <section class="pt-16 md:pt-[130px]">
+              <div class="theme-container w-full mx-auto">
+                <div class="grid grid-cols-8 lg:grid-cols-12 gap-[30px]">
+                  <div data-aos="fade-up" class="col-span-8">
+                    <h1
+                      class="font-semibold text-[35px] leading-[42px] text-main-black"
+                    >
+                      Digital Marketing Solutions
+                    </h1>
+                    <p class="text-paragraph mt-[30px] mb-10 max-w-[786px]">
+                      In the ever-evolving landscape of technology, businesses
+                      require robust and reliable solutions to manage their IT
+                      infrastructure seamlessly. Our IT Managed Solutions offer
+                      a comprehensive approach, combining cutting-edge
+                      technology and strategic expertise to optimize your
+                      digital operations. From proactive system monitoring to
+                      rapid issue resolution, our team ensures that your IT
+                      environment remains secure, scalable, and highly
+                      efficient. With tailored solutions that align with your
+                      business objectives
+                    </p>
+                    <img src="assets/images/service/detail.webp" alt="" />
+                    <h2
+                      class="font-semibold text-[27px] leading-[35px] tracking-tight text-main-black mt-10"
+                    >
+                      Digital Marketing Solutions
+                    </h2>
+                    <p class="text-paragraph mt-5">
+                      We invite you to explore the dynamic world of IT with us.
+                      From decoding complex algorithms to unraveling the
+                      mysteries of cybersecurity, our experts share their
+                      insights, experiences, and predictions. Join us as we
+                      navigate through the intricate web of code, uncover the
+                      latest industry trends, and envision
+                    </p>
+                    <div class="grid grid-cols-4 md:grid-cols-8 gap-x-[75px]">
+                      <!-- card  -->
+                      <div class="col-span-4 py-10 border-b border-gray-200">
+                        <h1
+                          class="text-18 text-main-black font-semibold mt-4 flex gap-4 items-center"
+                        >
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
+                              fill="#5D51F2"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M14.4605 6.40802C14.7874 6.66232 14.8463 7.13353 14.592 7.46049L10.585 12.6123C9.9613 13.4143 8.78809 13.5183 8.03296 12.8387L5.49828 10.5575C5.1904 10.2804 5.16544 9.80619 5.44254 9.49831C5.71963 9.19043 6.19385 9.16547 6.50173 9.44256L9.03641 11.7238C9.14429 11.8209 9.31189 11.806 9.40099 11.6914L13.408 6.53958C13.6623 6.21262 14.1335 6.15372 14.4605 6.40802Z"
+                              fill="white"
+                            />
+                          </svg>
+                          Information Technology
+                        </h1>
+                        <p class="text-paragraph mt-3">
+                          We mark relentless journey redefine landscape
+                          Information Technology commitment
+                        </p>
+                      </div>
+                      <!-- card  -->
+                      <div class="col-span-4 py-10 border-b border-gray-200">
+                        <h1
+                          class="text-18 text-main-black font-semibold mt-4 flex gap-4 items-center"
+                        >
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
+                              fill="#5D51F2"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M14.4605 6.40802C14.7874 6.66232 14.8463 7.13353 14.592 7.46049L10.585 12.6123C9.9613 13.4143 8.78809 13.5183 8.03296 12.8387L5.49828 10.5575C5.1904 10.2804 5.16544 9.80619 5.44254 9.49831C5.71963 9.19043 6.19385 9.16547 6.50173 9.44256L9.03641 11.7238C9.14429 11.8209 9.31189 11.806 9.40099 11.6914L13.408 6.53958C13.6623 6.21262 14.1335 6.15372 14.4605 6.40802Z"
+                              fill="white"
+                            />
+                          </svg>
+                          Efficient Database Security
+                        </h1>
+                        <p class="text-paragraph mt-3">
+                          We mark relentless journey redefine landscape
+                          Information Technology commitment
+                        </p>
+                      </div>
+                      <!-- card  -->
+                      <div class="col-span-4 pt-[30px] pb-10">
+                        <h1
+                          class="text-18 text-main-black font-semibold mt-4 flex gap-4 items-center"
+                        >
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
+                              fill="#5D51F2"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M14.4605 6.40802C14.7874 6.66232 14.8463 7.13353 14.592 7.46049L10.585 12.6123C9.9613 13.4143 8.78809 13.5183 8.03296 12.8387L5.49828 10.5575C5.1904 10.2804 5.16544 9.80619 5.44254 9.49831C5.71963 9.19043 6.19385 9.16547 6.50173 9.44256L9.03641 11.7238C9.14429 11.8209 9.31189 11.806 9.40099 11.6914L13.408 6.53958C13.6623 6.21262 14.1335 6.15372 14.4605 6.40802Z"
+                              fill="white"
+                            />
+                          </svg>
+                          Reliable Multi-function Tech
+                        </h1>
+                        <p class="text-paragraph mt-3">
+                          We mark relentless journey redefine landscape
+                          Information Technology commitment
+                        </p>
+                      </div>
+                      <!-- card  -->
+                      <div class="col-span-4 pt-[30px] pb-10">
+                        <h1
+                          class="text-18 text-main-black font-semibold mt-4 flex gap-4 items-center"
+                        >
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10Z"
+                              fill="#5D51F2"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M14.4605 6.40802C14.7874 6.66232 14.8463 7.13353 14.592 7.46049L10.585 12.6123C9.9613 13.4143 8.78809 13.5183 8.03296 12.8387L5.49828 10.5575C5.1904 10.2804 5.16544 9.80619 5.44254 9.49831C5.71963 9.19043 6.19385 9.16547 6.50173 9.44256L9.03641 11.7238C9.14429 11.8209 9.31189 11.806 9.40099 11.6914L13.408 6.53958C13.6623 6.21262 14.1335 6.15372 14.4605 6.40802Z"
+                              fill="white"
+                            />
+                          </svg>
+                          Highly Professional Staffs
+                        </h1>
+                        <p class="text-paragraph mt-3">
+                          We mark relentless journey redefine landscape
+                          Information Technology commitment
+                        </p>
+                      </div>
+                    </div>
+                    <img src="assets/images/service/detail-2.webp" alt="" />
+                    <h2
+                      class="font-semibold text-[27px] leading-[35px] tracking-tight text-main-black mt-10"
+                    >
+                      Data Analysis & Plan Benefits
+                    </h2>
+                    <p class="text-paragraph mt-5">
+                      We invite you to explore the dynamic world of IT with us.
+                      From decoding complex algorithms to unraveling the
+                      mysteries of cybersecurity, our experts share their
+                      insights, experiences, and predictions. Join us as we
+                      navigate through the intricate web of code, uncover the
+                      latest industry trends, and envision
+                    </p>
+                  </div>
+                  <div
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    class="col-span-8 lg:col-span-4"
+                  >
+                    <div
+                      class="border border-purple/10 rounded-2xl py-[30px] bg-main-gray"
+                    >
+                      <div class="flex gap-5 items-center px-10 pb-[30px]">
+                        <svg
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clip-path="url(#clip0_460_43030)">
+                            <path
+                              d="M0.126211 3.66959L2.79389 8.33776C2.88387 8.4955 3.03449 8.60963 3.21061 8.6538L5.69942 9.276L14.2355 17.8121L15.1787 16.8692L6.509 8.19976C6.42368 8.11417 6.31669 8.05354 6.19954 8.02419L3.80813 7.42421L1.53687 3.44738L3.48413 1.50011L7.4626 3.77357L8.06286 6.16499C8.09194 6.2824 8.15284 6.38967 8.23816 6.47499L16.9078 15.1447L17.8508 14.2015L9.31467 5.66541L8.69247 3.17798C8.6483 3.00158 8.53418 2.85069 8.37643 2.76043L3.70799 0.0930262C3.44764 -0.0551171 3.12008 -0.0112228 2.90774 0.200293L0.240337 2.86797C0.025803 3.07894 -0.0208347 3.40705 0.126211 3.66959Z"
+                              fill="#794AFF"
+                            />
+                            <path
+                              d="M27.8529 13.1436L13.1815 27.8153L12.2383 26.8721L26.91 12.2007L27.8529 13.1436Z"
+                              fill="#794AFF"
+                            />
+                            <path
+                              d="M10.6135 28.3342C10.4928 28.1334 10.2761 28.0107 10.0418 28.0107H6.04052C5.80651 28.0107 5.58951 28.1334 5.46907 28.3342L3.46831 31.6685C3.34129 31.8798 3.34129 32.1439 3.46831 32.3555L5.46907 35.6898C5.58951 35.8903 5.80651 36.0132 6.04052 36.0132H10.0418C10.2761 36.0132 10.4928 35.8903 10.6135 35.6898L12.614 32.3555C12.741 32.1439 12.741 31.8798 12.614 31.6685L10.6135 28.3342ZM9.66455 34.6794H6.41801L4.81751 32.012L6.41801 29.3443H9.66455L11.265 32.012L9.66455 34.6794Z"
+                              fill="#794AFF"
+                            />
+                            <path
+                              d="M32.0496 16.0066C36.4541 16.0214 40.037 12.4627 40.0518 8.05817C40.054 7.38768 39.9717 6.71994 39.8068 6.07003C39.7179 5.71256 39.3561 5.49501 38.9986 5.5839C38.8812 5.61325 38.7742 5.67388 38.6886 5.7592L34.5373 9.90777L31.2436 8.81013L30.1451 5.51723L34.2964 1.3651C34.5568 1.10448 34.5565 0.682268 34.2959 0.421919C34.21 0.336051 34.1019 0.275147 33.9837 0.246067C29.7122 -0.835654 25.373 1.75 24.2913 6.02119C24.1269 6.66918 24.0449 7.33528 24.0471 8.00385C24.0487 8.52893 24.1028 9.05237 24.2092 9.56649L9.6042 24.1712C9.09009 24.0651 8.56665 24.011 8.04183 24.0091C3.62194 24.0091 0.0390625 27.592 0.0390625 32.0119C0.0390625 36.4315 3.62194 40.0144 8.04183 40.0144C12.4614 40.0144 16.0443 36.4315 16.0443 32.0119C16.0427 31.4868 15.9884 30.9633 15.8822 30.4492L19.3787 26.9528L20.9078 28.4819C21.1685 28.7423 21.5904 28.7423 21.851 28.4819L22.1843 28.1483C22.4768 27.8578 22.9495 27.8578 23.2419 28.1483C23.5341 28.4397 23.5346 28.9127 23.2433 29.2048C23.243 29.2051 23.2425 29.2056 23.2419 29.2062L22.9086 29.5395C22.6482 29.7999 22.6482 30.2221 22.9086 30.4824L30.8639 38.4377C32.9563 40.5493 36.3641 40.5647 38.4757 38.4723C40.5871 36.3799 40.6024 32.9718 38.51 30.8605C38.4988 30.8489 38.4873 30.8374 38.4757 30.8259L30.5204 22.8709C30.2601 22.6105 29.8379 22.6105 29.5775 22.8709L29.2442 23.2042C28.9515 23.495 28.4791 23.495 28.1863 23.2042C27.8944 22.9128 27.8936 22.4399 28.185 22.148C28.1855 22.1474 28.1861 22.1472 28.1863 22.1466L28.5199 21.813C28.7803 21.5527 28.7803 21.1305 28.5199 20.8701L26.9908 19.3409L30.4872 15.8445C31.0013 15.9506 31.5248 16.005 32.0496 16.0066ZM34.6698 38.6808C34.1853 38.68 33.705 38.5925 33.2515 38.4221L38.4598 33.2135C39.2458 35.3042 38.1882 37.6361 36.0975 38.4221C35.6413 38.5936 35.1576 38.6813 34.6698 38.6808ZM27.1148 21.3483C26.3762 22.2292 26.492 23.5422 27.3729 24.2804C28.1471 24.9292 29.2755 24.9287 30.0488 24.2785L37.5328 31.7691C37.614 31.8506 37.69 31.9364 37.7635 32.0237L32.0617 37.7255C31.9742 37.6523 31.8883 37.5763 31.8068 37.4948L24.3171 30.0045C25.0556 29.1236 24.9398 27.8106 24.0589 27.0724C23.2847 26.4233 22.1561 26.4241 21.3827 27.074L20.3158 26.0071L26.0476 20.2838L27.1148 21.3483ZM29.8077 14.641L14.6792 29.7664C14.5132 29.9321 14.4466 30.1727 14.5031 30.4001C15.418 33.9932 13.2469 37.6476 9.65358 38.5623C6.06055 39.4772 2.40607 37.3061 1.49114 33.7128C0.576494 30.1197 2.74762 26.4653 6.34093 25.5503C7.42786 25.2738 8.56665 25.2738 9.65358 25.5503C9.88101 25.606 10.1211 25.5394 10.2873 25.3745L25.4122 10.2488C25.5779 10.0831 25.6446 9.84247 25.5875 9.61532C24.6789 6.06427 26.821 2.44902 30.372 1.54013C31.043 1.36867 31.7371 1.30282 32.4285 1.3459L28.9106 4.86513C28.732 5.04345 28.6695 5.30764 28.7493 5.54713L30.0829 9.54866C30.1495 9.74755 30.3059 9.90392 30.5051 9.97004L34.5066 11.3039C34.7458 11.3837 35.01 11.3214 35.1886 11.1431L38.7065 7.62526C38.7144 7.75255 38.7185 7.87847 38.7185 8.00385C38.7372 11.6682 35.782 14.6538 32.1176 14.6728C31.5511 14.6755 30.9865 14.6058 30.4378 14.4654C30.2104 14.4086 29.9698 14.475 29.8041 14.6407H29.8077V14.641Z"
+                              fill="#794AFF"
+                            />
+                            <path
+                              d="M34.522 33.5407L33.5788 34.4839L26.9102 27.8153L27.8531 26.8721L34.522 33.5407Z"
+                              fill="#794AFF"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_460_43030">
+                              <rect width="40" height="40" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <h1 class="text-22 font-semibold text-main-black">
+                          Services Category
+                        </h1>
+                      </div>
+                      <hr class="bg-purple/10" />
+                      <div class="pt-10 flex flex-col px-10 gap-[30px]">
+                        <a href="service-details.html#">
+                          <div
+                            class="flex items-center gap-2 group text-gray-69 hover:text-purple"
+                          >
+                            <svg
+                              width="7"
+                              height="11"
+                              viewBox="0 0 7 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="transition-all duration-300"
+                                d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <p
+                              class="text-18 font-medium text-gray-69 font-inter border-b border-transparent leading-5 before:leading-5 before:block before:text-18 before:pb-[1px] before:border-purple before:font-medium before:text-purple before:font-inter before:border-b before:content-['Digital_Marketing_Solutions'] before:absolute before:-bottom-[1px] before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-[21px] relative"
+                            >
+                              Digital Marketing Solutions
+                            </p>
+                          </div>
+                        </a>
+                        <a href="service-details.html#">
+                          <div
+                            class="flex items-center gap-2 group text-gray-69 hover:text-purple"
+                          >
+                            <svg
+                              width="7"
+                              height="11"
+                              viewBox="0 0 7 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="transition-all duration-300"
+                                d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <p
+                              class="text-18 font-medium text-gray-69 font-inter border-b border-transparent leading-5 before:leading-5 before:block before:text-18 before:pb-[1px] before:border-purple before:font-medium before:text-purple before:font-inter before:border-b before:content-['Website_Design_&_Development'] before:absolute before:-bottom-[1px] before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-[21px] relative"
+                            >
+                              Website Design & Development
+                            </p>
+                          </div>
+                        </a>
+                        <a href="service-details.html#">
+                          <div
+                            class="flex items-center gap-2 group text-gray-69 hover:text-purple"
+                          >
+                            <svg
+                              width="7"
+                              height="11"
+                              viewBox="0 0 7 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="transition-all duration-300"
+                                d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <p
+                              class="text-18 font-medium text-gray-69 font-inter border-b border-transparent leading-5 before:leading-5 before:block before:text-18 before:pb-[1px] before:border-purple before:font-medium before:text-purple before:font-inter before:border-b before:content-['SEO_Optimizations'] before:absolute before:-bottom-[1px] before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-[21px] relative"
+                            >
+                              SEO Optimizations
+                            </p>
+                          </div>
+                        </a>
+                        <a href="service-details.html#">
+                          <div
+                            class="flex items-center gap-2 group text-gray-69 hover:text-purple"
+                          >
+                            <svg
+                              width="7"
+                              height="11"
+                              viewBox="0 0 7 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="transition-all duration-300"
+                                d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <p
+                              class="text-18 font-medium text-gray-69 font-inter border-b border-transparent leading-5 before:leading-5 before:block before:text-18 before:pb-[1px] before:border-purple before:font-medium before:text-purple before:font-inter before:border-b before:content-['Cyber_Data_Security'] before:absolute before:-bottom-[1px] before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-[21px] relative"
+                            >
+                              Cyber Data Security
+                            </p>
+                          </div>
+                        </a>
+                        <a href="service-details.html#">
+                          <div
+                            class="flex items-center gap-2 group text-gray-69 hover:text-purple"
+                          >
+                            <svg
+                              width="7"
+                              height="11"
+                              viewBox="0 0 7 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="transition-all duration-300"
+                                d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <p
+                              class="text-18 font-medium text-gray-69 font-inter border-b border-transparent leading-5 before:leading-5 before:block before:text-18 before:pb-[1px] before:border-purple before:font-medium before:text-purple before:font-inter before:border-b before:content-['Business_Solutions'] before:absolute before:-bottom-[1px] before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-[21px] relative"
+                            >
+                              Business Solutions
+                            </p>
+                          </div>
+                        </a>
+                        <a href="service-details.html#">
+                          <div
+                            class="flex items-center gap-2 group text-gray-69 hover:text-purple"
+                          >
+                            <svg
+                              width="7"
+                              height="11"
+                              viewBox="0 0 7 11"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="transition-all duration-300"
+                                d="M1.5 10L5.29289 6.20711C5.62623 5.87377 5.79289 5.70711 5.79289 5.5C5.79289 5.29289 5.62623 5.12623 5.29289 4.79289L1.5 1"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                            <p
+                              class="text-18 font-medium text-gray-69 font-inter border-b border-transparent leading-5 before:leading-5 before:block before:text-18 before:pb-[1px] before:border-purple before:font-medium before:text-purple before:font-inter before:border-b before:content-['IT_Design_Solutions'] before:absolute before:-bottom-[1px] before:transition-all before:duration-300 before:w-0 hover:before:w-full before:overflow-hidden before:h-[21px] relative"
+                            >
+                              IT Design Solutions
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="border border-purple/10 rounded-2xl py-[30px] bg-main-gray mt-[30px]"
+                    >
+                      <div class="flex gap-5 items-center px-10 pb-[30px]">
+                        <svg
+                          width="40"
+                          height="40"
+                          viewBox="0 0 40 40"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clip-path="url(#clip0_460_43069)">
+                            <path
+                              d="M9.13852 7.38056C9.46211 7.38056 9.72445 7.11822 9.72445 6.79462C9.72445 6.47103 9.46211 6.20868 9.13852 6.20868C8.81492 6.20868 8.55258 6.47103 8.55258 6.79462C8.55258 7.11822 8.81484 7.38056 9.13852 7.38056ZM4.45102 7.38056C4.77461 7.38056 5.03695 7.11822 5.03695 6.79462C5.03695 6.47103 4.77461 6.20868 4.45102 6.20868C4.12742 6.20868 3.86508 6.47103 3.86508 6.79462C3.86508 7.11822 4.12734 7.38056 4.45102 7.38056ZM6.79477 7.38056C7.11836 7.38056 7.3807 7.11822 7.3807 6.79462C7.3807 6.47103 7.11836 6.20868 6.79477 6.20868C6.47117 6.20868 6.20883 6.47103 6.20883 6.79462C6.20883 7.11822 6.47109 7.38056 6.79477 7.38056ZM6.66625 13.5878C6.66984 13.5879 6.67344 13.5879 6.67703 13.5879L11.9746 13.5892H11.9749C12.3409 13.5892 12.6516 13.3521 12.7483 12.9992C12.845 12.646 12.6982 12.2836 12.3832 12.0973L11.5775 11.6206C12.8725 10.337 13.6009 8.58579 13.5893 6.75095C13.5661 3.08158 10.5628 0.0535288 6.89453 0.000716346C3.09336 -0.053893 0 3.02087 0 6.79478C0 10.4138 2.98188 13.5095 6.66625 13.5878ZM2.84766 2.79009C3.92813 1.72509 5.35625 1.15126 6.87773 1.17244C9.91313 1.21611 12.3982 3.72189 12.4174 6.75829C12.4278 8.3965 11.7253 9.95439 10.49 11.0324C10.2834 11.2125 10.1752 11.4829 10.2002 11.7556C10.2252 12.0282 10.3809 12.2742 10.6165 12.4135L10.6223 12.4169L6.68281 12.416C3.63734 12.3575 1.17188 9.84861 1.17188 6.79478C1.17188 5.27751 1.76703 3.85533 2.84766 2.79009ZM39.4141 38.8281H38.8281V30.1024C38.8281 27.8163 37.4773 25.7403 35.3801 24.8107L32.2921 23.4872C33.0435 23.2501 33.7223 22.8273 34.2747 22.2408C35.108 21.356 35.5859 20.1555 35.5859 18.947C35.5859 17.8365 35.198 16.7884 34.4638 15.9156C33.5455 14.8252 33.0398 13.4395 33.0398 12.0134V9.20556C33.0398 6.74634 32.0821 4.43478 30.3432 2.69673C28.6043 0.957669 26.2925 1.32211e-05 23.8336 1.32211e-05C18.7577 1.32211e-05 14.6281 4.12954 14.6281 9.20548V11.9219C14.6284 13.3975 14.0485 14.806 13.1062 15.9414C11.9202 17.3703 11.6738 19.3023 12.4632 20.9833C13.0491 22.2311 14.106 23.1276 15.3713 23.507L12.3048 24.8405C10.1535 25.7458 8.76336 27.8388 8.76336 30.1727V37.0704C8.76336 37.394 9.02563 37.6563 9.3493 37.6563C9.67297 37.6563 9.93523 37.394 9.93523 37.0704V30.1727C9.93523 28.3117 11.0437 26.6425 12.7658 25.9179L16.6094 24.2465V27.7735H14.8435C14.3459 27.7735 13.8695 27.9856 13.5366 28.3556C13.2038 28.7256 13.043 29.2217 13.0955 29.7165L14.0614 38.8281H0.585938C0.262266 38.8281 0 39.0905 0 39.4141C0 39.7377 0.262266 40 0.585938 40H39.4141C39.7377 40 40 39.7377 40 39.4141C40 39.0905 39.7377 38.8281 39.4141 38.8281ZM33.5673 16.6702C34.1213 17.3288 34.4141 18.116 34.4141 18.9469C34.4141 19.8599 34.0523 20.7676 33.4216 21.4373C32.7538 22.1463 31.8364 22.5367 30.8384 22.5367H30.0748L29.0717 22.1068C28.1955 21.731 27.5962 20.9255 27.4737 19.9982C29.2816 19.0248 30.5134 17.1143 30.5134 14.9211V10.5162C30.6848 10.5278 30.8562 10.5342 31.027 10.5342C31.3088 10.5342 31.5895 10.5181 31.868 10.4866V12.0133C31.868 13.7152 32.4716 15.3691 33.5673 16.6702ZM23.976 25.9202C21.8798 25.9574 19.7995 25.6917 17.7812 25.132V23.7369L17.9507 23.6632C17.952 23.6627 17.9534 23.662 17.9548 23.6615L19.0001 23.207C20.1637 22.7011 20.9859 21.665 21.2352 20.4542C21.7455 20.6026 22.284 20.6837 22.8415 20.6837H24.7508C25.3104 20.6837 25.8509 20.602 26.3629 20.4525C26.6204 21.6577 27.4458 22.6845 28.6099 23.1839L29.7255 23.662C29.7262 23.6624 29.727 23.6627 29.7277 23.6629L29.8103 23.6983V25.0168C27.914 25.5818 25.9535 25.8857 23.976 25.9202ZM29.8102 26.2368V27.7735H17.7812V26.3454C19.6808 26.8435 21.6311 27.0955 23.5946 27.0955C23.7285 27.0955 23.8625 27.0943 23.9965 27.092C25.9645 27.0576 27.9163 26.77 29.8102 26.2368ZM31.868 9.30501C30.254 9.52306 28.4347 9.09072 27.1813 8.11954C26.9255 7.92142 26.5575 7.96798 26.3592 8.22384C26.161 8.47962 26.2077 8.84767 26.4635 9.04587C27.283 9.68072 28.2713 10.1279 29.3415 10.3534V13.5433C29.0599 14.185 28.7465 14.7187 28.0398 15.3017C27.7423 15.5471 27.4167 15.751 27.068 15.9127C26.7832 15.357 26.2048 14.9756 25.5387 14.9756H24.1656C23.2185 14.9756 22.448 15.7461 22.448 16.6931C22.448 17.6402 23.2185 18.4107 24.1656 18.4107H25.5387C26.3358 18.4107 27.0077 17.8649 27.2005 17.1276C27.9844 16.8289 29.2624 15.7635 29.2627 15.7631C28.8659 17.8933 26.9944 19.5115 24.7509 19.5115H22.8414C20.3102 19.5115 18.2508 17.4522 18.2508 14.9209V10.3917C20.2409 10.0797 22.1209 9.40626 23.8452 8.38642C26.4705 6.83353 28.1545 4.80431 29.1707 3.20111C30.9095 4.74978 31.8987 6.97001 31.868 9.30501ZM26.0843 16.6948C26.0834 16.995 25.8391 17.239 25.5387 17.239H24.1655C23.8646 17.239 23.6198 16.9942 23.6198 16.6933C23.6198 16.3924 23.8647 16.1476 24.1655 16.1476H25.5387C25.839 16.1476 26.0833 16.3914 26.0843 16.6915V16.6948ZM15.8 9.20548C15.8 4.77572 19.4038 1.17189 23.8336 1.17189C25.4223 1.17189 26.9404 1.63048 28.2377 2.48423C27.3024 3.98337 25.7283 5.91119 23.2485 7.37806C21.5473 8.38431 19.6813 9.02673 17.7021 9.28751H17.6655C17.6653 9.28751 17.6651 9.28751 17.6648 9.28751C17.6645 9.28751 17.6643 9.28751 17.664 9.28751H15.7999V9.20548H15.8ZM13.5238 20.4852C12.9297 19.2197 13.1152 17.7654 14.0072 16.6907C15.1265 15.3422 15.8013 13.676 15.8 11.9219V10.4594H17.0789V14.9211C17.0789 17.1156 18.3123 19.027 20.1218 19.9999C20.0086 20.9342 19.411 21.7503 18.5327 22.1322L17.6024 22.5367H16.7531C15.3555 22.5367 14.1181 21.7506 13.5238 20.4852ZM33.9212 29.5931L32.9423 38.8281H15.2398L14.2609 29.5931C14.2431 29.4256 14.2953 29.2645 14.4079 29.1395C14.5205 29.0143 14.6752 28.9454 14.8435 28.9454H33.3386C33.5069 28.9454 33.6616 29.0143 33.7742 29.1395C33.8868 29.2645 33.939 29.4256 33.9212 29.5931ZM37.6562 38.8281H34.1207L35.0866 29.7167C35.1391 29.2217 34.9782 28.7257 34.6455 28.3557C34.3126 27.9857 33.8363 27.7735 33.3386 27.7735H30.982V24.2006L34.9118 25.8849C36.579 26.624 37.6562 28.2794 37.6562 30.1024V38.8281ZM24.091 31.6602C22.8633 31.6602 21.8645 32.659 21.8645 33.8867C21.8645 35.1145 22.8633 36.1133 24.091 36.1133C25.3187 36.1133 26.3176 35.1145 26.3176 33.8867C26.3176 32.659 25.3187 31.6602 24.091 31.6602ZM24.091 34.9414C23.5095 34.9414 23.0363 34.4683 23.0363 33.8867C23.0363 33.3052 23.5095 32.832 24.091 32.832C24.6726 32.832 25.1457 33.3052 25.1457 33.8867C25.1457 34.4683 24.6727 34.9414 24.091 34.9414Z"
+                              fill="#794AFF"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_460_43069">
+                              <rect width="40" height="40" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        <h1 class="text-22 font-semibold text-main-black">
+                          Get Consultation
+                        </h1>
+                      </div>
+                      <hr class="bg-purple/10" />
+                      <div class="pt-10 flex flex-col px-10 gap-[30px]">
+                        <input
+                          placeholder="Full Name"
+                          id="fullName"
+                          type="text"
+                          class="placeholder:text-paragraph w-full h-[56px] bg-white border border-white rounded-md focus:border-purple focus:outline-none focus:right-0 px-[25px]"
+                        />
+                        <input
+                          placeholder="Enter your email..."
+                          id="eOne"
+                          type="text"
+                          class="placeholder:text-paragraph w-full h-[56px] bg-white border border-white rounded-md focus:border-purple focus:outline-none focus:right-0 px-[25px]"
+                        />
+                        <textarea
+                          placeholder="Your message..."
+                          id="message"
+                          type="text"
+                          class="placeholder:text-paragraph w-full bg-white border border-white rounded-md focus:border-purple focus:outline-none focus:right-0 px-[25px] py-5 h-[140px]"
+                        ></textarea>
+                        <a href="service-details.html#">
+                          <div
+                            class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex"
+                          >
+                            <span
+                              class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10"
+                            >
+                              Get A Quote
+                            </span>
+                            <svg
+                              class="relative z-10"
+                              width="7"
+                              height="12"
+                              viewBox="0 0 7 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="group-hover:stroke-blue-seo transition-all duration-300"
+                                d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                                stroke="white"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              ></path>
+                            </svg>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="mt-[30px] flex justify-center items-end relative w-full rounded-2xl overflow-hidden"
+                    >
+                      <img
+                        src="assets/images/service/detail-3.webp"
+                        alt=""
+                        class="w-full object-cover"
+                      />
+                      <div class="w-full h-full absolute black_overlay"></div>
+                      <div class="w-full max-w-[277px] absolute bottom-[30px]">
+                        <h1
+                          class="text-24 font-semibold text-white text-center mb-5"
+                        >
+                          Modern IT Design Consulting Services
+                        </h1>
+                        <a href="service-details.html#">
+                          <div
+                            class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex w-full"
+                          >
+                            <svg
+                              class="relative z-10"
+                              width="25"
+                              height="25"
+                              viewBox="0 0 25 25"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="group-hover:fill-purple transition-all duration-300"
+                                d="M24.1094 2.17188C24.625 2.3125 25 2.73438 25 3.25C25 15.2969 15.25 25 3.25 25C2.6875 25 2.26562 24.6719 2.125 24.1562L1 19.2812C0.90625 18.7656 1.14062 18.2031 1.65625 17.9688L6.90625 15.7188C7.375 15.5312 7.89062 15.6719 8.21875 16.0469L10.5625 18.9062C14.2188 17.1719 17.1719 14.1719 18.8594 10.6094L16 8.26562C15.625 7.9375 15.4844 7.42188 15.6719 6.95312L17.9219 1.70312C18.1562 1.1875 18.7188 0.90625 19.2344 1.04688L24.1094 2.17188Z"
+                                fill="white"
+                              />
+                            </svg>
+
+                            <span
+                              class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10"
+                            >
+                              +236 (456) 896 22
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr class="bg-purple/10 mt-[120px]" />
+              </div>
+            </section>
+            <!-- service details end  -->
+            <!-- related service start -->
+            <section
+              class="bg-white w-full pb-14 pt-16 md:pt-[100px] md:pb-[120px]"
+            >
+              <div class="theme-container w-full mx-auto">
+                <div
+                  class="max-w-[661px] w-full flex flex-col items-center mx-auto"
+                >
+                  <h2
+                    class="text-24 sm:text-48 font-semibold text-black pt-5 text-center"
+                  >
+                    Related Services
+                  </h2>
+                </div>
+                <div
+                  class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-x-4 md:gap-x-8 gap-y-[30px] mt-10 md:mt-[70px]"
+                >
+                  <!-- card start  -->
+
+                  <div
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    class="bg-white px-5 pt-5 pb-4 md:px-10 md:pt-10 md:pb-8 col-span-4 rounded-3xl h3_service_card_shadow transition-all duration-300 cursor-pointer border border-purple/10 hover:border-white"
+                  >
+                    <svg
+                      width="42"
+                      height="38"
+                      viewBox="0 0 42 38"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M24.9158 1H30.4879C31.6857 1 32.8264 1.5187 33.6222 2.42527L39.3852 8.99044C40.7226 10.514 40.8022 12.785 39.5748 14.4008L24.0462 34.8426C22.3675 37.0524 19.077 37.0525 17.3983 34.8426L1.86966 14.4008C0.642249 12.785 0.721837 10.514 2.05927 8.99044L7.82228 2.42527C8.61809 1.5187 9.75875 1 10.9566 1H16.9946M24.9158 1L29.1094 11.6162M24.9158 1H16.9946M29.1094 11.6162H39.5933M29.1094 11.6162L20.7222 36.0334L12.3351 11.6162M29.1094 11.6162H12.3351M16.9946 1L12.3351 11.6162M1.85114 11.6162H12.3351"
+                        stroke="#794AFF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    <h1 class="text-main-black font-semibold text-22 mt-6 mb-2">
+                      Modern Website Design
+                    </h1>
+                    <p class="text-paragraph">
+                      This involves optimizing elements as website such meta
+                      headers content internal
+                    </p>
+                  </div>
+                  <!-- card end  -->
+                  <!-- card start  -->
+                  <div
+                    data-aos="fade-left"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    class="bg-white px-5 pt-5 pb-4 md:px-10 md:pt-10 md:pb-8 col-span-4 rounded-3xl h3_service_card_shadow transition-all duration-300 cursor-pointer border border-purple/10 hover:border-white"
+                  >
+                    <svg
+                      width="35"
+                      height="38"
+                      viewBox="0 0 35 38"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M33.1834 29.4215L18.544 35.9279C17.6194 36.3388 16.564 36.3388 15.6394 35.9279L1 29.4215M33.1834 20.4816L18.544 26.988C17.6194 27.399 16.564 27.399 15.6394 26.988L1 20.4816M2.41045 11.353L15.4925 17.8941C16.4992 18.3974 17.6842 18.3974 18.6909 17.8941L31.773 11.353C33.0908 10.6941 33.0908 8.81354 31.773 8.15463L18.6909 1.61361C17.6842 1.11024 16.4992 1.11024 15.4925 1.61361L2.41045 8.15463C1.09263 8.81354 1.09263 10.6941 2.41045 11.353Z"
+                        stroke="#794AFF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <h1 class="text-main-black font-semibold text-22 mt-6 mb-2">
+                      Design and branding
+                    </h1>
+                    <p class="text-paragraph">
+                      This involves optimizing elements as website such meta
+                      headers content internal
+                    </p>
+                  </div>
+                  <!-- card end  -->
+                  <!-- card start  -->
+                  <div
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
+                    class="bg-white px-5 pt-5 pb-4 md:px-10 md:pt-10 md:pb-8 col-span-4 rounded-3xl h3_service_card_shadow transition-all duration-300 cursor-pointer border border-purple/10 hover:border-white"
+                  >
+                    <svg
+                      width="46"
+                      height="37"
+                      viewBox="0 0 46 37"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M44.75 36L41.4687 32.7187M11.9375 22.875H1M11.9375 11.9375H1M29.4375 1H1M44.75 22.875C44.75 30.1237 38.8737 36 31.625 36C24.3763 36 18.5 30.1237 18.5 22.875C18.5 15.6263 24.3763 9.75 31.625 9.75C38.8737 9.75 44.75 15.6263 44.75 22.875Z"
+                        stroke="#794AFF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+
+                    <h1 class="text-main-black font-semibold text-22 mt-6 mb-2">
+                      Search Engine Optimization
+                    </h1>
+                    <p class="text-paragraph">
+                      This involves optimizing elements as website such meta
+                      headers content internal
+                    </p>
+                  </div>
+                  <!-- card end  -->
+                </div>
+              </div>
+            </section>
+            <!-- related service end  -->
+            <!--Todo: consultation -->
+            <section data-aos="fade-up" id="consultation">
+              <div class="consultation-section-wrapper w-full relative">
+                <div class="theme-container mx-auto relative z-10">
+                  <div
+                    class="w-full py-[80px] xl:pl-[110px] pl-10 border border-[#e7e3fa] rounded-[20px] bg-main-gray md:flex relative"
+                  >
+                    <div class="absolute bottom-0 left-0 pointer-events-none">
+                      <img src="assets/images/cta-dot-shape.webp" alt="" />
+                    </div>
+                    <div class="md:w-[432px] w-full">
+                      <span class="section-title-top-tag mb-5"
+                        >Get Consultations</span
+                      >
+                      <h2
+                        class="md:text-48 text-34 font-semibold text-main-black mb-[32px]"
+                      >
+                        Get your free digital marketing audit
+                      </h2>
+                      <p class="text-paragraph mb-[45px]">
+                        We’ve 25+ years of experience in digital marketing
+                      </p>
+
+                      <a href="contact.html">
+                        <div
+                          class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex"
+                        >
+                          <span
+                            class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10"
+                          >
+                            Get Consultation
+                          </span>
+                          <svg
+                            class="relative z-10"
+                            width="7"
+                            height="12"
+                            viewBox="0 0 7 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="group-hover:stroke-blue-seo transition-all duration-300"
+                              d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="flex-1">
+                      <div
+                        id="consaltaion-mouse-move-anim"
+                        class="flex justify-end w-full relative mt-10"
+                      >
+                        <div class="mr-10 moving-h2-hero-main-img">
+                          <img src="assets/images/cta-shape.webp" alt="" />
+                        </div>
+                        <div data-depth="0.40" class="layer">
+                          <img src="assets/images/cta-p-1.webp" alt="" />
+                        </div>
+                        <div
+                          data-depth="0.20"
+                          class="layer absolute md:right-40 right-10"
+                        >
+                          <img src="assets/images/cta-p-2.webp" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex justify-between absolute top-20">
+                  <div id="line-lottie-style-2"></div>
+                  <div
+                    class="transform rotate-180"
+                    id="line-lottie2-style-2"
+                  ></div>
+                </div>
+              </div>
+            </section>
+          </main>
+          <footer>
+            <div class="footer-one-wrapper w-full pt-[130px]">
+              <div class="theme-container mx-auto">
+                <div class="w-full">
+                  <div
+                    class="top-bar w-full flex md:flex-row md:justify-between items-center flex-col space-y-10 md:space-y-0 md:mb-[80px] mb-10"
+                  >
+                    <div>
+                      <img src="assets/images/logo-1.webp" alt="" />
+                    </div>
+                    <ul class="flex md:gap-14 gap-5 flex-wrap md:items-center">
+                      <li
+                        class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"
+                      >
+                        <a href="service-details.html#">Facebook</a>
+                      </li>
+                      <li
+                        class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"
+                      >
+                        <a href="service-details.html#">Twitter</a>
+                      </li>
+                      <li
+                        class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"
+                      >
+                        <a href="service-details.html#">Instagram</a>
+                      </li>
+                      <li
+                        class="text-18 hover:text-purple hover:underline common-transition text-paragraph font-semibold"
+                      >
+                        <a href="service-details.html#">LinkedIn</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="w-full py-[80px] border-t border-[e7e3fa] grid xl:grid-cols-12 md:grid-cols-3 md:gap-10 grid-cols-2 gap-8"
+                  >
+                    <div class="xl:col-span-3">
+                      <div class="w-full mb-10">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Address
+                        </p>
+                        <p class="font-medium text-paragraph">
+                          55 Street, 2nd block, 3rd Floor <br />
+                          Melbourne, Australia
+                        </p>
+                      </div>
+                      <div class="w-full">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Contact
+                        </p>
+                        <p class="font-medium text-paragraph">
+                          <a href="../../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1871767e77696d7479767c587f75797174367b7775">[email&#160;protected]</a> <br />
+                          +880 456 852 99
+                        </p>
+                      </div>
+                    </div>
+                    <div class="xl:col-span-2">
+                      <div class="w-full">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Services
+                        </p>
+                        <ul class="flex flex-col space-y-2.5">
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Keyword Research</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Email marketing</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Content marketing</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Web Development</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="project-details.html">Social Marketing</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="xl:col-span-2">
+                      <div class="w-full">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Quick Link
+                        </p>
+                        <ul class="flex flex-col space-y-2.5">
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="contact.html">Help center</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="blog.html">Tutorials</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="contact.html">Create a ticket </a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="team-members.html">Meet Our Team</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="faq.html">FAQs</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="xl:col-span-2">
+                      <div class="w-full">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Company
+                        </p>
+                        <ul class="flex flex-col space-y-2.5">
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="about.html">About us</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="projects.html">Careers</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="blog.html">News & Blog </a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="blog-details.html">Our Reviews</a>
+                          </li>
+                          <li
+                            class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                          >
+                            <a href="contact.html">Contact Us</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="xl:col-span-3 col-span-2 md:col-span-1">
+                      <div class="w-full mb-10">
+                        <p
+                          class="text-main-black text-18 font-semibold mb-[30px]"
+                        >
+                          Newsletter
+                        </p>
+                        <p class="font-medium text-paragraph mb-[30px]">
+                          Subscribe newsletter to get updates
+                        </p>
+                        <div class="mb-2.5">
+                          <input
+                            placeholder="Email Address"
+                            id="eOne"
+                            type="text"
+                            class="placeholder:text-paragraph w-full h-[56px] bg-main-gray border border-[#e7e3fa] focus:border-purple focus:outline-none focus:right-0 rounded-full px-[25px]"
+                          />
+                        </div>
+
+                        <a href="service-details.html#">
+                          <div
+                            class="home-two-btn-bg py-3 group bg-purple border-purple inline-flex"
+                          >
+                            <span
+                              class="text-base text-white group-hover:text-purple transition-all duration-300 font-inter relative z-10"
+                            >
+                              Subscribe
+                            </span>
+                            <svg
+                              class="relative z-10"
+                              width="7"
+                              height="12"
+                              viewBox="0 0 7 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                class="group-hover:stroke-blue-seo transition-all duration-300"
+                                d="M1.10254 10.5L4.89543 6.70711C5.22877 6.37377 5.39543 6.20711 5.39543 6C5.39543 5.79289 5.22877 5.62623 4.89543 5.29289L1.10254 1.5"
+                                stroke="white"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              ></path>
+                            </svg>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                style="
+                  background: linear-gradient(
+                    90deg,
+                    #794aff 0%,
+                    #f3f4f9 63.23%
+                  );
+                "
+                class="w-full md:h-[65px] h-10"
+              >
+                <div class="theme-container mx-auto h-full">
+                  <div
+                    class="w-full h-full flex justify-between items-center md:text-base text-xs"
+                  >
+                    <span class="text-white"
+                      >2024 © All rights reserved by <b>Quland</b></span
+                    >
+                    <div class="relative md:block hidden">
+                      <a
+                        href="service-details.html#"
+                        aria-label="go top"
+                        class="w-[45px] h-[45px] rounded-full border-[3px] border-white flex justify-center items-center bg-blue-sass absolute -top-[55px]"
+                      >
+                        <span
+                          ><svg
+                            width="45"
+                            height="45"
+                            viewBox="0 0 45 45"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <circle
+                              cx="22.5"
+                              cy="22.5"
+                              r="21"
+                              fill="#4A7DFF"
+                              stroke="white"
+                              stroke-width="3"
+                            />
+                            <path
+                              d="M19 21L23 17M23 17L27 21M23 17V29"
+                              stroke="white"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </a>
+                    </div>
+                    <ul class="md:space-x-6 items-center md:flex hidden">
+                      <li
+                        class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                      >
+                        <a href="service-details.html#">Privacy Policy</a>
+                      </li>
+                      <li class="text-paragraph font-medium">|</li>
+                      <li
+                        class="hover:text-purple hover:underline common-transition text-paragraph font-medium"
+                      >
+                        <a href="service-details.html#">Terms & Conditions</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/lottie.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
